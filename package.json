@@ -1,7 +1,7 @@
 {
   "name": "@matthill8286/atomic-component-library",
-  "private": true,
-  "version": "0.0.1",
+  "private": false,
+  "version": "0.0.2",
   "main": "./dist/atomic-component-library.umd.js",
   "module": "./dist/atomic-component-library.es.js",
   "types": "./dist/index.d.ts",
