@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio button renders correctly 1`] = `
+.c5 {
+  padding: 0 0 0 8px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  display: none;
+}
+
+.c3:before {
+  content: '';
+  background: #00C8DC;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.c0 {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:before {
+  content: '';
+  top: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: solid 1px #999999;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.c8 {
+  display: inline-block;
+}
+
+.c1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1:checked + .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.c1:focus ~ .c7 {
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border-radius: 50%;
+  left: 0;
+}
+
+.c6 {
+  width: 100%;
+}
+
+.c4 {
+  width: 100%;
+}
+
+<label
+  className="c0"
+  htmlFor=""
+  type="radio"
+>
+  <input
+    className="c1"
+    id=""
+    name=""
+    onChange={[Function]}
+    type="radio"
+    value=""
+  />
+  <span
+    className="c2 c3"
+  />
+  <div
+    className="c4"
+  >
+    <div
+      className="c5 c6"
+      color="grey5"
+      fontSize="sm"
+    >
+      
+    </div>
+  </div>
+  <span
+    className="c7 c8"
+  />
+</label>
+`;

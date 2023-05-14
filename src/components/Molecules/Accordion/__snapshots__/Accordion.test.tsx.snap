@@ -1,0 +1,1058 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion can render all entries open dependant on breakpoint 1`] = `
+.c6 {
+  overflow: hidden;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: currentColor;
+}
+
+.c2 svg g,
+.c2 svg p {
+  fill: currentColor;
+}
+
+.c4 {
+  margin: 0 16px;
+  color: #666666;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  white-space: normal;
+  overflow: hidden;
+  max-height: calc(24px * 2);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.c7 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  border-top: 1px solid #E5E5E5;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: OswaldLight,Arial,sans-serif;
+  padding: 16px 0;
+}
+
+.c5 {
+  word-break: break-word;
+  max-height: calc(24px * 4);
+  -webkit-line-clamp: 4;
+}
+
+.c3 svg {
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c8 {
+  padding: 16px;
+}
+
+.c8 font-weight:function (_ref6) {
+  -webkit-var: theme = _ref6.theme;
+  -moz-var: theme = _ref6.theme;
+  -ms-var: theme = _ref6.theme;
+  var: theme = _ref6.theme;
+  return: theme.font.weight.regular;
+}
+
+@media (min-width:512px) {
+
+}
+
+@media (max-width:512px) {
+  .c1 {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+<section>
+  <section
+    className="c0 ewb-accordion-open"
+    id="ratings"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Produktbewertungen
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": "auto",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-open"
+    id="technicals"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Technische Daten
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": "auto",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-open"
+    id="description"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Produktbeschreibung
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": "auto",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+              kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-open"
+    id="production-2"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        ProduktbeschreibungProduktbeschreibungProduktbeschreibungProduktbeschreibung
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": "auto",
+          "transition": "",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+              kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;
+
+exports[`Accordion has a large variant 1`] = `
+.c6 {
+  overflow: hidden;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  width: 28px;
+  height: 28px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: currentColor;
+}
+
+.c2 svg g,
+.c2 svg p {
+  fill: currentColor;
+}
+
+.c4 {
+  margin: 0 16px;
+  color: #666666;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  white-space: normal;
+  overflow: hidden;
+  max-height: calc(24px * 2);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.c7 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  border-top: 1px solid #E5E5E5;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: OswaldLight,Arial,sans-serif;
+  padding: 24px 0;
+}
+
+.c5 {
+  word-break: break-word;
+  max-height: calc(24px * 4);
+  -webkit-line-clamp: 4;
+}
+
+.c3 svg {
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c8 {
+  padding: 24px;
+}
+
+.c8 font-weight:function (_ref6) {
+  -webkit-var: theme = _ref6.theme;
+  -moz-var: theme = _ref6.theme;
+  -ms-var: theme = _ref6.theme;
+  var: theme = _ref6.theme;
+  return: theme.font.weight.regular;
+}
+
+@media (max-width:512px) {
+  .c1 {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+<section>
+  <section
+    className="c0 ewb-accordion-closed"
+    id="ratings"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={28}
+        rotate={90}
+        width={28}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Produktbewertungen
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": 0,
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-open"
+    id="technicals"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={28}
+        rotate={90}
+        width={28}
+      >
+        <svg
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Technische Daten
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": "auto",
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-closed"
+    id="description"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={28}
+        rotate={90}
+        width={28}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Produktbeschreibung
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": 0,
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+              kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-closed"
+    id="production-2"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={28}
+        rotate={90}
+        width={28}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        ProduktbeschreibungProduktbeschreibungProduktbeschreibungProduktbeschreibung
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": 0,
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+              kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;
+
+exports[`Accordion renders accordion with initial open entry correctly 1`] = `
+.c6 {
+  overflow: hidden;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  fill: currentColor;
+}
+
+.c2 svg g,
+.c2 svg p {
+  fill: currentColor;
+}
+
+.c4 {
+  margin: 0 16px;
+  color: #666666;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  white-space: normal;
+  overflow: hidden;
+  max-height: calc(24px * 2);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.c7 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  border-top: 1px solid #E5E5E5;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  font-family: OswaldLight,Arial,sans-serif;
+  padding: 16px 0;
+}
+
+.c5 {
+  word-break: break-word;
+  max-height: calc(24px * 4);
+  -webkit-line-clamp: 4;
+}
+
+.c3 svg {
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+}
+
+.c8 {
+  padding: 16px;
+}
+
+.c8 font-weight:function (_ref6) {
+  -webkit-var: theme = _ref6.theme;
+  -moz-var: theme = _ref6.theme;
+  -ms-var: theme = _ref6.theme;
+  var: theme = _ref6.theme;
+  return: theme.font.weight.regular;
+}
+
+@media (max-width:512px) {
+  .c1 {
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+<section>
+  <section
+    className="c0 ewb-accordion-closed"
+    id="ratings"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Produktbewertungen
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": 0,
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-open"
+    id="technicals"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          data-name="Layer 1"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.5 13a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v1a.5.5 0 01-.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Technische Daten
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": "auto",
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+              sadipscing elitr, sed diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-closed"
+    id="description"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        Produktbeschreibung
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": 0,
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+              kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="c0 ewb-accordion-closed"
+    id="production-2"
+  >
+    <div
+      className="c1"
+      data-test="accordion-header"
+      onClick={[Function]}
+    >
+      <div
+        className="c2 c3"
+        height={24}
+        rotate={90}
+        width={24}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19 11.5v1a.5.5 0 01-.5.5H13v5.5a.5.5 0 01-.5.5h-1a.5.5 0 01-.5-.5V13H5.5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11V5.5a.5.5 0 01.5-.5h1a.5.5 0 01.5.5V11h5.5a.5.5 0 01.5.5z"
+          />
+        </svg>
+      </div>
+      <div
+        className="c4 c5"
+        color="grey5"
+      >
+        ProduktbeschreibungProduktbeschreibungProduktbeschreibungProduktbeschreibung
+      </div>
+    </div>
+    <div
+      className="c6"
+      data-test="foldable"
+      onTransitionEnd={[Function]}
+      style={
+        Object {
+          "height": 0,
+          "transition": "height 300ms linear",
+        }
+      }
+    >
+      <div
+        data-test="inner-foldable"
+      >
+        <div
+          className="c7 c8"
+          color="grey5"
+          fontSize="xs"
+        >
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+              kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+              amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;

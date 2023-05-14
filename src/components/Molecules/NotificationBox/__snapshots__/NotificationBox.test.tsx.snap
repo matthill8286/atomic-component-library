@@ -1,0 +1,363 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notificationbox renders corretly 1`] = `
+.c7 {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c9 {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c5 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  padding: 24px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c5 h1,
+.c5 h2,
+.c5 h3,
+.c5 h4,
+.c5 h5,
+.c5 h6 {
+  color: #FFFFFF;
+}
+
+.c4 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 svg {
+  width: 16px;
+  height: 16px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #FFFFFF;
+}
+
+.c3 svg g,
+.c3 svg p {
+  fill: #FFFFFF;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  height: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  width: 100%;
+  border: 2px solid #FFFFFF;
+  background: #999999;
+  color: #FFFFFF;
+}
+
+.c12 .c2 {
+  padding: 0 8px;
+}
+
+.c12 .Status-y46az8-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c12:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c12:hover {
+  box-shadow: none;
+  background: #999999;
+}
+
+.c12 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 .c2 {
+  margin-right: 8px;
+}
+
+.c6 .c2 > svg {
+  position: relative;
+}
+
+.c8 {
+  margin-top: 8px;
+}
+
+.c8:first-child,
+.c8:first-child > * {
+  margin-top: 0;
+}
+
+.c8:last-child > * {
+  margin-bottom: 0;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.c11 .NotificationBoxStyled__StyledButton-sd03yo-2:nth-child(n + 2) {
+  margin-top: 8px;
+}
+
+.c1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background: transparent;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
+
+.c1:focus {
+  outline: 0;
+  -webkit-user-focus: none;
+  -moz-user-focus: none;
+  -ms-user-focus: none;
+  user-focus: none;
+}
+
+.c0 {
+  position: absolute;
+  z-index: 1;
+}
+
+.c0 p:first-child {
+  margin-top: 0;
+}
+
+.c10 {
+  color: inherit;
+}
+
+.c10 a,
+.c10 a:hover,
+.c10 a:focus,
+.c10 a:active {
+  color: inherit;
+}
+
+@media (min-width:512px) {
+
+}
+
+@media (min-width:752px) {
+  .c6 .c2 > svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width:512px) {
+  .c0 {
+    max-width: 512px;
+  }
+}
+
+<div
+  className="c0"
+  data-test="notification-box"
+  type="error"
+>
+  <button
+    className="c1"
+    onClick={[MockFunction]}
+  >
+    <div
+      className="c2 c3"
+      color="white"
+      height={16}
+      width={16}
+    >
+      <svg
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.85 16.44a.5.5 0 010 .71l-.7.7a.5.5 0 01-.71 0L12 13.41l-4.44 4.44a.5.5 0 01-.71 0l-.7-.7a.5.5 0 010-.71L10.59 12 6.15 7.56a.5.5 0 010-.71l.7-.7a.5.5 0 01.71 0L12 10.59l4.44-4.44a.5.5 0 01.71 0l.7.7a.5.5 0 010 .71L13.41 12z"
+        />
+      </svg>
+    </div>
+  </button>
+  <div
+    className="c4"
+  >
+    <div
+      className="c5"
+      display="block"
+      elevation={1}
+      shape="rounded-small"
+    >
+      <div
+        className="c6"
+      >
+        <div
+          className="c2 c3"
+          color="white"
+          height={16}
+          width={16}
+        >
+          <svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8zm3.09-10.56l-.53-.53a.48.48 0 00-.7 0L12 10.76l-1.86-1.85a.48.48 0 00-.7 0l-.53.53a.48.48 0 000 .7L10.76 12l-1.85 1.86a.48.48 0 000 .7l.53.53a.48.48 0 00.7 0L12 13.24l1.86 1.85a.48.48 0 00.7 0l.53-.53a.48.48 0 000-.7L13.24 12l1.85-1.86a.48.48 0 000-.7z"
+            />
+          </svg>
+        </div>
+        <div
+          className="c7"
+          color="white"
+          data-test="notification-box-title"
+          fontSize="xs"
+        >
+          This is the result of your last action!
+        </div>
+      </div>
+      <div
+        className="c8"
+      >
+        <p
+          className="c9"
+          color="white"
+          data-test="notification-box-body"
+          fontSize="sm"
+        >
+          <span
+            className="c10"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.",
+              }
+            }
+          />
+        </p>
+      </div>
+      <div
+        className="c11"
+      >
+        <button
+          className="c12 NotificationBoxStyled__StyledButton-sd03yo-2"
+          disabled={false}
+          onClick={[Function]}
+          size="sm"
+          type="button"
+        >
+          Lets do it...
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

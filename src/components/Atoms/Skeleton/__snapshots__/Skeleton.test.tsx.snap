@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton SkeletonBlockItem should render 1`] = `
+.c0 {
+  position: relative;
+  background-color: rgba(0,0,0,.1);
+  height: 200px;
+}
+
+<div
+  className="c0"
+  height="200px"
+/>
+`;
+
+exports[`Skeleton SkeletonBlockItem should render with height 1`] = `
+.c0 {
+  position: relative;
+  background-color: rgba(0,0,0,.1);
+  width: 100%;
+  height: 200px;
+}
+
+<div
+  className="c0"
+  height="200px"
+  width="100%"
+/>
+`;
+
+exports[`Skeleton SkeletonInlineItem should render 1`] = `
+.c0 {
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c1 {
+  display: inline-block;
+  color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0.1);
+  width: unset;
+}
+
+.c1::before {
+  content: '';
+  display: block;
+}
+
+<span
+  className="c0 c1"
+>
+  Lorem Ipsum
+</span>
+`;
+
+exports[`Skeleton SkeletonInlineItem should render with font-size 1`] = `
+.c0 {
+  font-size: 30px;
+  line-height: 44px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c1 {
+  display: inline-block;
+  color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,0.1);
+  width: unset;
+}
+
+.c1::before {
+  content: '';
+  display: block;
+}
+
+<span
+  className="c0 c1"
+  fontSize="xxl"
+>
+  Lorem Ipsum
+</span>
+`;

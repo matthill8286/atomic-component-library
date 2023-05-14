@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StepIcon should render 1`] = `
+.c0 {
+  margin-top: 8px;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1 {
+  border: 6px solid #00C8DC;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 4px #E5E5E5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c2 {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.c2::before {
+  position: absolute;
+  left: 0;
+  top: 13px;
+  height: 31%;
+  width: 2px;
+  background-color: #FFFFFF;
+  content: '';
+  -webkit-transform: translateX(12px) rotate(-45deg);
+  -ms-transform: translateX(12px) rotate(-45deg);
+  transform: translateX(12px) rotate(-45deg);
+  -webkit-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+
+.c2::after {
+  position: absolute;
+  left: 0;
+  bottom: 9px;
+  height: 2px;
+  width: 55%;
+  background-color: #FFFFFF;
+  content: '';
+  -webkit-transform: translateX(12px) rotate(-45deg);
+  -ms-transform: translateX(12px) rotate(-45deg);
+  transform: translateX(12px) rotate(-45deg);
+  -webkit-transform-origin: left bottom;
+  -ms-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    color="primary"
+  >
+    <div
+      className="c2"
+      color="primary"
+    />
+  </div>
+</div>
+`;

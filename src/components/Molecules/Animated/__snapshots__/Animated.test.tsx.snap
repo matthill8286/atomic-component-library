@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders Linear Animated Pagination 1`] = `
+.c0 {
+  cursor: pointer;
+  border-radius: 0.5px;
+  overflow: hidden;
+  width: 35px;
+  height: 1px;
+  background-color: #cfcbca;
+}
+
+.c0:hover {
+  background-color: #918e8c;
+}
+
+<div
+  className="c0"
+  onClick={[MockFunction]}
+/>
+`;
+
+exports[`Pagination renders Round Animated Pagination 1`] = `
+.c0 {
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  cursor: pointer;
+}
+
+.c1:hover {
+  fill: grey;
+}
+
+<svg
+  className="Round__StyledIcon-d6rvg7-2"
+  height={24}
+  onClick={[MockFunction]}
+  width={24}
+>
+  <circle
+    className="c0 c1"
+    cx={12}
+    cy={12}
+    fill="transparent"
+    r={4}
+    stroke="grey"
+    strokeDasharray={0}
+    strokeWidth={1}
+  />
+</svg>
+`;

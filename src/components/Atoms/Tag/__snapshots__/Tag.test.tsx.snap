@@ -1,0 +1,817 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag Should render 20 tags 1`] = `
+Array [
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      lorem
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      ipsum
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      dolor
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      sit
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      amet
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      consectetur
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      adipiscing
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      elit
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      curabitur
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      vel
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      hendrerit
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      libero
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      eleifend
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      blandit
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      nunc
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      ornare
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      odio
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      ut
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      orci
+    </span>
+  </div>,
+  .c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+<div
+    className="c0"
+  >
+    <span
+      className="c1"
+      color="grey3"
+      fontSize="xs"
+    >
+      gravida
+    </span>
+  </div>,
+]
+`;
+
+exports[`Tag Should render a tag 1`] = `
+.c1 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className="c1"
+    color="grey3"
+    fontSize="xs"
+  >
+    
+  </span>
+</div>
+`;
+
+exports[`Tag Should render a tag with link 1`] = `
+.c2 {
+  color: #CCCCCC;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  color: #666666;
+  border-color: #E5E5E5;
+  border-width: 1px;
+  border-radius: 25px;
+  border-style: solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.c0:hover {
+  background-color: #FAFAFA;
+  cursor: pointer;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #666666;
+}
+
+<div
+  className="c0"
+>
+  <a
+    className="c1"
+    href="#"
+    target="_blank"
+  >
+    <span
+      className="c2"
+      color="grey3"
+      fontSize="xs"
+    >
+      
+    </span>
+  </a>
+</div>
+`;

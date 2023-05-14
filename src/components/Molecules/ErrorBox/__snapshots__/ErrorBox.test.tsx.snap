@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading Error renders correctly 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #333333;
+}
+
+.c5 svg g,
+.c5 svg p {
+  fill: #333333;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 12px 24px;
+  position: relative;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  height: 48px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  box-shadow: none;
+  background: #00C8DC;
+  border: 2px solid #00C8DC;
+  color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.c11 .c4 {
+  padding: 0 8px;
+}
+
+.c11 .Status-y46az8-0 {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}
+
+.c11:hover {
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.07),0 3px 14px 2px rgba(0,0,0,0.06),0 5px 5px -3px rgba(0,0,0,0.10);
+}
+
+.c11 > span {
+  color: inherit;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.c7 {
+  margin: 8px 0;
+  color: #333333;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+}
+
+.c9 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c1 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  padding: 24px;
+  color: #000000;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  padding: 0;
+}
+
+.c8 {
+  margin: 4px 0;
+}
+
+.c6 {
+  margin-left: 24px;
+}
+
+.c10 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  color: #999999;
+}
+
+@media (min-width:512px) {
+
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    display="block"
+    elevation={0}
+    overflow="hidden"
+    shape="rounded-small"
+  >
+    <div
+      className="c2"
+      display="flex"
+    >
+      <div
+        className="c3"
+        order={0}
+      >
+        <div
+          className="c4 c5"
+          color="grey6"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8zm3.09-10.56l-.53-.53a.48.48 0 00-.7 0L12 10.76l-1.86-1.85a.48.48 0 00-.7 0l-.53.53a.48.48 0 000 .7L10.76 12l-1.85 1.86a.48.48 0 000 .7l.53.53a.48.48 0 00.7 0L12 13.24l1.86 1.85a.48.48 0 00.7 0l.53-.53a.48.48 0 000-.7L13.24 12l1.85-1.86a.48.48 0 000-.7z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        className="c3"
+        order={0}
+      >
+        <div
+          className="c6"
+        >
+          <h1
+            className="c7 c8"
+            color="grey6"
+            fontFamily="default"
+            fontSize="lg"
+            spacing="base"
+          >
+            Oops, something went wrong
+          </h1>
+          <p
+            className="c9 c10"
+            color="grey5"
+            fontSize="xs"
+          >
+            Something went wrong. Please try again later.
+          </p>
+          <button
+            className="c11"
+            disabled={false}
+            onClick={[Function]}
+            size="md"
+            type="button"
+          >
+            Try again
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

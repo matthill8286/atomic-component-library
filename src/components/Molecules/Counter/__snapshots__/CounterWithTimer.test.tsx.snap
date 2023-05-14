@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterWithTimer should render 1`] = `
+.c1 {
+  max-height: 164px;
+  min-height: 85px;
+  max-width: 164px;
+  min-width: 85px;
+}
+
+.c2 {
+  stroke: #E5E5E5;
+}
+
+.c3 {
+  stroke: #00C8DC;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > div:not(:last-child) {
+  margin-right: 24px;
+}
+
+<div
+  className="c0"
+  size="lg"
+>
+  <div
+    className="c1"
+    size="lg"
+  >
+    <svg
+      height="100%"
+      viewBox="-4 -4 164 164"
+      width="100%"
+    >
+      <circle
+        className="c2"
+        cx={78}
+        cy={78}
+        fill="none"
+        r={78}
+        strokeWidth={8}
+      />
+      <circle
+        className="c3"
+        cx={78}
+        cy={78}
+        fill="none"
+        r={78}
+        strokeDasharray={490.0884539600077}
+        strokeDashoffset={490}
+        strokeLinecap="round"
+        strokeWidth={8.5}
+        style={
+          Object {
+            "transition": "stroke-dashoffset 1s ease-out, transform 1s linear",
+          }
+        }
+        transform="rotate(630 78 78)"
+      />
+    </svg>
+  </div>
+  <div
+    className="c1"
+    size="lg"
+  >
+    <svg
+      height="100%"
+      viewBox="-4 -4 164 164"
+      width="100%"
+    >
+      <circle
+        className="c2"
+        cx={78}
+        cy={78}
+        fill="none"
+        r={78}
+        strokeWidth={8}
+      />
+      <circle
+        className="c3"
+        cx={78}
+        cy={78}
+        fill="none"
+        r={78}
+        strokeDasharray={490.0884539600077}
+        strokeDashoffset={490}
+        strokeLinecap="round"
+        strokeWidth={8.5}
+        style={
+          Object {
+            "transition": "stroke-dashoffset 1s ease-out, transform 1s linear",
+          }
+        }
+        transform="rotate(630 78 78)"
+      />
+    </svg>
+  </div>
+  <div
+    className="c1"
+    size="lg"
+  >
+    <svg
+      height="100%"
+      viewBox="-4 -4 164 164"
+      width="100%"
+    >
+      <circle
+        className="c2"
+        cx={78}
+        cy={78}
+        fill="none"
+        r={78}
+        strokeWidth={8}
+      />
+      <circle
+        className="c3"
+        cx={78}
+        cy={78}
+        fill="none"
+        r={78}
+        strokeDasharray={490.0884539600077}
+        strokeDashoffset={490}
+        strokeLinecap="round"
+        strokeWidth={8.5}
+        style={
+          Object {
+            "transition": "stroke-dashoffset 1s ease-out, transform 1s linear",
+          }
+        }
+        transform="rotate(630 78 78)"
+      />
+    </svg>
+  </div>
+</div>
+`;

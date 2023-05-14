@@ -1,0 +1,471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectMultiGroup renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  color: #000000;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c1 {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  margin: 0 12px;
+}
+
+.c1:hover {
+  z-index: 2;
+}
+
+@media (min-width:512px) {
+
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 1
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 2
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 3
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 4
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 5
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SelectMultiGroup renders with direction column 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  color: #000000;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c1 {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  margin: 12px 0;
+}
+
+.c1:hover {
+  z-index: 2;
+}
+
+@media (min-width:512px) {
+
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 1
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 2
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 3
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 4
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 5
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SelectMultiGroup renders with direction row 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  padding-top: 32px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  color: #000000;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c2 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c1 {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  margin: 0 12px;
+}
+
+.c1:hover {
+  z-index: 2;
+}
+
+@media (min-width:512px) {
+
+}
+
+<div
+  className="c0"
+  display="flex"
+>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 1
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 2
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 3
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 4
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="c1"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <div
+      className="c2"
+    >
+      <div
+        className="c3"
+        display="block"
+        elevation={0}
+        shape="rounded-small"
+      >
+        <div>
+          Option 5
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SelectMultiGroup should render with elements selected 1`] = `ReactWrapper {}`;
