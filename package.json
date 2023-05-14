@@ -1,5 +1,5 @@
 {
-  "name": "@matthill8286/atomic-component-library",
+  "name": "atomic-component-library",
   "private": false,
   "version": "0.0.2",
   "main": "./dist/atomic-component-library.umd.js",
@@ -36,5 +36,8 @@
     "*.{ts,tsx,js,jsx,json,css,md}": [
       "prettier -w"
     ]
-  }
+  },
+  "description": "## Features",
+  "author": "",
+  "license": "ISC"
 }
