@@ -1,4 +1,4 @@
-# ⚛️⚡ Vite + React + Typescript Component Library Template
+# ⚛️⚡ Vite + React + Typescript Component Library
 
 ## Features
 
@@ -89,5 +89,7 @@ import { AtButton } from '<your-library>'
 ## License
 
 [MIT](LICENSE)
+
 # simple-atomic-ui
+
 # simple-atomic-ui
