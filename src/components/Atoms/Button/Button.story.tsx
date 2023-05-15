@@ -1,7 +1,6 @@
 import { withState } from '@dump247/storybook-state'
 import { boolean, radios, text } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { styled } from '@/styles'
 import { OtherArticle, OtherBookmarkActive, OtherBookmarkOutlined } from '@matthill8286/atomic-icon-library'
 import { Icon } from '../Icon'
