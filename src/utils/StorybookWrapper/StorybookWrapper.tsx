@@ -1,5 +1,4 @@
 /* istanbul ignore file */
-import React from 'react'
 import { MemoryRouter as Router } from 'react-router-dom'
 import { styled } from '@/styles/styled'
 import { media } from '@/styles'
