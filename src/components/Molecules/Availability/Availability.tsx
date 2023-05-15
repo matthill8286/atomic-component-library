@@ -13,7 +13,7 @@ import {
   StyledAvailabilityWrapper,
   StyledCustomIcon,
 } from './Availability.styled'
-import { OtherInfo } from '@matthill8286/atomic-icon-library'
+import { OtherInfo } from 'atomic-icon-library'
 import { ProductAvailabilityState } from '@/types'
 
 const textOrNode = (content: ReactNode | string): ReactNode =>

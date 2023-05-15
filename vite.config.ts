@@ -15,8 +15,8 @@ const app = async (): Promise<UserConfigExport> => {
     ],
     resolve: {
       alias: {
-          "@": path.resolve(__dirname, "./src/"),
-        }
+        '@': path.resolve(__dirname, './src/'),
+      },
     },
     build: {
       lib: {
@@ -26,13 +26,7 @@ const app = async (): Promise<UserConfigExport> => {
         fileName: (format) => `${name}.${format}.js`,
       },
       rollupOptions: {
-        external: ['react', 'react-dom'],
-        output: {
-          globals: {
-            react: 'React',
-            'react-dom': 'ReactDOM'
-          },
-        },
+        external: [/node_modules/],
       },
     },
     test: {

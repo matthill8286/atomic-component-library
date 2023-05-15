@@ -5,7 +5,7 @@ import { FlexBox, Icon, Spacer } from '@/index'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { ProductTileCompact } from './ProductTileCompact'
 import { ProductTileCompactElement } from './ProductTileCompactElement'
-import { OtherAddToTrash } from '@matthill8286/atomic-icon-library'
+import { OtherAddToTrash } from 'atomic-icon-library'
 import { newProductMocks } from '@/components/Organisms/ProductTile/elements/mockProduct'
 
 const productLineItemElementProps = {

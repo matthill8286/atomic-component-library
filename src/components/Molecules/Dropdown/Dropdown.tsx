@@ -13,7 +13,7 @@ import {
   StyledTypo,
 } from './Dropdown.styled'
 import { DropdownOption } from './DropdownOption'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 
 const DropdownWithoutState: FC<DropdownPropsEnhanced> = (props) => {
   const {

@@ -1,7 +1,7 @@
 /* global JSX */
 import React from 'react'
 import { InfoText } from '@/components/Atoms/Typography'
-import { OtherSearch } from '@matthill8286/atomic-icon-library'
+import { OtherSearch } from 'atomic-icon-library'
 import { SSearchWrapper, SInput } from './StoreSelector.styled'
 // eslint-disable-next-line prettier/prettier
 import type { SearchFieldProps } from './StoreSelector.types'

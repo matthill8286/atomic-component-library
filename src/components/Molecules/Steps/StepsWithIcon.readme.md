@@ -4,19 +4,13 @@ We can add a custom icon for the the steps.
 
 ```jsx
 import { Icon } from '@/components/Atoms/Icon'
-import { OtherArticle } from '@matthill8286/atomic-icon-library'
+import { OtherArticle } from 'atomic-icon-library'
 import { CustomIconProps } from './Steps.interface'
 
-
-const CustomIcon: FC<CustomIconProps> = ({
-    active = false,
-    completed = false,
-    color = 'primary',
-    ...props
-}) => (
-    <Icon color={active ? 'white' : completed ? color : 'grey2'} {...props}>
-        <OtherArticle />
-    </Icon>
+const CustomIcon: FC<CustomIconProps> = ({ active = false, completed = false, color = 'primary', ...props }) => (
+  <Icon color={active ? 'white' : completed ? color : 'grey2'} {...props}>
+    <OtherArticle />
+  </Icon>
 )
 ```
 

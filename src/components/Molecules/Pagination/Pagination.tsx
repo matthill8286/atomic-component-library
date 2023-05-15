@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { ProgressBar } from '@/components/Atoms/ProgressBar'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 import {
   BulletProps,
   DotsOptions,

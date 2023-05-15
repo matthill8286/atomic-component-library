@@ -5,7 +5,7 @@ import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { IndexIcon } from '../IndexIcon/IndexIcon'
 import { StyledConnectionLine, StyledLineContainer, StyledStepContainer, StyledStepContent } from './StepElement.styled'
 import { StepByStepFieldProps } from './StepElement.types'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 
 export const StepElement: React.FC<StepByStepFieldProps> = ({
   index,

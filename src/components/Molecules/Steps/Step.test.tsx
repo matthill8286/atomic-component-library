@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { styled } from '@/styles/styled'
-import { OtherArticle } from '@matthill8286/atomic-icon-library'
+import { OtherArticle } from 'atomic-icon-library'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { ThemeColors } from '@/types/theme'
 import { Step } from './Step'

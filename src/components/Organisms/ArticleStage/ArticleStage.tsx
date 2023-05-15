@@ -5,7 +5,7 @@ import { Section } from '@/components/Atoms/Section'
 import { Grid, Row, Cell, Offset } from '@/components/Helper/Grid'
 import { CopyText } from '@/components/Atoms/Typography'
 import { Breadcrumb } from '@/components/Molecules/Breadcrumb'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 import { isSaiyanTheme } from '@/utils/helper'
 import { ArticleStageProps } from './ArticleStage.interface'
 import {

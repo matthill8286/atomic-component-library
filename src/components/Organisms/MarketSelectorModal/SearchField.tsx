@@ -3,7 +3,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { Input } from '@/components/Atoms/Input'
 import { InfoText } from '@/components/Atoms/Typography'
 import { styled } from '@/styles'
-import { OtherSearch } from '@matthill8286/atomic-icon-library'
+import { OtherSearch } from 'atomic-icon-library'
 
 export interface SearchFieldProps {
   placeholder: string

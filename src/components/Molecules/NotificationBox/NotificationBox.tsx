@@ -23,7 +23,7 @@ import {
   OtherClearCircleOutlined,
   OtherInfoOutlined,
   OtherSwapHorizontal,
-} from '@matthill8286/atomic-icon-library'
+} from 'atomic-icon-library'
 
 export const NotificationBox = React.forwardRef<HTMLDivElement, NotificationBoxProps>(
   (

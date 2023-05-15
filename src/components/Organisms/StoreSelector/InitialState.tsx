@@ -1,5 +1,5 @@
 import React from 'react'
-import { OtherShoppingCartAdd } from '@matthill8286/atomic-icon-library'
+import { OtherShoppingCartAdd } from 'atomic-icon-library'
 import { InitialStateWrapper, CopyTextCentralized, SVGCentralized } from './StoreSelector.styled'
 // eslint-disable-next-line prettier/prettier
 import type { InitialStateProps } from './StoreSelector.types'

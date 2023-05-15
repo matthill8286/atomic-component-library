@@ -4,7 +4,7 @@ import { DropdownOptionProps, SearchableDropdownProps } from './Dropdown.interfa
 import { StyledList, StyledSearchableDropdownWrapper } from './Dropdown.styled'
 import { DropdownOption } from './DropdownOption'
 import { findNextOption } from './helpers/findNextOption'
-import { OtherSearch } from '@matthill8286/atomic-icon-library'
+import { OtherSearch } from 'atomic-icon-library'
 
 export const SearchableDropdown: React.FC<SearchableDropdownProps> = (props) => {
   const {

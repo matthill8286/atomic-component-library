@@ -7,7 +7,7 @@ import { Cell, Grid, Row } from '@/components/Helper/Grid'
 import { SelectableState } from '@/components/Atoms/Selectable'
 import { RadioButton } from './RadioButton'
 import { RadioGroup } from './RadioGroup'
-import { OtherAdd } from '@matthill8286/atomic-icon-library'
+import { OtherAdd } from 'atomic-icon-library'
 
 const selectableStates: { [key in SelectableState]: SelectableState } = {
   idle: 'idle',

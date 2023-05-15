@@ -3,7 +3,7 @@ import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { styled } from '@/styles/styled'
 import { ThemeContext } from '@/styles/styled'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 import { Theme } from '@/types/theme'
 
 interface BackToTopProps {

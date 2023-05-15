@@ -3,7 +3,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { media } from '@/styles/media'
 import { styled } from '@/styles/styled'
-import { OtherCross, OtherDone } from '@matthill8286/atomic-icon-library'
+import { OtherCross, OtherDone } from 'atomic-icon-library'
 
 interface IconOrTextProps {
   textType: string

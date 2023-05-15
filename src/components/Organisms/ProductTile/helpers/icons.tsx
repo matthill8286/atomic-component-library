@@ -9,7 +9,7 @@ import {
   OtherAsset,
   OtherAssetTime,
   OtherPercentage,
-} from '@matthill8286/atomic-icon-library'
+} from 'atomic-icon-library'
 import { ProductTypeName, ProductTypeVariants, MetaItem, MetaPayload } from '@/components/Organisms/ProductTile'
 
 export type ProductTileVariantProps = ProductTypeVariants

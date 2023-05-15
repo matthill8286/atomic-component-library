@@ -14,7 +14,7 @@ import {
   OtherExpand,
   OtherSaveToPlaylist,
   OtherShare,
-} from '@matthill8286/atomic-icon-library'
+} from 'atomic-icon-library'
 import { CompetencyText, CompleteButton, IconsWrapper, LaunchButton } from './ProductMeta.styled'
 import { isNonEmptyString } from '@/components/Helper/String'
 import { EmbeddedWrapper } from '@/components/Atoms/EmbeddedPlayer'

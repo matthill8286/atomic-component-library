@@ -6,7 +6,7 @@ import { CopyText } from '@/components/Atoms/Typography'
 import { Cell, Grid, Row } from '@/components/Helper/Grid'
 import { media } from '@/styles/media'
 import { styled } from '@/styles/styled'
-import { OtherCheckmark } from '@matthill8286/atomic-icon-library'
+import { OtherCheckmark } from 'atomic-icon-library'
 
 interface TopBarProps {
   entries: React.ReactChild[]

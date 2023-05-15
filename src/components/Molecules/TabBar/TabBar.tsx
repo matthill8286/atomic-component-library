@@ -1,7 +1,7 @@
 import React, { FC, Ref, useEffect, useRef, useState } from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 import { TabBarProps, TabData, TabId } from './TabBar.interface'
 import { StyledArrowButton, StyledTabBar, StyledTabsContainer, StyledTabBarCard } from './TabBar.styled'
 import { TabItem } from './TabItem'

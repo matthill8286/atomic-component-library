@@ -2,7 +2,7 @@ import React, { FC, useEffect, useRef, useState } from 'react'
 import { Icon, SkeletonBlockItem } from '@/index'
 import { ShowMoreProps } from './ShowMore.interface'
 import { ContentWrapper, FadeOutOverlay, FlexItem, LabelWrapper, Wrapper } from './ShowMore.styled'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 
 export const ShowMore: FC<ShowMoreProps> = ({
   lineHeight,

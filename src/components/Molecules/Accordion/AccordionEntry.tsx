@@ -10,7 +10,7 @@ import {
   StyledLabel,
   StyledLabelHeading,
 } from './Accordion.styled'
-import { OtherRemove, OtherAdd } from '@matthill8286/atomic-icon-library'
+import { OtherRemove, OtherAdd } from 'atomic-icon-library'
 
 const toggleEntry = (id: string, onChange: (id: string) => void): void => {
   onChange(id)

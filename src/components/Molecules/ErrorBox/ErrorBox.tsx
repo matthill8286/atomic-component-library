@@ -5,7 +5,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { FlexBox } from '@/components/Helper/FlexBox'
 import { FlexItem } from '@/components/Helper/FlexBox'
 import { BoxHeading, BoxSubtitle, InfoHost } from '@/components/Molecules/ErrorBox/ErrorBox.styled'
-import { OtherClearCircleOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherClearCircleOutlined } from 'atomic-icon-library'
 import { ErrorBoxProps } from './ErrorBox.interface'
 
 export const ErrorBox: React.FC<ErrorBoxProps> = ({ title, subtitle, buttonLabel, onClick, isLoading }) => {

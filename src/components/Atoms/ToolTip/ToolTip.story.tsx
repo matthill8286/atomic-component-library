@@ -6,7 +6,7 @@ import { StorybookWrapper } from '@/utils/StorybookWrapper'
 import { ToolTip } from './ToolTip'
 import { ToolTipProps } from './ToolTip.interface'
 import { Icon } from '@/components/Atoms/Icon'
-import { OtherInfoOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherInfoOutlined } from 'atomic-icon-library'
 
 const knobs = (primary?: boolean): ToolTipProps => {
   return {

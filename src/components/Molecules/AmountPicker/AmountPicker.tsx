@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { styled } from '@/styles/styled'
-import { OtherAdd, OtherRemove } from '@matthill8286/atomic-icon-library'
+import { OtherAdd, OtherRemove } from 'atomic-icon-library'
 import { AmountPickerProps, ButtonTypes, OnQuantityChangeEvent } from './AmountPicker.interface'
 import { getNewQuantity } from './helpers/getNewQuantity'
 

@@ -3,7 +3,7 @@ import { Button } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { css, styled } from '@/styles/styled'
-import { OtherClear } from '@matthill8286/atomic-icon-library'
+import { OtherClear } from 'atomic-icon-library'
 import { FilterBorderColor, FilterProps, FilterType } from './Filter.interface'
 
 const filterBorderByType: FilterBorderColor = {

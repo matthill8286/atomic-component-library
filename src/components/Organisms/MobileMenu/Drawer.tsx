@@ -9,7 +9,7 @@ import {
 } from './Drawer.styled'
 import { useDrawerHook } from './useDrawerHook'
 import { Icon } from '@/components/Atoms/Icon'
-import { OtherClose } from '@matthill8286/atomic-icon-library'
+import { OtherClose } from 'atomic-icon-library'
 
 export interface DrawerProps {
   isOpen: boolean

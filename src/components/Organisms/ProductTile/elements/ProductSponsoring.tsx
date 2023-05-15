@@ -4,7 +4,7 @@ import { CopyText } from '@/components/Atoms/Typography'
 import { FlexItem } from '@/components/Helper/FlexBox'
 import { NotificationBox } from '@/components/Molecules/NotificationBox'
 import { css, styled } from '@/styles/styled'
-import { OtherInfoOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherInfoOutlined } from 'atomic-icon-library'
 import { SponsoringDetails } from '@/components/Organisms/ProductTile'
 
 interface ProductSponsoringProps {

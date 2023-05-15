@@ -5,11 +5,11 @@ import { BrowserRouter } from 'react-router-dom'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { saiyanTheme } from '@/styles/sc-vars-saiyan'
-import { OtherShare, OtherVideo } from '@matthill8286/atomic-icon-library'
+import { OtherShare, OtherVideo } from 'atomic-icon-library'
 import { ThemeColors, ThemeFontSizes } from '@/types/theme'
 import { Link } from './Link'
 import { LinkProps, LinkSize } from './Link.interface'
-import { OtherEdit } from '@matthill8286/atomic-icon-library'
+import { OtherEdit } from 'atomic-icon-library'
 import { action } from '@storybook/addon-actions'
 
 const scales = ['large', 'small']

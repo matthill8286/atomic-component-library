@@ -17,7 +17,7 @@ import { action } from '@storybook/addon-actions'
 import { ProductTile } from '@/components/Organisms/ProductTile'
 import { StyledIconButton } from '@/components/Organisms/ProductTile/stories/ProductTileGridItemStory'
 import { Icon } from '@/components/Atoms/Icon'
-import { OtherBookmarkOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkOutlined } from 'atomic-icon-library'
 
 export const SingleProductStory = () => {
   const itemCount = select('Items per Row', gridSelection, 3) as TwelveColumn

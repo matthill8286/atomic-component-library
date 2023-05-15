@@ -3,7 +3,7 @@ import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography/CopyText'
 import { renderWithTheme } from '@/testRenderer'
 import { Lists } from './Lists'
-import { OtherCheckmarkCircle } from '@matthill8286/atomic-icon-library'
+import { OtherCheckmarkCircle } from 'atomic-icon-library'
 
 describe('Lists', () => {
   it('renders correctly', () => {

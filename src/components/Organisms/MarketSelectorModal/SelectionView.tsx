@@ -2,7 +2,7 @@ import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { styled } from '@/styles'
-import { OtherCompleteChecked } from '@matthill8286/atomic-icon-library'
+import { OtherCompleteChecked } from 'atomic-icon-library'
 
 export interface SelectionViewProps {
   modalDescription: string

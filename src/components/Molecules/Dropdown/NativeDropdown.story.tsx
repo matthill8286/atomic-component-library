@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { NativeDropdown, NativeDropdownProps } from './NativeDropdown'
 import readme from './NativeDropdown.readme.md'
-import { OtherImportExport } from '@matthill8286/atomic-icon-library'
+import { OtherImportExport } from 'atomic-icon-library'
 
 const options = [
   { label: 'BMW' },

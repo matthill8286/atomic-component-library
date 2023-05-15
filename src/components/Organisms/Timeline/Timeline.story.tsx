@@ -6,7 +6,7 @@ import {
   OtherClearCircleOutlined,
   OtherPercentage,
   OtherSaveToPlaylist,
-} from '@matthill8286/atomic-icon-library'
+} from 'atomic-icon-library'
 import { CopyText } from '@/components/Atoms/Typography'
 import { Timeline, TimelineProps } from '../Timeline'
 

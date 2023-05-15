@@ -11,7 +11,7 @@ import { CopyText, HeadingFeatured } from '@/components/Atoms/Typography'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
 import { DANONE } from '@/styles'
 import { breakpoints } from '@/styles/sc-vars-global'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 import { isAlternateTheme, useTheme } from '@/utils/helper'
 
 import { useGraphCmsImages } from '@/utils/useGraphCmsImages'

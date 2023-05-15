@@ -10,7 +10,7 @@ import {
   OtherUseful,
   OtherArticle,
   OtherFacebook,
-} from '@matthill8286/atomic-icon-library'
+} from 'atomic-icon-library'
 import { Icon } from './Icon'
 import { Spacer } from '@/components/Atoms/Spacer'
 

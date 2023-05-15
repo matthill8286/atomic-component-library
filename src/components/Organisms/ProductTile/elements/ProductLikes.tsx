@@ -2,7 +2,7 @@ import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { Like } from '@/components/Atoms/Like'
 import { css, styled } from '@/styles/styled'
-import { OtherLike } from '@matthill8286/atomic-icon-library'
+import { OtherLike } from 'atomic-icon-library'
 import { ThemeColors } from '@/types'
 
 export interface ProductLikes {

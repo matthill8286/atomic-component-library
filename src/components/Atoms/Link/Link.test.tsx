@@ -1,6 +1,6 @@
 import React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
-import { OtherArrow } from '@matthill8286/atomic-icon-library'
+import { OtherArrow } from 'atomic-icon-library'
 import { mountWithTheme, mountWithThemeAndRouter, renderWithTheme, renderWithThemeAndRouter } from '@/testRenderer'
 import { Link } from './Link'
 

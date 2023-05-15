@@ -9,7 +9,7 @@ import {
 } from '@/components/Organisms/ProductTileCompact'
 import { IconButton } from '@/components/Atoms/Button'
 import { Icon } from '@/components/Atoms/Icon'
-import { OtherBookmarkActive, OtherCheckmarkCircle } from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkActive, OtherCheckmarkCircle } from 'atomic-icon-library'
 
 export const ProductTileCompactTile: React.FC<ProductTileVariantProps> = ({
   competencyLabel,

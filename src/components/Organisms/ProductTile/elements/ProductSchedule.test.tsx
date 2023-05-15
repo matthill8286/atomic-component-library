@@ -1,7 +1,7 @@
 import React from 'react'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { newProductStructuredMocks } from '@/components/Organisms/ProductTile/elements/mockProduct'
-import { OtherCalendar, OtherLiveLabel } from '@matthill8286/atomic-icon-library'
+import { OtherCalendar, OtherLiveLabel } from 'atomic-icon-library'
 import { Tag } from '@/components/Atoms/Tag'
 import { ProductSchedule } from './ProductSchedule'
 

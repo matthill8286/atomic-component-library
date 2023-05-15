@@ -1,5 +1,5 @@
 import React from 'react'
-import { OtherClose } from '@matthill8286/atomic-icon-library'
+import { OtherClose } from 'atomic-icon-library'
 import { mountWithTheme, renderWithTheme } from '@/testRenderer'
 import { CopyText } from '../Typography'
 import { Input } from './Input'

@@ -16,7 +16,7 @@ import {
   StyledSelectableContent,
   StyledSelectableContentWrapper,
 } from './Selectable.styled'
-import { OtherDone } from '@matthill8286/atomic-icon-library'
+import { OtherDone } from 'atomic-icon-library'
 
 export const Selectable: React.FC<SelectableProps> = ({
   children,

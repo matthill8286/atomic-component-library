@@ -2,7 +2,7 @@ import React from 'react'
 import { Tag } from '@/components/Atoms/Tag'
 import { css, styled } from '@/styles/styled'
 import { ThemeColors } from '@/types'
-import { OtherCalendar, OtherLiveLabel } from '@matthill8286/atomic-icon-library'
+import { OtherCalendar, OtherLiveLabel } from 'atomic-icon-library'
 import { Icon } from '@/components/Atoms/Icon'
 
 type TimeBoxValues = string | null

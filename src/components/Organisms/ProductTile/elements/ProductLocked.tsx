@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconButton } from '@/components/Atoms/Button'
 import { css, styled } from '@/styles/styled'
-import { OtherLock, OtherLockOpenOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherLock, OtherLockOpenOutlined } from 'atomic-icon-library'
 import { ThemeColors } from '@/types'
 import { Icon } from '@/components/Atoms/Icon'
 

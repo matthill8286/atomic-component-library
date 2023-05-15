@@ -1,5 +1,5 @@
 import React, { FC, useState } from 'react'
-import { OtherPercentage, OtherTrash } from '@matthill8286/atomic-icon-library'
+import { OtherPercentage, OtherTrash } from 'atomic-icon-library'
 import { Input } from './Input'
 import { InputProps } from './Input.interface'
 

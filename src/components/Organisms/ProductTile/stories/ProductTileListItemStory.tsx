@@ -19,7 +19,7 @@ import { ProductTileExpanderRow } from '@/components/Organisms/ProductTile/stori
 import { action } from '@storybook/addon-actions'
 import { ProductTileVariantProps } from '@/components/Organisms/ProductTile/helpers/layout'
 import { Icon } from '@/components/Atoms/Icon'
-import { OtherBookmarkOutlined } from '@matthill8286/atomic-icon-library'
+import { OtherBookmarkOutlined } from 'atomic-icon-library'
 import { StyledIconButton } from '@/components/Organisms/ProductTile/stories/ProductTileGridItemStory'
 
 export const ProductTileListItemStory = () => {

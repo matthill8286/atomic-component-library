@@ -1,7 +1,7 @@
 import { clearAllBodyScrollLocks, disableBodyScroll } from 'body-scroll-lock'
 import * as React from 'react'
 import { Heading } from '@/components/Atoms/Typography'
-import { OtherClose } from '@matthill8286/atomic-icon-library'
+import { OtherClose } from 'atomic-icon-library'
 import { useWindowDimensions } from '@/components/Helper/useWindowDimensions'
 import { ModalButtonGroup } from '@/components/Molecules/ModalButtonGroup'
 import { ModalHeadingProps, ModalProps } from './Modal.interface'

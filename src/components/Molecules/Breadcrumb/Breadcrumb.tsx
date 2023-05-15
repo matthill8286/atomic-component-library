@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { Link } from '@/components/Atoms/Link'
-import { OtherRightArrow, OtherHomeVs2Outlined } from '@matthill8286/atomic-icon-library'
+import { OtherRightArrow, OtherHomeVs2Outlined } from 'atomic-icon-library'
 import { BreadcrumbPath, BreadcrumbProps } from './Breadcrumb.interface'
 import { StyledBreadcrumb, StyledHomeLink, StyledLi, StyledUl } from './Breadcrumb.styled'
 

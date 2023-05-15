@@ -2,7 +2,7 @@ import { action } from '@storybook/addon-actions'
 import { select } from '@storybook/addon-knobs'
 import { storiesOf } from '@storybook/react'
 import * as React from 'react'
-import { OtherArticle, OtherBookmark, OtherClose } from '@matthill8286/atomic-icon-library'
+import { OtherArticle, OtherBookmark, OtherClose } from 'atomic-icon-library'
 import { InputIcon, InputIconProps } from './InputIcon'
 
 const CustomIcon = {
