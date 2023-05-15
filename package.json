@@ -1,7 +1,7 @@
 {
   "name": "atomic-component-library",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./dist/atomic-component-library.umd.js",
   "module": "./dist/atomic-component-library.es.js",
   "types": "./dist/index.d.ts",
@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "@lifarl/react-scroll-snap-slider": "^2.0.3",
-    "atomic-icon-library": "^0.0.2",
     "@storybook/addon-viewport": "^7.0.10",
     "acorn": "^8.5.0",
+    "atomic-icon-library": "^0.0.2",
     "autoprefixer": "^10.4.0",
     "body-scroll-lock": "^2.6.4",
     "css-scroll-snap-polyfill": "^0.1.2",
