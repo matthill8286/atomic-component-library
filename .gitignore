@@ -30,4 +30,5 @@ storybook-static
 # Testing
 coverage
 
+*.npmrc
 .npmrc
