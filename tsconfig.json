@@ -18,7 +18,12 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*", "./dist/*", ""]
+      "@/*": ["./src/*", "./dist/*", ""],
+      "@matthill8286/atomic-icon-library/*": [
+        "./node_modules/atomic-icon-library/*",
+        "./node_modules/atomic-icon-library/dist/*",
+        ""
+      ]
     }
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx"],

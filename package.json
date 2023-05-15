@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@lifarl/react-scroll-snap-slider": "^2.0.3",
-    "atomic-icon-library": "^0.0.1",
+    "atomic-icon-library": "^0.0.2",
     "@storybook/addon-viewport": "^7.0.10",
     "acorn": "^8.5.0",
     "autoprefixer": "^10.4.0",
