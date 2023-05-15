@@ -1999,6 +1999,14 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@rollup/plugin-typescript@^11.1.1":
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-11.1.1.tgz#258663a7aa6b51390dd39ae6e5502f2c4b2807cb"
+  integrity sha512-Ioir+x5Bejv72Lx2Zbz3/qGg7tvGbxQZALCLoJaGrkNXak/19+vKgKYJYM3i/fJxvsb23I9FuFQ8CUBEfsmBRg==
+  dependencies:
+    "@rollup/pluginutils" "^5.0.1"
+    resolve "^1.22.1"
+
 "@rollup/pluginutils@^4.1.0":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
@@ -2007,7 +2015,7 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@rollup/pluginutils@^5.0.2":
+"@rollup/pluginutils@^5.0.1", "@rollup/pluginutils@^5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.2.tgz#012b8f53c71e4f6f9cb317e311df1404f56e7a33"
   integrity sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==
@@ -12721,10 +12729,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rollup-plugin-node-externals@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-node-externals/-/rollup-plugin-node-externals-6.0.1.tgz#bb9f912c345bec62710a13528fbc5a725d509513"
-  integrity sha512-PIZKc0j44MAzEz9XqWfZ8vbjavWbs9fehh3LHsSB1WF5bdTjz5B8qVuaWiAzdd0tKOjjR/lh8f9Qv6bpLUTllg==
+rollup-plugin-node-externals@^5.2.0:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-node-externals/-/rollup-plugin-node-externals-5.1.3.tgz#56dc316081187afbf943d81750c75d735f80c970"
+  integrity sha512-Q3VMjsn39r0/mjKrX++rFlC7kwL7YZdScdyU7BEo+PrEremal3mnol/1X+wQUU++7NeqC1ZNAeRYnHGtsTu9GQ==
 
 rollup-plugin-styles@^3.14.1:
   version "3.14.1"
@@ -12749,6 +12757,11 @@ rollup-plugin-styles@^3.14.1:
     resolve "^1.19.0"
     source-map "^0.7.3"
     tslib "^2.1.0"
+
+rollup-plugin-typescript-paths@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-typescript-paths/-/rollup-plugin-typescript-paths-1.4.0.tgz#cfae829c2f52a7dd3f1a2c4982ae66788239a54b"
+  integrity sha512-6EgeLRjTVmymftEyCuYu91XzY5XMB5lR0YrJkeT0D7OG2RGSdbNL+C/hfPIdc/sjMa9Sl5NLsxIr6C/+/5EUpA==
 
 rollup@^2.58.3:
   version "2.79.1"
