@@ -6,6 +6,7 @@ import { SimpleCarousel } from './SimpleCarousel'
 import { defaultSettings, multiItemSettings, pictureEntries, withVideoEntries } from './SimpleCarousel.data'
 import { defaultTheme } from '@/styles'
 import { Meta } from '@storybook/react'
+import React from 'react'
 
 export default {
   title: 'Design System/Molecules/SimpleCarousel',

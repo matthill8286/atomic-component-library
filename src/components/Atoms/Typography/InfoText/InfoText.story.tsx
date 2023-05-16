@@ -1,9 +1,9 @@
 import { boolean, number, select, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { defaultTheme } from '@/styles/sc-vars-default'
 import { ThemeColors } from '@/types/theme'
 import { InfoText } from '..'
 import { TypographyScaleInfo } from './InfoText.interface'
+import React from 'react'
 
 export default {
   title: 'Design System/Atoms/Typography',

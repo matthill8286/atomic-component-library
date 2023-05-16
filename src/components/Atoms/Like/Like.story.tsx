@@ -1,5 +1,4 @@
 import { boolean, select, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { Icon } from '@/components/Atoms/Icon'
 import { CopyText } from '@/components/Atoms/Typography'
 import { defaultTheme } from '@/styles/sc-vars-default'
@@ -7,6 +6,7 @@ import { OtherUseful } from 'atomic-icon-library'
 import { ThemeColors, ThemeFontSizes } from '@/types/theme'
 import { Like } from './Like'
 import { LikeProps, LikeSize } from './Like.interface'
+import React from 'react'
 
 const scales = ['large', 'small']
 const sizes: ThemeFontSizes[] = ['xxxs', 'xxs', 'xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl']

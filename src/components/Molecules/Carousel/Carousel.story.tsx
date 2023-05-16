@@ -8,6 +8,7 @@ import {
   thumbnailSettings,
   withVideoEntries,
 } from './Carousel.data'
+import React from 'react'
 
 const carouselWrapperStyle = {
   maxWidth: '634px',

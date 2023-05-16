@@ -1,5 +1,4 @@
 import { boolean, number, select, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { TypeRhythm } from '@/components/Atoms/Typography/utils/TypeRhythm'
 import {
   BoxDimensions,
@@ -11,6 +10,7 @@ import {
 } from '@/types/theme'
 import { Typo } from './Typo'
 import { TypoProps } from './Typo.interface'
+import React from 'react'
 
 const fontSizes = {
   xxxs: 'xxxs',

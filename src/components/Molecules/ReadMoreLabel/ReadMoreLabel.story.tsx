@@ -4,7 +4,6 @@ import { styled } from '@/styles/styled'
 import { ReadMoreLabel, ReadMoreLabelProps } from '@/components/Molecules/ReadMoreLabel/ReadMoreLabel'
 import { Checkbox } from '@/components/Atoms/Checkbox/Checkbox'
 import { boolean, number, text } from '@storybook/addon-knobs'
-import { Filter } from '@/components/Molecules/Filter'
 
 const StyledCopyText = styled(CopyText)`
   margin: 0;

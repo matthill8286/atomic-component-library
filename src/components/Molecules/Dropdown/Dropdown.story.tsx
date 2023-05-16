@@ -3,6 +3,7 @@ import { number, text } from '@storybook/addon-knobs'
 import { Dropdown } from './Dropdown'
 import { DropdownProps } from './Dropdown.interface'
 import readme from './Dropdown.readme.mdx'
+import React from 'react'
 
 const options = [
   { id: '0', label: 'BMW' },

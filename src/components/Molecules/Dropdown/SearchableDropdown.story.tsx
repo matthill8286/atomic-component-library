@@ -1,4 +1,4 @@
-import { Meta, Story } from '@storybook/react/types-6-0'
+import { Meta, Story } from '@storybook/react'
 import React, { useState, ChangeEvent } from 'react'
 import { SearchableDropdown } from './SearchableDropdown'
 import { SearchableDropdownProps, DropdownOptionProps } from './Dropdown.interface'
