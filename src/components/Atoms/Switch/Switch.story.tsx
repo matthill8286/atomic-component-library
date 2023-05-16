@@ -1,7 +1,7 @@
 import { Switch } from './Switch'
-import { withState } from '@dump247/storybook-state'
 import Readme from './Switch.readme.mdx'
 import { boolean, text } from '@storybook/addon-knobs'
+import React from 'react'
 
 // const stories = storiesOf('Design System/Atoms/Switch', module)
 
@@ -12,14 +12,24 @@ const knobs = () => {
   }
 }
 
-export const Default = withState({ checked: false }, (store) => (
-  <Switch
-    checked={store.state.checked}
-    id="switch-atom"
-    onClick={() => store.set({ checked: !store.state.checked })}
-    {...knobs()}
-  />
-))
+export const Default = () => {
+  const store = {
+    checked: false,
+    set: (state) => store.setState(state),
+    setState: (state) => {
+      store.checked = state.checked
+    },
+  }
+
+  return (
+    <Switch
+      checked={store.checked}
+      id="switch-atom"
+      onClick={() => store.set({ checked: !store.checked })}
+      {...knobs()}
+    />
+  )
+}
 
 Default.story = {
   parameters: { info: Readme },

@@ -1,20 +1,21 @@
-import { withState } from '@dump247/storybook-state'
 import { AmountPicker } from './AmountPicker'
 import Readme from './AmountPicker.readme.mdx'
+import React from 'react'
+import { OnQuantityChangeEvent } from './AmountPicker.interface'
 
-export const Default = withState({ quantity: 1 }, (store) => (
+export const Default = () => (
   <AmountPicker
+    onQuantityChange={function (event: OnQuantityChangeEvent, quantity: number, oldQuantity: number): void {
+      throw new Error('Function not implemented.')
+    }}
     max={10}
     label="Quantity for Sony Braia TV"
     min={0}
     minusLabel="Decrease quantity"
-    onQuantityChange={(event, newQuantity) => {
-      store.set({ quantity: newQuantity })
-    }}
     plusLabel="Increase quantity"
-    {...store.state}
+    quantity={0}
   />
-))
+)
 
 Default.story = {
   parameters: { info: Readme },
