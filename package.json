@@ -1,6 +1,6 @@
 {
   "name": "atomic-component-library",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./dist/atomic-component-library.umd.js",
   "module": "./dist/atomic-component-library.es.js",
   "types": "./dist/index.d.ts",
