@@ -19,6 +19,7 @@ export interface SelectableProps {
   type: SelectableTypes
   value?: string
   inputRef?: React.Ref<HTMLInputElement>
+  children?: React.ReactNode
 }
 
 export type CheckboxProps = Omit<SelectableProps, 'type'>

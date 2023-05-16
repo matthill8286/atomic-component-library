@@ -7,7 +7,7 @@ import { OtherArrow } from 'atomic-icon-library'
 
 export interface NativeDropdownProps {
   className?: string
-  children?: HTMLOptionElement[] | React.ReactElement<HTMLOptionElement>[]
+  children?: React.ReactNode
   margin?: string
   padding?: string
   icon?: React.ReactElement

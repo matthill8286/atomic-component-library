@@ -1,10 +1,8 @@
-import { withState } from '@dump247/storybook-state'
 import { boolean, select } from '@storybook/addon-knobs'
-import uniqueId from 'lodash/uniqueId'
-import { Button } from '@/components/Atoms/Button'
 import { Accordion } from './Accordion'
-import { AccordionEntryObject, AccordionProps } from './Accordion.interface'
+import { AccordionProps } from './Accordion.interface'
 import Readme from './Accordion.readme.mdx'
+import React from 'react'
 
 const ENTRIES_1 = [
   {
@@ -168,54 +166,6 @@ export const MultipleOpenEntriesAllowed = () => (
 
 MultipleOpenEntriesAllowed.story = {
   name: 'multiple open entries allowed',
-
-  parameters: {
-    info: Readme,
-  },
-}
-
-export const DynamicExample = withState({ entries: searchEntriesProps.entries }, (store) => {
-  const addEntry = (entry: AccordionEntryObject) => {
-    store.set({ entries: [...store.state.entries, entry] })
-  }
-
-  return (
-    <>
-      <Button
-        onClick={() => {
-          const id = uniqueId('another-entry-')
-          const newEntry: AccordionEntryObject = {
-            id,
-            details: `hallooooo ${id}`,
-            title: id,
-            isOpenInitially: true,
-          }
-          addEntry(newEntry)
-        }}
-      >
-        Add entry initially open
-      </Button>
-      <Button
-        onClick={() => {
-          const id = uniqueId('another-entry-')
-          const newEntry: AccordionEntryObject = {
-            id,
-            details: `hallooooo ${id}`,
-            title: id,
-            isOpenInitially: false,
-          }
-          addEntry(newEntry)
-        }}
-      >
-        Add entry initially close
-      </Button>
-      <Accordion {...searchEntriesProps} entries={store.state.entries} isLarge={boolean('isLarge', false)} />
-    </>
-  )
-})
-
-DynamicExample.story = {
-  name: 'dynamic example',
 
   parameters: {
     info: Readme,

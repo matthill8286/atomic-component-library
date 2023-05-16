@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import { css, styled, media } from '@/styles'
 import { Link } from '@/components/Atoms/Link'
+import React from 'react'
 
 export interface BrandCategoryTileProps {
   category: {

@@ -5,8 +5,8 @@ export const pictureEntries = [
     productID: 'featured-product-69001598',
     sortOrder: 0,
     usageType: 'Product Image',
-    url: 'public/images/teasers/1.jpg',
-    thUrl: 'public/images/teasers/1.jpg',
+    url: 'https://loremflickr.com/900/650',
+    thUrl: 'https://loremflickr.com/900/650',
   },
   {
     link: null,
@@ -14,8 +14,8 @@ export const pictureEntries = [
     productID: 'featured-product-69001599',
     sortOrder: 0,
     usageType: 'Product Image',
-    url: 'public/images/teasers/02.jpg',
-    thUrl: 'public/images/teasers/02.jpg',
+    url: 'https://loremflickr.com/900/650',
+    thUrl: 'https://loremflickr.com/900/650',
   },
   {
     link: null,
@@ -23,8 +23,8 @@ export const pictureEntries = [
     productID: 'featured-product-69001597',
     sortOrder: 0,
     usageType: 'Product Image',
-    url: 'public/images/teasers/1.jpg',
-    thUrl: 'public/images/teasers/1.jpg',
+    url: 'https://loremflickr.com/900/650',
+    thUrl: 'https://loremflickr.com/900/650',
   },
   {
     link: null,
@@ -32,8 +32,8 @@ export const pictureEntries = [
     productID: 'featured-product-76257815',
     sortOrder: 0,
     usageType: 'Product Image',
-    url: 'public/images/teasers/04.jpg',
-    thUrl: 'public/images/teasers/04.jpg',
+    url: 'https://loremflickr.com/900/650',
+    thUrl: 'https://loremflickr.com/900/650',
   },
   {
     link: null,
@@ -41,8 +41,8 @@ export const pictureEntries = [
     productID: 'featured-product-76257815',
     sortOrder: 0,
     usageType: 'Product Image',
-    url: 'public/images/teasers/05.jpg',
-    thUrl: 'public/images/teasers/05.jpg',
+    url: 'https://loremflickr.com/900/650',
+    thUrl: 'https://loremflickr.com/900/650',
   },
 ]
 

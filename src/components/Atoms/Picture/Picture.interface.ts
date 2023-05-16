@@ -15,6 +15,7 @@ export interface PictureProps {
   onMouseLeave?: () => void
   disabled?: boolean
   loading?: NativeLazyLoadType
+  children?: React.ReactNode
 }
 
 export enum NativeLazyLoadOptions {

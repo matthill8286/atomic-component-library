@@ -4,6 +4,7 @@ import { Availability } from './Availability'
 import { AvailabilityProps, AvailabilitySize } from './Availability.interface'
 import Readme from './Availability.readme.mdx'
 import { OtherShop } from 'atomic-icon-library'
+import React from 'react'
 
 const states: ProductAvailabilityState[] = [
   ProductAvailabilityState.TIME_CLUSTER,

@@ -81,3 +81,5 @@ export * from './components/Molecules/ScrollSnapSlider'
 export * from './components/Molecules/Steps'
 export * from './components/Molecules/TopBar'
 export * from './components/Molecules/TabBar'
+
+export * from './components/Organisms/ProductTile'

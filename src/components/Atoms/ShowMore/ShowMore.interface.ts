@@ -17,6 +17,7 @@ export interface ShowMoreProps {
   fontWeight?: ThemeFontWeights
   padding?: number
   loading?: boolean
+  children?: React.ReactNode
 }
 
 export interface WrapperProps {

@@ -9,6 +9,7 @@ export interface EmbeddedPlayerProps {
   frameBorder?: string
   maxHeight?: string | number
   minHeight?: string | number
+  children?: React.ReactNode
 }
 
 type EmbeddedFeatureTypes =

@@ -11,6 +11,7 @@ export interface TagProps {
   color?: ThemeColors
   weight?: ThemeFontWeights
   className?: string
+  children?: React.ReactNode
 }
 
 export interface StyledTagWrapperProps {
@@ -25,4 +26,5 @@ export interface StyledTagWrapperProps {
 export interface TagTextProps {
   color?: ThemeColors
   weight?: ThemeFontWeights
+  children?: React.ReactNode
 }

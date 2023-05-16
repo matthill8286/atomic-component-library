@@ -2,6 +2,7 @@ import { Store, withState } from '@dump247/storybook-state'
 import { Services } from './Services'
 import { Knobs, ServiceType } from './Services.interface'
 import { props } from './Services.mocks'
+import React from 'react'
 
 interface InitialState {
   items: ServiceType[]

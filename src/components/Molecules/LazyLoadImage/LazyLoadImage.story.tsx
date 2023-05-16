@@ -2,8 +2,8 @@ import { number } from '@storybook/addon-knobs'
 import React from 'react'
 import { LazyLoadImage } from './LazyLoadImage'
 
-const highResSrc = 'public/images/featured_backgrounds/01.jpg'
-const lowResSrc = 'public/images/featured_backgrounds/02.jpg'
+const highResSrc = 'https://loremflickr.com/900/650'
+const lowResSrc = 'https://loremflickr.com/900/650'
 
 const thresholdOptions = {
   range: true,

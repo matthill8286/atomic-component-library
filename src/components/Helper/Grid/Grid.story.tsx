@@ -8,6 +8,7 @@ import { Row } from './Row'
 const Placeholder: React.FC<{
   tint?: boolean
   height?: string | number | (string & unknown) | undefined
+  children?: React.ReactNode
 }> = ({ tint, height }) => {
   const styles = {
     padding: '1rem',

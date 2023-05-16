@@ -16,7 +16,6 @@ import {
   OtherShare,
 } from 'atomic-icon-library'
 import { CompetencyText, CompleteButton, IconsWrapper, LaunchButton } from './ProductMeta.styled'
-import { isNonEmptyString } from '@/components/Helper/String'
 import { EmbeddedWrapper } from '@/components/Atoms/EmbeddedPlayer'
 
 export interface ProductMetaProps {
@@ -114,53 +113,49 @@ export const ProductMeta: React.FC<ProductMetaProps> = ({
           </FlexItem>
         )}
       </IconsWrapper>
-      {isNonEmptyString(chatSrc) ? (
-        <EmbeddedWrapper embedUrl={chatSrc} aspect="1/4" maxHeight={chatMaxHeight} />
-      ) : (
-        <Card elevation={1} shape="rounded-small" padding="lg">
-          {!hideLaunched && (
-            <LaunchButton weight="bold" curved fullWidth onClick={launchHandler}>
-              <Icon width={20} height={20} color="white">
-                <OtherExpand fill={'white'} />
-              </Icon>
-              {buttonTextLaunch}
-            </LaunchButton>
-          )}
-          {!isLandingPage && (
-            <CompleteButton
-              color="primary"
-              weight="bold"
-              curved
-              actionType="outlined"
-              fullWidth
-              onClick={completedHandler}
-            >
-              <Icon width={25} height={25} color="primary">
-                {completed ? <OtherCheckmarkCircle /> : <OtherCheckmarkCircleOutlined />}
-              </Icon>
-              {buttonTextComplete}
-            </CompleteButton>
-          )}
-          <FeatureList features={features} loading={false} showCount={4} />
-          <CompetencyText padding="sm 0">{competencyCopy}</CompetencyText>
-          <FlexBox flexWrap="wrap">
-            {tags.map(({ text }: { text: TagProps['text'] }, idx: number) => (
-              <FlexItem key={`Tag-${idx}`}>
-                {text && (
-                  <Tag
-                    color="primary"
-                    marginBottom
-                    marginRight
-                    padding={{ left: 'lg', right: 'lg' }}
-                    text={text}
-                    weight="semibold"
-                  />
-                )}
-              </FlexItem>
-            ))}
-          </FlexBox>
-        </Card>
-      )}
+      <Card elevation={1} shape="rounded-small" padding="lg">
+        {!hideLaunched && (
+          <LaunchButton weight="bold" curved fullWidth onClick={launchHandler}>
+            <Icon width={20} height={20} color="white">
+              <OtherExpand fill={'white'} />
+            </Icon>
+            {buttonTextLaunch}
+          </LaunchButton>
+        )}
+        {!isLandingPage && (
+          <CompleteButton
+            color="primary"
+            weight="bold"
+            curved
+            actionType="outlined"
+            fullWidth
+            onClick={completedHandler}
+          >
+            <Icon width={25} height={25} color="primary">
+              {completed ? <OtherCheckmarkCircle /> : <OtherCheckmarkCircleOutlined />}
+            </Icon>
+            {buttonTextComplete}
+          </CompleteButton>
+        )}
+        <FeatureList features={features} loading={false} showCount={4} />
+        <CompetencyText padding="sm 0">{competencyCopy}</CompetencyText>
+        <FlexBox flexWrap="wrap">
+          {tags.map(({ text }: { text: TagProps['text'] }, idx: number) => (
+            <FlexItem key={`Tag-${idx}`}>
+              {text && (
+                <Tag
+                  color="primary"
+                  marginBottom
+                  marginRight
+                  padding={{ left: 'lg', right: 'lg' }}
+                  text={text}
+                  weight="semibold"
+                />
+              )}
+            </FlexItem>
+          ))}
+        </FlexBox>
+      </Card>
     </FlexBox>
   )
 }

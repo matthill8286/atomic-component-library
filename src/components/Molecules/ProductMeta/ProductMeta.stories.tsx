@@ -2,6 +2,7 @@ import { Store, withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { boolean } from '@storybook/addon-knobs'
 import { ProductMeta } from './ProductMeta'
+import React, { useState } from 'react'
 
 const componentProps = {
   buttonTextLaunch: 'Launch',
@@ -36,39 +37,46 @@ interface storeProps {
   completed: boolean
 }
 
-const setBookMark = (store: Store<storeProps>, boo: boolean) => {
-  return store.set({ bookmarked: boo })
-}
-const setCompleted = (store: Store<storeProps>, boo: boolean) => {
-  return store.set({ completed: boo })
-}
+export const Default = () => {
+  const [store, setStore] = useState({ bookmarked: false, completed: false })
 
-export default {
-  title: 'Design System/Organisms/ProductMeta',
-}
+  const setBookMark = (bookmarked: boolean) => {
+    return setStore({ ...store, bookmarked })
+  }
+  const setCompleted = (completed: boolean) => {
+    return setStore({ ...store, completed })
+  }
 
-export const Default = withState({ bookmarked: false, completed: false }, (store) => {
-  const toggleBookmarked = (): void => setBookMark(store, !store.state.bookmarked)
-  const toggleCompleted = (): void => setCompleted(store, !store.state.completed)
+  const toggleBookmarked = (): void => setBookMark(!store.bookmarked)
+  const toggleCompleted = (): void => setCompleted(!store.completed)
 
   return (
     <ProductMeta
       features={[]}
       shareHandler={action('Share Clicked')}
       bookmarkHandler={(): void => toggleBookmarked()}
-      completed={store.state.completed}
-      bookmarked={store.state.bookmarked}
+      completed={store.completed}
+      bookmarked={store.bookmarked}
       completedHandler={() => toggleCompleted()}
       savePlaylistHandler={action('Save Clicked')}
       {...componentProps}
       {...knobs()}
     />
   )
-})
+}
 
-export const CompactVersion = withState({ bookmarked: false, completed: false }, (store) => {
-  const toggleBookmarked = (): void => setBookMark(store, !store.state.bookmarked)
-  const toggleCompleted = (): void => setCompleted(store, !store.state.completed)
+export const CompactVersion = () => {
+  const [store, setStore] = useState({ bookmarked: false, completed: false })
+
+  const setBookMark = (bookmarked: boolean) => {
+    return setStore({ ...store, bookmarked })
+  }
+  const setCompleted = (completed: boolean) => {
+    return setStore({ ...store, completed })
+  }
+
+  const toggleBookmarked = (): void => setBookMark(!store.bookmarked)
+  const toggleCompleted = (): void => setCompleted(!store.completed)
 
   return (
     <ProductMeta
@@ -81,4 +89,9 @@ export const CompactVersion = withState({ bookmarked: false, completed: false },
       {...componentProps}
     />
   )
-})
+}
+
+export default {
+  title: 'Design System/Molecules/ProductMeta',
+  component: ProductMeta,
+}

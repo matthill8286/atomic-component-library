@@ -1,6 +1,6 @@
 import Slider, { Settings } from 'react-slick'
 
-import { Product, ThemeColors } from '@/types'
+import { ThemeColors } from '@/types'
 import { BadgeType } from '@/components/Atoms/Badge'
 
 export interface SliderItemProps {
@@ -15,7 +15,7 @@ export interface SliderItemProps {
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type Item = SliderItemProps | Product | any
+type Item = SliderItemProps | any
 export interface CarouselSettings extends Settings {
   key?: string
 }
