@@ -1,6 +1,6 @@
 {
   "name": "atomic-component-library",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./dist/atomic-component-library.umd.js",
   "module": "./dist/atomic-component-library.es.js",
   "types": "./dist/index.d.ts",
@@ -54,6 +54,7 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@vitejs/plugin-react": "^3.0.0",
     "@vitest/coverage-c8": "^0.27.3",
+    "airbnb-prop-types": "2.16.0",
     "autoprefixer": "^10.4.0",
     "babel-loader": "^8.3.0",
     "csstype": "^2",
