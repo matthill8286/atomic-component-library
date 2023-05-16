@@ -1,4 +1,4 @@
-import { MouseEvent, FC } from 'react'
+import * as React from 'react'
 import { LoadingIndicatorColor } from '../LoadingIndicator'
 import { ButtonActionType, ButtonProps } from './Button.interface'
 import { StyledAnchorButton, StyledButton, StyledLoadingIndicator, StyledRouterButton } from './Button.styled'
@@ -15,7 +15,7 @@ const buttonColours = {
   prominent: 'white',
 }
 
-export const Button: FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   actionType = 'prominent',
   children,
   disabled = false,
@@ -37,7 +37,7 @@ export const Button: FC<ButtonProps> = ({
   id,
   ...otherProps
 }) => {
-  const handleOnClick = (ev: MouseEvent<HTMLElement>) => {
+  const handleOnClick = (ev: React.MouseEvent<HTMLElement>) => {
     ev.stopPropagation()
     if (disabled || isLoading) {
       return

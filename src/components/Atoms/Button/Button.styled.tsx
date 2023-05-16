@@ -1,5 +1,5 @@
 import { darken } from 'polished'
-import { FunctionComponent } from 'react'
+import React, { FunctionComponent } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
 import { media } from '@/styles/media'
 import { css, styled } from '@/styles/styled'
@@ -198,6 +198,9 @@ const buttonStyles = css<StyledButtonProps>`
 
 export const StyledAnchorButton = styled.a<StyledButtonProps>`
   ${buttonStyles};
+
+  -webkit-appearance: none !important;
+
   :visited,
   :hover,
   :active {

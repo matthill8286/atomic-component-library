@@ -1,5 +1,5 @@
 import * as H from 'history'
-import { AnchorHTMLAttributes, ReactNode, MouseEvent } from 'react'
+import React from 'react'
 
 export type ButtonActionType =
   | 'ghost'
@@ -29,15 +29,15 @@ export interface StyledButtonProps {
   weight?: string
 }
 
-export interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement | HTMLButtonElement> {
+export interface ButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement | HTMLButtonElement> {
   actionType?: ButtonActionType
-  children?: ReactNode
+  children?: React.ReactNode
   disabled?: boolean
   fullWidth?: boolean
   classNameWrapper?: string
   isLoading?: boolean
   isFlat?: boolean
-  onClick?: (ev: MouseEvent<HTMLElement>) => void
+  onClick?: (ev: React.MouseEvent<HTMLElement>) => void
   size?: ButtonSize
   to?: H.LocationDescriptor
   type?: ButtonType

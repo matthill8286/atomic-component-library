@@ -1,0 +1,342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Availability Should render price 1`] = `
+.c3 {
+  margin: 0;
+  padding: 0;
+  color: #272422;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c5 {
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.c4 {
+  background: transparent;
+  border: 0;
+  margin: 4px 0 0 0;
+  padding: 0;
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-size: 12px;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className=""
+    scale="small"
+  >
+    <span
+      className="c1"
+    />
+  </span>
+  <div
+    className="c2"
+  >
+    <span
+      className="c3"
+      color="grey5"
+      fontSize="xxs"
+    />
+    <div
+      className="c4"
+      scale="small"
+    />
+  </div>
+  <div
+    className="c5"
+  >
+    <span>
+      € 100.00
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Availability Should render status time cluster 1`] = `
+.c3 {
+  margin: 0;
+  padding: 0;
+  color: #272422;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  border-radius: 8px;
+  background: #ffa550;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c5 {
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.c4 {
+  background: transparent;
+  border: 0;
+  margin: 4px 0 0 0;
+  padding: 0;
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-size: 12px;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className=""
+    scale="small"
+  >
+    <span
+      className="c1"
+    />
+  </span>
+  <div
+    className="c2"
+  >
+    <span
+      className="c3"
+      color="grey5"
+      fontSize="xxs"
+    />
+    <div
+      className="c4"
+      scale="small"
+    />
+  </div>
+  <div
+    className="c5"
+  />
+</div>
+`;
+
+exports[`Availability Should render subtext 1`] = `
+.c3 {
+  margin: 0;
+  padding: 0;
+  color: #272422;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c5 {
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.c4 {
+  background: transparent;
+  border: 0;
+  margin: 4px 0 0 0;
+  padding: 0;
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-size: 12px;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className=""
+    scale="small"
+  >
+    <span
+      className="c1"
+    />
+  </span>
+  <div
+    className="c2"
+  >
+    <span
+      className="c3"
+      color="grey5"
+      fontSize="xxs"
+    />
+    <div
+      className="c4"
+      scale="small"
+    >
+      Calculated with Standard Delivery
+    </div>
+  </div>
+  <div
+    className="c5"
+  />
+</div>
+`;
+
+exports[`Availability Should render text 1`] = `
+.c3 {
+  margin: 0;
+  padding: 0;
+  color: #272422;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+
+.c2 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c5 {
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.c4 {
+  background: transparent;
+  border: 0;
+  margin: 4px 0 0 0;
+  padding: 0;
+  color: #272422;
+  font-family: SourceSansPro,Arial,sans-serif;
+  font-size: 12px;
+}
+
+<div
+  className="c0"
+>
+  <span
+    className=""
+    scale="small"
+  >
+    <span
+      className="c1"
+    />
+  </span>
+  <div
+    className="c2"
+  >
+    <span
+      className="c3"
+      color="grey5"
+      fontSize="xxs"
+    >
+      Delivery to your address in 1-3 working days
+    </span>
+    <div
+      className="c4"
+      scale="small"
+    />
+  </div>
+  <div
+    className="c5"
+  />
+</div>
+`;

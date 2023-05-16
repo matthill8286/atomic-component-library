@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spacer renders correctly 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  height: 16px;
+}
+
+@media (min-width:752px) {
+  .c0 {
+    height: 24px;
+  }
+}
+
+<div
+  className="c0"
+  direction="horizontal"
+  size="md"
+/>
+`;
+
+exports[`Spacer renders correctly in vertical direction 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  width: 16px;
+}
+
+<div
+  className="c0"
+  direction="vertical"
+  size="md"
+/>
+`;

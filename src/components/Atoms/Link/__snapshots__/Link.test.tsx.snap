@@ -1,0 +1,518 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link /> component should render a button tag against the "onClick" attribute 1`] = `
+.c1 {
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
+  opacity: 1.0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 16px;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  display: none;
+  bottom: -2px;
+  height: 1px;
+  background-color: #999999;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+}
+
+.c0:hover::after {
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+.c0::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.c2 {
+  display: block;
+  color: #999999;
+}
+
+<button
+  className="c0"
+  color="grey4"
+  onClick={[MockFunction]}
+>
+  <span
+    className="c1 c2"
+    color="grey4"
+    fontSize="xs"
+  >
+    Button
+  </span>
+</button>
+`;
+
+exports[`<Link /> component should render an anchor tag against the "href" attribute 1`] = `
+.c1 {
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
+  opacity: 1.0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 16px;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  display: none;
+  bottom: -2px;
+  height: 1px;
+  background-color: #999999;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+}
+
+.c0:hover::after {
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+.c2 {
+  display: block;
+  color: #999999;
+}
+
+<a
+  className="c0"
+  color="grey4"
+  href="https://google.com/?how-to-write-tests"
+  target="_self"
+>
+  <span
+    className="c1 c2"
+    color="grey4"
+    fontSize="xs"
+  >
+    Button
+  </span>
+</a>
+`;
+
+exports[`<Link /> component should render an anchor tag from a router link against the "to" attribute 1`] = `
+.c1 {
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
+  opacity: 1.0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 16px;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  display: none;
+  bottom: -2px;
+  height: 1px;
+  background-color: #999999;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+}
+
+.c0:hover::after {
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+.c2 {
+  display: block;
+  color: #999999;
+}
+
+<a
+  className="c0"
+  href="/"
+  onClick={[Function]}
+>
+  <span
+    className="c1 c2"
+    color="grey4"
+    fontSize="xs"
+  >
+    Button
+  </span>
+</a>
+`;
+
+exports[`<Link /> component should render an anchor tag with a left icon 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: currentColor;
+}
+
+.c2 svg g,
+.c2 svg p {
+  fill: currentColor;
+}
+
+.c3 {
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
+  opacity: 1.0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 16px;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  display: none;
+  bottom: -2px;
+  height: 1px;
+  background-color: #999999;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+}
+
+.c0:hover::after {
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+.c1 {
+  margin-left: 0px;
+  margin-right: 4px;
+}
+
+.c1 svg {
+  height: 20px;
+  width: 20px;
+}
+
+.c4 {
+  display: block;
+  color: #999999;
+}
+
+<a
+  className="c0"
+  color="grey4"
+  target="_self"
+>
+  <span
+    className="c1"
+    color="grey4"
+  >
+    <div
+      className="c2"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+        />
+      </svg>
+    </div>
+  </span>
+  <span
+    className="c3 c4"
+    color="grey4"
+    fontSize="sm"
+  >
+    Button
+  </span>
+</a>
+`;
+
+exports[`<Link /> component should render an anchor tag with a right icon 1`] = `
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: currentColor;
+}
+
+.c4 svg g,
+.c4 svg p {
+  fill: currentColor;
+}
+
+.c1 {
+  color: #999999;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #999999;
+  opacity: 1.0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 16px;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  display: none;
+  bottom: -2px;
+  height: 1px;
+  background-color: #999999;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+}
+
+.c0:hover::after {
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+.c3 {
+  margin-left: 4px;
+  margin-right: 0px;
+}
+
+.c3 svg {
+  height: 16px;
+  width: 16px;
+}
+
+.c2 {
+  display: block;
+  color: #999999;
+}
+
+<a
+  className="c0"
+  color="grey4"
+  target="_self"
+>
+  <span
+    className="c1 c2"
+    color="grey4"
+    fontSize="xs"
+  >
+    Button
+  </span>
+  <span
+    className="c3"
+    color="grey4"
+  >
+    <div
+      className="c4"
+    >
+      <svg
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.78 11.28a.75.75 0 01.22.53v.38a.77.77 0 01-.22.53l-5.14 5.13a.5.5 0 01-.71 0l-.71-.71a.49.49 0 010-.7L13.67 12 9.22 7.56a.5.5 0 010-.71l.71-.7a.5.5 0 01.71 0z"
+        />
+      </svg>
+    </div>
+  </span>
+</a>
+`;

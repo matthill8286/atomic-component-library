@@ -334,7 +334,7 @@ export interface Polished {
   darken: number
 }
 
-export type ThemeName = 'Saiyan' | 'Danone' | 'Alternate'
+export type ThemeName = 'default' | 'Danone' | 'Alternate'
 
 export interface Theme {
   [x: string]: unknown

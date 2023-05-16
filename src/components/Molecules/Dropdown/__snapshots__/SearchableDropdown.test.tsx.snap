@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchableDropdown Renders 1`] = `
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c8 svg {
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #CCCCCC;
+}
+
+.c8 svg g,
+.c8 svg p {
+  fill: #CCCCCC;
+}
+
+.c3 {
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c11 {
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c12 {
+  color: #00C8DC;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c9 {
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 320px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 56px;
+  z-index: 3;
+  list-style: none;
+  padding: 8px 0;
+  margin: 0;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  background-color: white;
+  border-radius: 4px;
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform: false;
+  -ms-transform: false;
+  transform: false;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: -webkit-transform 0.15s ease;
+  -webkit-transition: transform 0.15s ease;
+  transition: transform 0.15s ease;
+}
+
+.c10 {
+  display: block;
+  max-width: 100%;
+  padding: 8px 16px;
+  background: #FFFFFF;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+
+.c10:hover {
+  cursor: pointer;
+  background: #FAFAFA;
+}
+
+.c0 {
+  position: relative;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+}
+
+.c1 .c7 {
+  position: absolute;
+  right: 0;
+  top: 28px;
+  outline: none;
+}
+
+.c1 .c7:focus svg {
+  fill: #000000;
+}
+
+.c5 {
+  border: 0;
+  box-sizing: content-box;
+  display: block;
+  font-size: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  margin: 24px 0 0 0;
+  border-bottom: 1px solid #999999;
+  background-color: #FFFFFF;
+  min-width: 0;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 40px;
+  outline: none;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.c5::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.c5::-moz-placeholder {
+  opacity: 1;
+}
+
+.c5:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.c5::placeholder {
+  opacity: 1;
+}
+
+.c6 {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 100%;
+}
+
+.c6 > button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  top: 28px;
+  outline: none;
+}
+
+.c6 > button:focus svg {
+  fill: #000000;
+}
+
+.c2 {
+  margin-right: 32px;
+}
+
+.c4 {
+  position: absolute;
+}
+
+<div
+  className="c0"
+>
+  <div
+    aria-expanded={false}
+    aria-haspopup="listbox"
+    aria-owns="undefined-list"
+    role="combobox"
+  >
+    <div
+      className="c1"
+    >
+      <div
+        className="c2"
+      >
+        <label
+          className="c3 c4"
+          color="grey3"
+          fontSize="sm"
+        >
+          oh my label
+        </label>
+        <input
+          aria-invalid={false}
+          aria-required={false}
+          autoFocus={false}
+          className="c5"
+          disabled={false}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          placeholder=""
+          required={false}
+          type="text"
+        />
+      </div>
+      <div
+        className="c6"
+      >
+        <span
+          className="c7 c8"
+          color="grey3"
+          height={20}
+          width={20}
+        >
+          <svg
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20.85 19.44l-4-4a2.44 2.44 0 00-.43-.35l-1-.69A7 7 0 1010 17a7 7 0 004.37-1.53l.75 1a2.6 2.6 0 00.3.36l4 4a.5.5 0 00.71 0l.7-.7a.5.5 0 00.02-.69zM10 15a5 5 0 115-5 5 5 0 01-5 5z"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+  <ol
+    aria-labelledby="undefined-label"
+    className="c9"
+    data-test="undefined-dropdown-list"
+    id="undefined-list"
+    role="listbox"
+  >
+    <li
+      className="c10"
+      id="undefined-opt-id-1"
+      onClick={[Function]}
+      role="option"
+    >
+      <strong
+        className="c11"
+        color="grey5"
+        fontSize="sm"
+      >
+        one
+      </strong>
+    </li>
+    <li
+      className="c10"
+      id="undefined-opt-id-2"
+      onClick={[Function]}
+      role="option"
+    >
+      <strong
+        className="c12"
+        color="primary"
+        fontSize="sm"
+      >
+        two
+      </strong>
+    </li>
+  </ol>
+</div>
+`;

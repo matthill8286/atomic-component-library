@@ -1,4 +1,4 @@
-// Saiyan Theme config
+// default Theme config
 import {
   Body,
   Color,

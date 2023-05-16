@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureList should render items with reduced count 1`] = `
+.c2 {
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c3 {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 600;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.c1 {
+  padding-bottom: 8px;
+}
+
+<ul
+  className="c0"
+  data-test="feature-list"
+>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Ut anim aliquip
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      Ullamco reprehenderit aliquip
+    </div>
+  </li>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Mollit exercitation
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      adipisicing magna officia et duis enim commodo non labore ex ex veniam dolor
+    </div>
+  </li>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Reprehenderit et minim
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      Lorem sunt duis adipisicing
+    </div>
+  </li>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Exercitation est pariatur
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      Eu dolore fugiat incididunt
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`FeatureList should render with items 1`] = `
+.c2 {
+  color: #999999;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c3 {
+  color: #000000;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 600;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c0 {
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.c1 {
+  padding-bottom: 8px;
+}
+
+<ul
+  className="c0"
+  data-test="feature-list"
+>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Ut anim aliquip
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      Ullamco reprehenderit aliquip
+    </div>
+  </li>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Mollit exercitation
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      adipisicing magna officia et duis enim commodo non labore ex ex veniam dolor
+    </div>
+  </li>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Reprehenderit et minim
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      Lorem sunt duis adipisicing
+    </div>
+  </li>
+  <li
+    className="c1"
+  >
+    <div
+      className="c2"
+      color="grey4"
+      fontSize="xxs"
+    >
+      Exercitation est pariatur
+    </div>
+    <div
+      className="c3"
+      color="black"
+      fontSize="xs"
+    >
+      Eu dolore fugiat incididunt
+    </div>
+  </li>
+</ul>
+`;

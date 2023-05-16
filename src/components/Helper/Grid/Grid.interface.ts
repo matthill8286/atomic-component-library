@@ -5,7 +5,7 @@ export interface GridProps {
   noPadding?: boolean
   className?: string
   fullWidth?: boolean
-  children?: NonNullable<React.ReactNode>
+  children: NonNullable<React.ReactNode>
 }
 
 export interface StyledGridProps {
@@ -47,7 +47,7 @@ export interface CellProps {
   colsXl?: TwelveColumn
   tag?: keyof JSX.IntrinsicElements | React.ComponentType
   className?: string
-  children?: NonNullable<React.ReactNode>
+  children: NonNullable<React.ReactNode>
 }
 
 export interface OffsetProps {

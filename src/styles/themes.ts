@@ -1,3 +1,3 @@
-export const Saiyan = 'Saiyan'
+export const DEFAULT = 'Default'
 export const DANONE = 'Danone'
 export const ALTERNATE = 'Alternate'

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Like renders correctly 1`] = `null`;
+
+exports[`Like renders with left Icon 1`] = `null`;
+
+exports[`Like renders with right Icon 1`] = `null`;

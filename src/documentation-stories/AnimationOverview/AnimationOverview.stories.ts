@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { AnimationOverview } from './AnimationOverview'
 
 const meta: Meta<typeof AnimationOverview> = {
-  title: 'Example/Animation',
+  title: 'Design system/Animation',
   component: AnimationOverview,
   tags: ['autodocs'],
 }

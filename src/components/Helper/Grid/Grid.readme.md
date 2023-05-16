@@ -2,13 +2,13 @@ A styled-components reimlementation of [React Layout Grid](https://github.com/ma
 which is an implementation of [MDC Layout Grid](https://github.com/material-components/material-components-web/tree/master/packages/mdc-layout-grid).
 
 Just like Layout Grid from Material design but with extra Offset component and
-additional media queries to support different gaps & margins definitions provided by saiyan UX team.
+additional media queries to support different gaps & margins definitions provided by default UX team.
 
 ## Usage
 
 ```js
 import React from 'react'
-import { Cell, Grid, Row } from '@saiyan/webmobile-sc-components'
+import { Cell, Grid, Row } from '@default/webmobile-sc-components'
 
 class MyApp extends React.Component {
   render() {

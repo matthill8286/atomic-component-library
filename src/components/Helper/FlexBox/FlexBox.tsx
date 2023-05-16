@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import React, { FC } from 'react'
 import { css, styled } from '@/styles/styled'
 
 export type FlexAlignItemsOptions = 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'stretch'

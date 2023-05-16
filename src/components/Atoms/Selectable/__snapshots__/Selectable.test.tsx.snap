@@ -1,0 +1,630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Selectables renders checkbox correctly 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 svg {
+  width: 25px;
+  height: 25px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: currentColor;
+}
+
+.c3 svg g,
+.c3 svg p {
+  fill: currentColor;
+}
+
+.c6 {
+  padding: 0 0 0 8px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c4 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.c4 svg {
+  fill: #00C8DC;
+  width: 22px;
+  height: 100%;
+}
+
+.c0 {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:before {
+  content: '';
+  top: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: solid 1px #999999;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.c9 {
+  display: inline-block;
+}
+
+.c1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1:checked + .c2 {
+  display: inline-block;
+  text-align: center;
+}
+
+.c1:focus ~ .c8 {
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border-radius: 4px;
+  left: 0;
+}
+
+.c7 {
+  width: 100%;
+}
+
+.c5 {
+  width: 100%;
+}
+
+<label
+  className="c0"
+  data-test="checkbox"
+  htmlFor=""
+  type="checkbox"
+>
+  <input
+    className="c1"
+    id=""
+    name=""
+    onChange={[Function]}
+    type="checkbox"
+    value=""
+  />
+  <div
+    className="c2 c3 c4"
+  >
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M19.85 7.25l-10.6 10.6a.5.5 0 01-.71 0l-5.39-5.39a.5.5 0 010-.71l.7-.7a.5.5 0 01.71 0l4.33 4.33 9.55-9.55a.51.51 0 01.71 0l.7.71a.5.5 0 010 .71z"
+      />
+    </svg>
+  </div>
+  <div
+    className="c5"
+  >
+    <div
+      className="c6 c7"
+      color="grey5"
+      fontSize="sm"
+    >
+      
+    </div>
+  </div>
+  <span
+    className="c8 c9"
+  />
+</label>
+`;
+
+exports[`renders Selectables renders radio button correctly 1`] = `
+.c5 {
+  padding: 0 0 0 8px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  display: none;
+}
+
+.c3:before {
+  content: '';
+  background: #00C8DC;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.c0 {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:before {
+  content: '';
+  top: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: solid 1px #999999;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.c8 {
+  display: inline-block;
+}
+
+.c1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1:checked + .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.c1:focus ~ .c7 {
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border-radius: 50%;
+  left: 0;
+}
+
+.c6 {
+  width: 100%;
+}
+
+.c4 {
+  width: 100%;
+}
+
+<label
+  className="c0"
+  htmlFor=""
+  type="radio"
+>
+  <input
+    className="c1"
+    id=""
+    name=""
+    onChange={[Function]}
+    type="radio"
+    value=""
+  />
+  <span
+    className="c2 c3"
+  />
+  <div
+    className="c4"
+  >
+    <div
+      className="c5 c6"
+      color="grey5"
+      fontSize="sm"
+    >
+      
+    </div>
+  </div>
+  <span
+    className="c7 c8"
+  />
+</label>
+`;
+
+exports[`renders Selectables renders radio button group correctly 1`] = `
+Array [
+  .c5 {
+  padding: 0 0 0 8px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  display: none;
+}
+
+.c3:before {
+  content: '';
+  background: #00C8DC;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.c0 {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:before {
+  content: '';
+  top: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: solid 1px #999999;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.c8 {
+  display: inline-block;
+}
+
+.c1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1:checked + .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.c1:focus ~ .c7 {
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border-radius: 50%;
+  left: 0;
+}
+
+.c6 {
+  width: 100%;
+}
+
+.c4 {
+  width: 100%;
+}
+
+<label
+    className="c0"
+    htmlFor="radio1"
+    type="radio"
+  >
+    <input
+      className="c1"
+      id="radio1"
+      name="radios"
+      onChange={[Function]}
+      type="radio"
+      value=""
+    />
+    <span
+      className="c2 c3"
+    />
+    <div
+      className="c4"
+    >
+      <div
+        className="c5 c6"
+        color="grey5"
+        fontSize="sm"
+      >
+        
+      </div>
+    </div>
+    <span
+      className="c7 c8"
+    />
+  </label>,
+  .c5 {
+  padding: 0 0 0 8px;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  display: none;
+}
+
+.c3:before {
+  content: '';
+  background: #00C8DC;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.c0 {
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0:before {
+  content: '';
+  top: 0;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: solid 1px #999999;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.c8 {
+  display: inline-block;
+}
+
+.c1 {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  z-index: -1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  opacity: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c1:checked + .c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.c1:focus ~ .c7 {
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.07),0 2px 1px -1px rgba(0,0,0,0.06),0 1px 3px 0 rgba(0,0,0,0.10);
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  border-radius: 50%;
+  left: 0;
+}
+
+.c6 {
+  width: 100%;
+}
+
+.c4 {
+  width: 100%;
+}
+
+<label
+    className="c0"
+    htmlFor="radio2"
+    type="radio"
+  >
+    <input
+      className="c1"
+      id="radio2"
+      name="radios"
+      onChange={[Function]}
+      type="radio"
+      value=""
+    />
+    <span
+      className="c2 c3"
+    />
+    <div
+      className="c4"
+    >
+      <div
+        className="c5 c6"
+        color="grey5"
+        fontSize="sm"
+      >
+        
+      </div>
+    </div>
+    <span
+      className="c7 c8"
+    />
+  </label>,
+]
+`;

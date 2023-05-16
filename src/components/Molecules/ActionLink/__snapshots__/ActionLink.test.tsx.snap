@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionLink /> component should render a <Link /> component 1`] = `
+.c1 {
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: inherit;
+  opacity: 1.0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  border-bottom-color: #999999;
+  padding: 0;
+}
+
+.c0::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -2px;
+  height: 1px;
+  left: 0;
+  width: calc(100%);
+  background-color: #999999;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transition: -webkit-transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  -webkit-transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+  transition: transform 0.25s cubic-bezier(0.37,0.31,0.2,0.85);
+}
+
+.c0:hover::after {
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+.c2 {
+  display: inline;
+  color: #999999;
+}
+
+<a
+  className="c0"
+  color="grey4"
+  target="_self"
+>
+  <span
+    className="c1 c2"
+    color="grey4"
+    fontSize="sm"
+  >
+    Click me
+  </span>
+</a>
+`;

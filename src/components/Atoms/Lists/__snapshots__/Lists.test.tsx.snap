@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lists renders correctly 1`] = `
+.c1 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  margin: 0;
+  padding: 0 0 0 16px;
+  font-size: 14px;
+}
+
+.c0 li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.c0 li p:first-child {
+  margin-top: 0;
+}
+
+.c0 li p:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width:752px) {
+  .c0 {
+    font-size: 16px;
+  }
+}
+
+<ul
+  className="c0"
+>
+  <li>
+    <p
+      className="c1"
+      color="grey5"
+      fontSize="xs"
+    >
+      Lorem ipsum
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Lists renders correctly with icon 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 svg {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  fill: #55e1a7;
+}
+
+.c3 svg g,
+.c3 svg p {
+  fill: #55e1a7;
+}
+
+.c1 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c0 {
+  margin: 0;
+  padding: 0 0 0 16px;
+  font-size: 14px;
+}
+
+.c0 li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.c0 li p:first-child {
+  margin-top: 0;
+}
+
+.c0 li p:last-child {
+  margin-bottom: 0;
+}
+
+.c0 .c2 {
+  float: left;
+  position: relative;
+  top: -2px;
+  margin-right: 8px;
+}
+
+@media (min-width:752px) {
+  .c0 {
+    font-size: 16px;
+  }
+
+  .c0 .c2 {
+    top: 0;
+  }
+}
+
+<ul
+  className="c0"
+>
+  <li>
+    <p
+      className="c1"
+      color="grey5"
+      fontSize="xs"
+    >
+      <div
+        className="c2 c3"
+        color="success"
+        height={24}
+        width={24}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm4.35 7.73l-5.62 5.62a.48.48 0 01-.7 0L7.65 13a.5.5 0 010-.71l.53-.53a.48.48 0 01.7 0l1.5 1.49 4.74-4.74a.5.5 0 01.7 0l.53.53a.5.5 0 010 .69z"
+          />
+        </svg>
+        Lorem ipsum
+      </div>
+    </p>
+  </li>
+</ul>
+`;
