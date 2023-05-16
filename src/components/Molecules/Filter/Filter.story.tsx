@@ -1,11 +1,9 @@
 import { withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { select, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import React from 'react'
 import { Filter } from './Filter'
 import { FilterProps, FilterType } from './Filter.interface'
-import Readme from './Filter.readme.md'
+import Readme from './Filter.readme.mdx'
 
 const knobs = (): FilterProps => ({
   type: select('type', ['default', 'selected', 'active'], 'default'),
@@ -14,43 +12,54 @@ const knobs = (): FilterProps => ({
   onClear: action('filter-clear'),
 })
 
-const stories = storiesOf('Design System/Molecules/Filter', module)
+// const stories = storiesOf('Design System/Molecules/Filter', module)
 
-stories.add(
-  'default',
-  () => {
-    return <Filter {...knobs()} />
-  },
-  {
+export default {
+  title: 'Design System/Molecules/Filter',
+  component: Filter,
+}
+
+export const Default = () => {
+  return <Filter {...knobs()} />
+}
+
+Default.story = {
+  name: 'default',
+
+  parameters: {
     info: Readme,
   },
-)
+}
 
-stories.add(
-  'active',
-  () => {
-    return <Filter {...knobs()} type="active" />
-  },
-  {
+export const Active = () => {
+  return <Filter {...knobs()} type="active" />
+}
+
+Active.story = {
+  name: 'active',
+
+  parameters: {
     info: Readme,
   },
-)
+}
 
-stories.add(
-  'handle active',
-  withState({ status: 'default' as FilterType }, (store) => (
-    <Filter
-      type={store.state.status}
-      label="oh my label!"
-      onClick={() => {
-        store.set({ status: store.state.status === 'selected' ? 'default' : 'selected' })
-      }}
-      onClear={() => {
-        store.set({ status: 'default' })
-      }}
-    />
-  )),
-  {
+export const HandleActive = withState({ status: 'default' as FilterType }, (store) => (
+  <Filter
+    type={store.state.status}
+    label="oh my label!"
+    onClick={() => {
+      store.set({ status: store.state.status === 'selected' ? 'default' : 'selected' })
+    }}
+    onClear={() => {
+      store.set({ status: 'default' })
+    }}
+  />
+))
+
+HandleActive.story = {
+  name: 'handle active',
+
+  parameters: {
     info: Readme,
   },
-)
+}

@@ -1,11 +1,9 @@
 import { select } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
-import { saiyanTheme } from '@/styles/sc-vars-saiyan'
+import { defaultTheme } from '@/styles/sc-vars-default'
 import { ThemeColors, VerticalPaddingMap } from '@/types/theme'
 import { Section } from './Section'
 
-const options = Object.keys(saiyanTheme.color) as ThemeColors[]
+const options = Object.keys(defaultTheme.color) as ThemeColors[]
 
 const knobs = (): { color: ThemeColors } => {
   return {
@@ -34,25 +32,34 @@ const bgImage = {
   tablet: '/public/images/featured_backgrounds/01.jpg',
 }
 
-storiesOf('Design System/Atoms/Section', module)
-  .add('Default', () => {
-    return (
-      <Section paddingTop={top} paddingBottom={bottom} {...knobs()}>
-        Test
-      </Section>
-    )
-  })
-  .add('Fixed Height', () => {
-    return (
-      <Section paddingTop={top} paddingBottom={bottom} height={height} {...knobs()}>
-        Test
-      </Section>
-    )
-  })
-  .add('with Image', () => {
-    return (
-      <Section paddingTop={top} image={bgImage} paddingBottom={bottom} height={height} {...knobs()}>
-        Test
-      </Section>
-    )
-  })
+export default {
+  title: 'Design System/Atoms/Section',
+}
+
+export const Default = () => {
+  return (
+    <Section paddingTop={top} paddingBottom={bottom} {...knobs()}>
+      Test
+    </Section>
+  )
+}
+
+export const FixedHeight = () => {
+  return (
+    <Section paddingTop={top} paddingBottom={bottom} height={height} {...knobs()}>
+      Test
+    </Section>
+  )
+}
+
+export const WithImage = () => {
+  return (
+    <Section paddingTop={top} image={bgImage} paddingBottom={bottom} height={height} {...knobs()}>
+      Test
+    </Section>
+  )
+}
+
+WithImage.story = {
+  name: 'with Image',
+}

@@ -1,10 +1,8 @@
 import { action } from '@storybook/addon-actions'
 import { boolean, select } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { ModalButtonGroup } from './ModalButtonGroup'
 import { ModalButtonGroupAlignment, ModalButtonGroupProps } from './ModalButtonGroup.interface'
-import Readme from './ModalButtonGroup.readme.md'
+import Readme from './ModalButtonGroup.readme.mdx'
 
 export const types: ModalButtonGroupAlignment[] = ['space-between', 'right', 'center']
 
@@ -15,42 +13,48 @@ const knobs = (): Partial<ModalButtonGroupProps> => {
   }
 }
 
-storiesOf('Design System/Molecules/Modals/ModalButtonGroup', module)
-  .add(
-    'Default',
-    () => {
-      return (
-        <ModalButtonGroup
-          {...knobs()}
-          primaryButtonProps={{
-            buttonLabel: 'Call to action',
-            actionType: 'primary',
-            onClick: action('onClick call to action'),
-          }}
-          secondaryButtonProps={{
-            buttonLabel: 'Close',
-            actionType: 'outlined',
-            onClick: action('onClick close'),
-          }}
-        />
-      )
-    },
-    { info: Readme },
+export default {
+  title: 'Design System/Molecules/Modals/ModalButtonGroup',
+  excludeStories: ['types'],
+}
+
+export const Default = () => {
+  return (
+    <ModalButtonGroup
+      {...knobs()}
+      primaryButtonProps={{
+        buttonLabel: 'Call to action',
+        actionType: 'primary',
+        onClick: action('onClick call to action'),
+      }}
+      secondaryButtonProps={{
+        buttonLabel: 'Close',
+        actionType: 'outlined',
+        onClick: action('onClick close'),
+      }}
+    />
   )
-  .add(
-    'Primary Button control',
-    () => {
-      return (
-        <ModalButtonGroup
-          {...knobs()}
-          buttonAlignment="center"
-          primaryButtonProps={{
-            buttonLabel: 'Call to action',
-            actionType: 'primary',
-            onClick: action('onClick call to action'),
-          }}
-        />
-      )
-    },
-    { info: Readme },
+}
+
+Default.story = {
+  parameters: { info: Readme },
+}
+
+export const PrimaryButtonControl = () => {
+  return (
+    <ModalButtonGroup
+      {...knobs()}
+      buttonAlignment="center"
+      primaryButtonProps={{
+        buttonLabel: 'Call to action',
+        actionType: 'primary',
+        onClick: action('onClick call to action'),
+      }}
+    />
   )
+}
+
+PrimaryButtonControl.story = {
+  name: 'Primary Button control',
+  parameters: { info: Readme },
+}

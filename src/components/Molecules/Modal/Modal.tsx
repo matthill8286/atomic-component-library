@@ -79,7 +79,7 @@ export const Modal: React.FC<ModalProps> = ({
   )
 
   return (
-    <ModalWrapper id="saiyan-styled-modal-wrapper" className={className} ref={modalWrapper}>
+    <ModalWrapper id="default-styled-modal-wrapper" className={className} ref={modalWrapper}>
       <StyledModalBackground isWhite={isWhite} onClick={canClose ? handleClick(onClose) : undefined} />
       <StyledModalInnerWrapper
         paddingSize={paddingSize}
@@ -92,7 +92,7 @@ export const Modal: React.FC<ModalProps> = ({
         ref={modalInnerWrapper}
       >
         <StyledModalHeader hasTitle={hasTitle}>{renderHeaderContent()}</StyledModalHeader>
-        <StyledModalDesktopWrapper id="saiyan-styled-modal-desktop-wrapper" ref={modalDesktopWrapper}>
+        <StyledModalDesktopWrapper id="default-styled-modal-desktop-wrapper" ref={modalDesktopWrapper}>
           <StyledModalContent>{children}</StyledModalContent>
           <ModalButtonGroup
             buttonAlignment={buttonAlignment}

@@ -22,6 +22,7 @@ export interface ServiceType {
   fee?: ServicesPriceData
   selected?: boolean
   recurringSubscriptionText?: string
+  children?: ServiceType[]
 }
 
 export interface Knobs {

@@ -13,6 +13,11 @@ declare module '*.md' {
   export default content
 }
 
+declare module '*.mdx' {
+  const content: string
+  export default content
+}
+
 declare module '*.woff' {
   const content: string
   export default content

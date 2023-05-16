@@ -1,9 +1,8 @@
 import { Store, withState } from '@dump247/storybook-state'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { Services } from './Services'
 import { Knobs, ServiceType } from './Services.interface'
 import { props } from './Services.mocks'
+import React from 'react'
 
 interface InitialState {
   items: ServiceType[]
@@ -28,22 +27,18 @@ const knobs = (store: Store<InitialState>): Knobs => {
   }
 }
 
-storiesOf('Design System/Molecules/Services', module)
-  .add(
-    'Default',
-    withState({ ...initialState }, (store: Store<InitialState>) => {
-      return <Services {...props} items={store.state.items} {...knobs(store)} />
-    }),
-  )
-  .add(
-    'Disabled',
-    withState({ ...initialState }, (store: Store<InitialState>) => {
-      return <Services {...props} offersDisabled items={store.state.items} {...knobs(store)} />
-    }),
-  )
-  .add(
-    'Loading',
-    withState({ ...initialState }, (store: Store<InitialState>) => {
-      return <Services {...props} items={store.state.items} {...knobs(store)} loading />
-    }),
-  )
+export default {
+  title: 'Design System/Molecules/Services',
+}
+
+export const Default = withState({ ...initialState }, (store: Store<InitialState>) => {
+  return <Services {...props} items={store.state.items} {...knobs(store)} />
+})
+
+export const Disabled = withState({ ...initialState }, (store: Store<InitialState>) => {
+  return <Services {...props} offersDisabled items={store.state.items} {...knobs(store)} />
+})
+
+export const Loading = withState({ ...initialState }, (store: Store<InitialState>) => {
+  return <Services {...props} items={store.state.items} {...knobs(store)} loading />
+})

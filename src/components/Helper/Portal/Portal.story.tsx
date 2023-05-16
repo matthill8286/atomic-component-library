@@ -1,9 +1,12 @@
 import { boolean } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { Portal } from './Portal'
 
-storiesOf('Design System/Helper/Portal', module).add('Default', () => {
+export default {
+  title: 'Design System/Helper/Portal',
+}
+
+export const Default = () => {
   const showModal = boolean('Show Modal', false)
   return (
     <>
@@ -15,4 +18,4 @@ storiesOf('Design System/Helper/Portal', module).add('Default', () => {
       )}
     </>
   )
-})
+}

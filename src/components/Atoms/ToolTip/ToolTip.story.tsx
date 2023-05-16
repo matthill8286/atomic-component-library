@@ -1,6 +1,4 @@
 import { boolean, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { Link } from '@/components/Atoms/Link'
 import { StorybookWrapper } from '@/utils/StorybookWrapper'
 import { ToolTip } from './ToolTip'
@@ -15,27 +13,32 @@ const knobs = (primary?: boolean): ToolTipProps => {
   }
 }
 
-storiesOf('Design System/Atoms/ToolTip', module)
-  .add('Default', () => (
-    <StorybookWrapper>
-      <ToolTip {...knobs()}>
-        <Link underline={false}>Link</Link>
-      </ToolTip>
-    </StorybookWrapper>
-  ))
-  .add('Primary', () => (
-    <StorybookWrapper>
-      <ToolTip {...knobs(true)}>
-        <Link underline={false}>Link</Link>
-      </ToolTip>
-    </StorybookWrapper>
-  ))
-  .add('Icon', () => (
-    <StorybookWrapper>
-      <ToolTip {...knobs()}>
-        <Icon>
-          <OtherInfoOutlined height="xs" width="xs" />
-        </Icon>
-      </ToolTip>
-    </StorybookWrapper>
-  ))
+export default {
+  title: 'Design System/Atoms/ToolTip',
+}
+
+export const Default = () => (
+  <StorybookWrapper>
+    <ToolTip {...knobs()}>
+      <Link underline={false}>Link</Link>
+    </ToolTip>
+  </StorybookWrapper>
+)
+
+export const Primary = () => (
+  <StorybookWrapper>
+    <ToolTip {...knobs(true)}>
+      <Link underline={false}>Link</Link>
+    </ToolTip>
+  </StorybookWrapper>
+)
+
+export const _Icon = () => (
+  <StorybookWrapper>
+    <ToolTip {...knobs()}>
+      <Icon>
+        <OtherInfoOutlined height="xs" width="xs" />
+      </Icon>
+    </ToolTip>
+  </StorybookWrapper>
+)

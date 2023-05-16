@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { Typo } from '@/components/Atoms/Typography'
 import { FlexBox } from '@/components/Helper'
 import { styled } from '@/styles/styled'
 import { useTheme } from '@/utils/helper'
@@ -25,7 +24,7 @@ export const ColorPalette: React.FC = () => {
       {colors.map(([key, backgroundColor]) => (
         <FlexBox key={key} flexDirection="row" alignItems="center">
           <Color style={{ backgroundColor }} />
-          <Typo>{key}</Typo>
+          <p>{key}</p>
         </FlexBox>
       ))}
     </Container>

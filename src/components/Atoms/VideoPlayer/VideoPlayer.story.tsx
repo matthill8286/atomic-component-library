@@ -1,7 +1,7 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
 import { VideoPlayerCore } from '@/components/Atoms/VideoPlayer/VideoPlayerCore'
 import { VideoPlayerProps } from '@/components/Atoms/VideoPlayer/VideoPlayer.interface'
+import React from 'react'
 
 const videoOptions = {
   Youtube: 'https://www.youtube.com/embed/-BdbiZcNBXg',

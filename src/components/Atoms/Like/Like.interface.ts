@@ -1,3 +1,4 @@
+import { canPlay } from './../VideoPlayer/helpers/index'
 import { ComponentType, ReactElement } from 'react'
 import { MouseEvent } from 'react'
 import { ThemeColors, ThemeFontLineHeight, ThemeFontSizes } from '@/types/theme'
@@ -24,6 +25,7 @@ export interface LikeProps {
   copy?: string
   likes?: string
   underline?: boolean
+  children?: ReactElement | string
 }
 
 export interface StyledLikeProps {

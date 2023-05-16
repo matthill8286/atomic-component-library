@@ -11,7 +11,7 @@ export interface TopRightProps {
   onOptionClick?: any
   outlined?: boolean
   showOptions?: boolean
-  modifiers?: keyof ReactPropTypes
+  modifiers?: any
 }
 
 const StyledTopRight = styled.div(
@@ -54,7 +54,7 @@ export const StyledTopLeft = styled.div(
   `,
 )
 
-export const StyledIconButton = styled(IconButton)<{ modifiers?: keyof React.Props<any> }>`
+export const StyledIconButton = styled(IconButton)<{ modifiers?: any }>`
   border: none;
   display: flex;
   padding: 0;
@@ -68,7 +68,7 @@ export const TopRight: React.FC<TopRightProps> = ({
   onOptionClick,
   icon,
   showOptions = true,
-  modifiers,
+  modifiers = {},
 }) => {
   if (!showOptions) {
     return null

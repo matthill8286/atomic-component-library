@@ -1,7 +1,5 @@
 import { action } from '@storybook/addon-actions'
 import { boolean, number, select, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { ButtonActionType } from '@/components/Atoms/Button'
 import { NotificationBox } from './NotificationBox'
@@ -51,85 +49,125 @@ const tooltipKnobs = (): TooltipData => {
   }
 }
 
-storiesOf('Design System/Molecules/Notification Box', module)
-  .add('Default', () => <NotificationBox {...knobs()} buttons={[{ ...buttonKnobs() }]} />)
-  .add('Default, no button', () => <NotificationBox {...knobs()} />)
-  .add('Title only', () => <NotificationBox {...knobs()} body="" isClosable={false} />)
-  .add('Body only', () => <NotificationBox {...knobs()} title="" isClosable={false} />)
-  .add('Title and button', () => (
-    <NotificationBox {...knobs()} buttons={[{ actionBtnLabel: 'Self Destruct', onClick: action('onClick') }]} body="" />
-  ))
-  .add('As ToolTip', () => (
+export default {
+  title: 'Design System/Molecules/Notification Box',
+}
+
+export const Default = () => <NotificationBox {...knobs()} buttons={[{ ...buttonKnobs() }]} />
+export const DefaultNoButton = () => <NotificationBox {...knobs()} />
+
+DefaultNoButton.story = {
+  name: 'Default, no button',
+}
+
+export const TitleOnly = () => <NotificationBox {...knobs()} body="" isClosable={false} />
+
+TitleOnly.story = {
+  name: 'Title only',
+}
+
+export const BodyOnly = () => <NotificationBox {...knobs()} title="" isClosable={false} />
+
+BodyOnly.story = {
+  name: 'Body only',
+}
+
+export const TitleAndButton = () => (
+  <NotificationBox {...knobs()} buttons={[{ actionBtnLabel: 'Self Destruct', onClick: action('onClick') }]} body="" />
+)
+
+TitleAndButton.story = {
+  name: 'Title and button',
+}
+
+export const AsToolTip = () => (
+  <NotificationBox
+    {...knobs()}
+    buttons={[{ actionBtnLabel: 'Self Destruct', onClick: action('onClick') }]}
+    body=""
+    tooltip={{ ...tooltipKnobs() }}
+  />
+)
+
+AsToolTip.story = {
+  name: 'As ToolTip',
+}
+
+export const WithTwoButtons = () => (
+  <NotificationBox
+    {...knobs()}
+    buttons={[
+      {
+        actionBtnLabel: 'Button One',
+        actionType: select('Button Type #1', actionButtonTypes, 'secondary'),
+        onClick: action('onClick'),
+      },
+      {
+        actionBtnLabel: 'Button Two',
+        actionType: select('Button Type #2', actionButtonTypes, 'primary'),
+        href: 'https://www.mediamarkt.de',
+        target: '_blank',
+      },
+    ]}
+    tooltip={{ ...tooltipKnobs() }}
+  />
+)
+
+WithTwoButtons.story = {
+  name: 'With two buttons',
+}
+
+export const WithLinks = () => (
+  <BrowserRouter>
     <NotificationBox
       {...knobs()}
-      buttons={[{ actionBtnLabel: 'Self Destruct', onClick: action('onClick') }]}
-      body=""
+      links={[
+        { label: 'Link One', to: 'https://mediamarkt.com/' },
+        { label: 'Link Two', onClick: () => {} },
+      ]}
       tooltip={{ ...tooltipKnobs() }}
     />
-  ))
-  .add('With two buttons', () => (
+  </BrowserRouter>
+)
+
+WithLinks.story = {
+  name: 'With links',
+}
+
+export const WithLinksAndButtons = () => (
+  <BrowserRouter>
     <NotificationBox
       {...knobs()}
       buttons={[
         {
-          actionBtnLabel: 'Button One',
+          actionBtnLabel: 'Button',
           actionType: select('Button Type #1', actionButtonTypes, 'secondary'),
           onClick: action('onClick'),
         },
+      ]}
+      links={[
         {
-          actionBtnLabel: 'Button Two',
-          actionType: select('Button Type #2', actionButtonTypes, 'primary'),
-          href: 'https://www.mediamarkt.de',
+          label: 'Link',
+          to: 'https://mediamarkt.com/',
           target: '_blank',
+          decorationColor: 'primary',
+          bold: true,
+          iconLeft: null,
+          inline: false,
+          fontSize: 'sm',
         },
       ]}
+      sort={select(
+        'Sort',
+        [NotificationContentSort.LinksButtons, NotificationContentSort.ButtonsLinks],
+        NotificationContentSort.ButtonsLinks,
+      )}
+      alignLinks="center"
       tooltip={{ ...tooltipKnobs() }}
     />
-  ))
+  </BrowserRouter>
+)
 
-  .add('With links', () => (
-    <BrowserRouter>
-      <NotificationBox
-        {...knobs()}
-        links={[
-          { label: 'Link One', to: 'https://mediamarkt.com/' },
-          { label: 'Link Two', onClick: () => {} },
-        ]}
-        tooltip={{ ...tooltipKnobs() }}
-      />
-    </BrowserRouter>
-  ))
-
-  .add('With links and buttons', () => (
-    <BrowserRouter>
-      <NotificationBox
-        {...knobs()}
-        buttons={[
-          {
-            actionBtnLabel: 'Button',
-            actionType: select('Button Type #1', actionButtonTypes, 'secondary'),
-            onClick: action('onClick'),
-          },
-        ]}
-        links={[
-          {
-            label: 'Link',
-            to: 'https://mediamarkt.com/',
-            target: '_blank',
-            decorationColor: 'primary',
-            bold: true,
-            iconLeft: null,
-            inline: false,
-            fontSize: 'sm',
-          },
-        ]}
-        sort={select(
-          'Sort',
-          [NotificationContentSort.LinksButtons, NotificationContentSort.ButtonsLinks],
-          NotificationContentSort.ButtonsLinks,
-        )}
-        alignLinks="center"
-        tooltip={{ ...tooltipKnobs() }}
-      />
-    </BrowserRouter>
-  ))
+WithLinksAndButtons.story = {
+  name: 'With links and buttons',
+}

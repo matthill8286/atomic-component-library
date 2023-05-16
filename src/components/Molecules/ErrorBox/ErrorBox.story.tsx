@@ -1,5 +1,4 @@
 import { text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { ErrorBox } from '@/components/Molecules/ErrorBox'
 
@@ -9,4 +8,8 @@ const knobs = () => ({
   buttonLabel: text('button label', 'Try again'),
 })
 
-storiesOf('Design System/Molecules/ErrorBox', module).add('Default', () => <ErrorBox {...knobs()} />)
+export default {
+  title: 'Design System/Molecules/ErrorBox',
+}
+
+export const Default = () => <ErrorBox {...knobs()} />

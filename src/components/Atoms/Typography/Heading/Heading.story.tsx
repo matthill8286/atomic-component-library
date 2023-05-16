@@ -1,13 +1,15 @@
 import { boolean, select, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
-import { saiyanTheme } from '@/styles/sc-vars-saiyan'
+import { defaultTheme } from '@/styles/sc-vars-default'
 import { ThemeColors, ThemeFontFamilies } from '@/types/theme'
 import { Heading } from './Heading'
 import { TypographyScaleHeadline } from './Heading.interface'
 import { HeadingFeatured } from './HeadingFeatured'
 
-const stories = storiesOf('Design System/Atoms/Typography', module)
+// const stories = storiesOf('Design System/Atoms/Typography', module)
+
+export default {
+  title: 'Design System/Atoms/Typography',
+}
 
 const knobs = ({
   scale = 'level-1',
@@ -27,18 +29,18 @@ const knobs = ({
   bold: boolean('Bold', bold),
   uppercase: boolean('uppercase', false),
   showCursor: boolean('Show Cursor', false),
-  color: select('Color', Object.keys(saiyanTheme.color), color) as ThemeColors,
+  color: select('Color', Object.keys(defaultTheme.color), color) as ThemeColors,
   margin: select('margin', ['', 'xl', 'xl 0', 'md xl xxl xl', '0'], margin),
-  fontFamily: select('fontFamily', Object.keys(saiyanTheme.font.family), fontFamily) as ThemeFontFamilies,
+  fontFamily: select('fontFamily', Object.keys(defaultTheme.font.family), fontFamily) as ThemeFontFamilies,
 })
 
-stories.add('Heading', () => {
+export const _Heading = () => {
   const sampleText = text('Example text', `Lorem ipsum dolor`)
 
   return <Heading {...knobs({})}>{sampleText}</Heading>
-})
+}
 
-stories.add('Heading Featured', () => {
+export const _HeadingFeatured = () => {
   const sampleText = text('Example text', `Featured Text for Teasers`)
   const fixedSize = select('fixed size', ['', 'xl', 'xxxl'], undefined)
   const fixedMdSize = boolean('medium as maximum size', false)
@@ -47,4 +49,4 @@ stories.add('Heading Featured', () => {
       {sampleText}
     </HeadingFeatured>
   )
-})
+}

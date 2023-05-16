@@ -21,6 +21,7 @@ export interface TypoProps {
   tag?: keyof JSX.IntrinsicElements
   className?: string
   display?: string
+  style?: React.CSSProperties
   background?: string
   borderRadius?: BorderRadius
   fontSize?: ThemeFontSizes | FontSizeMap
@@ -38,6 +39,7 @@ export interface TypoProps {
   itemProp?: string
   toUpperCase?: boolean
   showCursor?: boolean
+  children?: React.ReactNode
 }
 
 export interface StyledInfoTextProps {

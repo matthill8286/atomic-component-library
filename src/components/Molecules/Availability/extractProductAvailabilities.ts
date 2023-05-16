@@ -1,4 +1,3 @@
-import { AvailabilityInterface, Product2 } from '@/types/product2'
 import { AvailabilityProps } from './Availability.interface'
 import { ProductAvailabilityState } from '@/types'
 
@@ -17,7 +16,7 @@ export const splitDeliveryInformation = (
 }
 
 export const extractProductAvailabilities = (
-  product: Product2,
+  product: any,
   noMarketLabel = '',
   defaultOnlineLabel = '',
   defaultMarketLabel = '',
@@ -43,10 +42,7 @@ export const extractProductAvailabilities = (
   return result
 }
 
-export const availabilityPropsFromProductAvailabily = (
-  availability: AvailabilityInterface,
-  defaultText: string,
-): AvailabilityProps => {
+export const availabilityPropsFromProductAvailabily = (availability: any, defaultText: string): AvailabilityProps => {
   const { text, subtext } = splitDeliveryInformation(availability.deliveryInformation || '', defaultText)
 
   return {

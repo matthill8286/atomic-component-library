@@ -10,4 +10,5 @@ export interface LazyLoadImageProps extends PictureProps {
   lowResSrcSm?: string
   lowResSrcMd?: string
   lowResSrcLg?: string
+  children?: React.ReactNode
 }

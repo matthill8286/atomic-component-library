@@ -1,6 +1,4 @@
 import { boolean, number, select, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { TypeRhythm } from '@/components/Atoms/Typography/utils/TypeRhythm'
 import {
   BoxDimensions,
@@ -12,6 +10,7 @@ import {
 } from '@/types/theme'
 import { Typo } from './Typo'
 import { TypoProps } from './Typo.interface'
+import React from 'react'
 
 const fontSizes = {
   xxxs: 'xxxs',
@@ -93,49 +92,53 @@ Proin feugiat dui nec neque fringilla tincidunt. Vestibulum ante ipsum primis in
 cubilia Curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris lobortis
 consequat ullamcorper.`
 
-storiesOf('Design System/Atoms/Typography', module)
-  .add('Typo', () => {
-    const content = text('Text', lipsum)
+export default {
+  title: 'Design System/Atoms/Typography',
+}
 
-    const knobs = (): TypoProps => ({
-      tag: select('Tag', textTags, textTags.Paragraph),
-      fontSize: select('Font Size', fontSizes, fontSizes.sm) as ThemeFontSizes,
-      fontFamily: select('Font Family', fontFamilies, fontFamilies.default) as ThemeFontFamilies,
-      color: select('Color', fontColors, fontColors.grey4) as ThemeColors,
-      weight: select('Weight', fontWeights, fontWeights.regular) as ThemeFontWeights,
-      underline: boolean('Underline', false),
-      lineHeight: select('Line Heights', fontLineHeights, fontLineHeights.Auto) as ThemeFontLineHeight,
-      limitLines: number('Limit Lines', 0),
-    })
-    const margin: BoxDimensions = select('Margins', textMargins, '')
+export const _Typo = () => {
+  const content = text('Text', lipsum)
 
-    return (
-      <TypeRhythm visible={boolean('Show Rythm', false)}>
-        <Typo {...knobs()} margin={margin}>
-          {content}
-        </Typo>
-      </TypeRhythm>
-    )
+  const knobs = (): TypoProps => ({
+    tag: select('Tag', textTags, textTags.Paragraph),
+    fontSize: select('Font Size', fontSizes, fontSizes.sm) as ThemeFontSizes,
+    fontFamily: select('Font Family', fontFamilies, fontFamilies.default) as ThemeFontFamilies,
+    color: select('Color', fontColors, fontColors.grey4) as ThemeColors,
+    weight: select('Weight', fontWeights, fontWeights.regular) as ThemeFontWeights,
+    underline: boolean('Underline', false),
+    lineHeight: select('Line Heights', fontLineHeights, fontLineHeights.Auto) as ThemeFontLineHeight,
+    limitLines: number('Limit Lines', 0),
   })
-  .add('Responsive Typo', () => {
-    const content = text('Text', lipsum)
+  const margin: BoxDimensions = select('Margins', textMargins, '')
 
-    const knobs = (): TypoProps => ({
-      tag: select('Tag', textTags, textTags.Paragraph),
-      fontFamily: select('Font Family', fontFamilies, fontFamilies.default) as ThemeFontFamilies,
-      color: select('Color', fontColors, fontColors.black) as ThemeColors,
-      weight: select('Weight', fontWeights, fontWeights.regular) as ThemeFontWeights,
-      underline: boolean('Underline', false),
-      lineHeight: select('Line Heights', fontLineHeights, fontLineHeights.Auto) as ThemeFontLineHeight,
-      limitLines: number('Limit Lines', 0),
-    })
-    const margin: BoxDimensions = select('Margins', textMargins, '')
+  return (
+    <TypeRhythm visible={boolean('Show Rythm', false)}>
+      <Typo {...knobs()} margin={margin}>
+        {content}
+      </Typo>
+    </TypeRhythm>
+  )
+}
 
-    return (
-      <TypeRhythm visible={boolean('Show Rythm', false)}>
-        <Typo {...knobs()} margin={margin} fontSize={{ mobile: 'xs', tablet: 'md', desktop: 'xxl' }}>
-          {content}
-        </Typo>
-      </TypeRhythm>
-    )
+export const ResponsiveTypo = () => {
+  const content = text('Text', lipsum)
+
+  const knobs = (): TypoProps => ({
+    tag: select('Tag', textTags, textTags.Paragraph),
+    fontFamily: select('Font Family', fontFamilies, fontFamilies.default) as ThemeFontFamilies,
+    color: select('Color', fontColors, fontColors.black) as ThemeColors,
+    weight: select('Weight', fontWeights, fontWeights.regular) as ThemeFontWeights,
+    underline: boolean('Underline', false),
+    lineHeight: select('Line Heights', fontLineHeights, fontLineHeights.Auto) as ThemeFontLineHeight,
+    limitLines: number('Limit Lines', 0),
   })
+  const margin: BoxDimensions = select('Margins', textMargins, '')
+
+  return (
+    <TypeRhythm visible={boolean('Show Rythm', false)}>
+      <Typo {...knobs()} margin={margin} fontSize={{ mobile: 'xs', tablet: 'md', desktop: 'xxl' }}>
+        {content}
+      </Typo>
+    </TypeRhythm>
+  )
+}

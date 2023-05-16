@@ -9,6 +9,7 @@ export interface ProductLikes {
   likes?: string
   bold?: boolean
   color?: ThemeColors
+  children?: string
 }
 
 const StyledProductLikes = styled.div(

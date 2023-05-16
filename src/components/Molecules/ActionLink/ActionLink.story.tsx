@@ -1,6 +1,5 @@
-import React from 'react'
-import { Meta, Story } from '@storybook/react/types-6-0'
-import { ActionLink } from '.'
+import { Meta, Story } from '@storybook/react'
+import { ActionLink } from './'
 import { ActionLinkProps } from './ActionLink.interface'
 
 // eslint-disable-next-line import/no-default-export

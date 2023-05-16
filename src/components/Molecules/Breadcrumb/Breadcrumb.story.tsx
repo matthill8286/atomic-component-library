@@ -1,6 +1,4 @@
 import { boolean, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { Breadcrumb } from './Breadcrumb'
 
 const paths = [
@@ -23,6 +21,16 @@ const knobs = () => ({
   padding: text('padding', 'lg sm'),
 })
 
-storiesOf('Design System/Molecules/Breadcrumb', module)
-  .add('Default', () => <Breadcrumb {...knobs()} paths={paths} hideLastElement={boolean('Hide Last Element', false)} />)
-  .add('Default as Skeleton', () => <Breadcrumb loading paths={[]} />)
+export default {
+  title: 'Design System/Molecules/Breadcrumb',
+}
+
+export const Default = () => (
+  <Breadcrumb {...knobs()} paths={paths} hideLastElement={boolean('Hide Last Element', false)} />
+)
+
+export const DefaultAsSkeleton = () => <Breadcrumb loading paths={[]} />
+
+DefaultAsSkeleton.story = {
+  name: 'Default as Skeleton',
+}

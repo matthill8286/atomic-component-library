@@ -14,6 +14,7 @@ interface ProductCardProps {
   onClick?: (e: React.MouseEvent<HTMLDivElement>) => void
   elevationHover?: Elevation
   overflow?: CardOverflow
+  children: React.ReactNode
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({

@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import { BadgeActionType, BadgeType } from '@/components/Atoms/Badge'
 import { Product, ProductType, Elevation, ThemeColors, ThemeFontSizes } from '@/types'
-import { Feature, FeatureListItemProps } from '@/components/Molecules/FeatureList'
+import { Feature } from '@/components/Molecules/FeatureList'
 import { FlexAlignItemsOptions } from '@/components/Helper'
 import { CardNoBorder } from '@/components/Atoms/Card'
 
@@ -9,7 +9,6 @@ export enum ProductTileLayout {
   auto = 'auto',
   listItem = 'listItem',
   gridItem = 'gridItem',
-  compact = 'compact',
 }
 
 /** ProductTileOrientation `landscape | portrait` use portrait on mobile and landscape on desktop */
@@ -47,9 +46,11 @@ export interface CollectionData extends Partial<Product> {
 export interface ProductTileProps {
   /**  image padding for product images */
   badgeActionType?: BadgeActionType
+  children?: React.ReactNode
   badges?: (BadgeType | null)[]
   borderColor?: ThemeColors
   fullHeight?: boolean
+  useHistory: any
   isCompact?: boolean
   expanded?: boolean
   isOpenProduct?: boolean

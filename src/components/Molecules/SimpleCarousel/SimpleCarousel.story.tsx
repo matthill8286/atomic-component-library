@@ -1,12 +1,20 @@
-import { storiesOf } from '@storybook/react'
-import React from 'react'
 import { Badge } from '@/components/Atoms/Badge'
 import { Picture } from '@/components/Atoms/Picture'
 import { VideoPlayerCore } from '@/components/Atoms/VideoPlayer'
 import { ThemeProvider } from '@/styles/ThemeProvider'
 import { SimpleCarousel } from './SimpleCarousel'
 import { defaultSettings, multiItemSettings, pictureEntries, withVideoEntries } from './SimpleCarousel.data'
-import { saiyanTheme } from '@/styles'
+import { defaultTheme } from '@/styles'
+import { Meta } from '@storybook/react'
+import React from 'react'
+
+export default {
+  title: 'Design System/Molecules/SimpleCarousel',
+  component: SimpleCarousel,
+  argTypes: {
+    slidesPerPageSettings: multiItemSettings,
+  },
+} as Meta
 
 const carouselWrapperStyle = {
   maxWidth: '634px',
@@ -25,9 +33,9 @@ const badges = [
 ]
 
 const blackExampleTheme = {
-  ...saiyanTheme,
+  ...defaultTheme,
   color: {
-    ...saiyanTheme.color,
+    ...defaultTheme.color,
     contrastColor: '#454647',
   },
 }
@@ -48,58 +56,77 @@ const renderWithPictureOrVideoComponent = (item, index) => {
   }
 }
 
-storiesOf('Design System/Molecules/Simple Carousel', module)
-  .add('Default', () => (
+export const Default = () => (
+  <div style={carouselWrapperStyle}>
+    <SimpleCarousel
+      sliderSettings={defaultSettings}
+      items={pictureEntries}
+      renderSlide={(item, index) => renderWithPictureComponent(item, index)}
+    />
+  </div>
+)
+
+export const WithMultiItem = () => (
+  <div style={carouselWrapperStyle}>
+    <SimpleCarousel
+      sliderSettings={multiItemSettings}
+      items={pictureEntries}
+      renderSlide={(item, index) => renderWithPictureComponent(item, index)}
+    />
+  </div>
+)
+
+WithMultiItem.story = {
+  name: 'with MultiItem',
+}
+
+export const WithVideo = () => (
+  <div style={carouselWrapperStyle}>
+    <SimpleCarousel
+      boxShadow
+      sliderSettings={defaultSettings}
+      items={withVideoEntries}
+      renderSlide={(item, index) => renderWithPictureOrVideoComponent(item, index)}
+    />
+  </div>
+)
+
+WithVideo.story = {
+  name: 'with Video',
+}
+
+export const WithBadges = () => (
+  <div style={carouselWrapperStyle}>
+    <Badge badges={badges} />
+    <SimpleCarousel
+      boxShadow
+      sliderSettings={defaultSettings}
+      items={withVideoEntries}
+      renderSlide={(item, index) => renderWithPictureOrVideoComponent(item, index)}
+    />
+  </div>
+)
+
+WithBadges.story = {
+  name: 'with Badges',
+}
+
+export const WithBlackAlternateTheme = () => (
+  <div style={{ backgroundColor: 'black' }}>
     <div style={carouselWrapperStyle}>
-      <SimpleCarousel
-        sliderSettings={defaultSettings}
-        items={pictureEntries}
-        renderSlide={(item, index) => renderWithPictureComponent(item, index)}
-      />
+      <ThemeProvider theme={blackExampleTheme}>
+        <SimpleCarousel
+          sliderSettings={defaultSettings}
+          items={pictureEntries}
+          renderSlide={(item, index) => renderWithPictureComponent(item, index)}
+          whiteDots
+          arrowsSurfaceColor="contrastColor"
+        />
+      </ThemeProvider>
     </div>
-  ))
-  .add('with MultiItem', () => (
-    <div style={carouselWrapperStyle}>
-      <SimpleCarousel
-        sliderSettings={multiItemSettings}
-        items={pictureEntries}
-        renderSlide={(item, index) => renderWithPictureComponent(item, index)}
-      />
-    </div>
-  ))
-  .add('with Video', () => (
-    <div style={carouselWrapperStyle}>
-      <SimpleCarousel
-        boxShadow
-        sliderSettings={defaultSettings}
-        items={withVideoEntries}
-        renderSlide={(item, index) => renderWithPictureOrVideoComponent(item, index)}
-      />
-    </div>
-  ))
-  .add('with Badges', () => (
-    <div style={carouselWrapperStyle}>
-      <Badge badges={badges} />
-      <SimpleCarousel
-        boxShadow
-        sliderSettings={defaultSettings}
-        items={withVideoEntries}
-        renderSlide={(item, index) => renderWithPictureOrVideoComponent(item, index)}
-      />
-    </div>
-  ))
-  .add('With black Alternate theme', () => (
-    <div style={{ backgroundColor: 'black' }}>
-      <div style={carouselWrapperStyle}>
-        <ThemeProvider theme={blackExampleTheme}>
-          <SimpleCarousel
-            sliderSettings={defaultSettings}
-            items={pictureEntries}
-            renderSlide={(item, index) => renderWithPictureComponent(item, index)}
-            whiteDots
-            arrowsSurfaceColor="contrastColor"
-          />
-        </ThemeProvider>
-      </div>
-    </div>
-  ))
+  </div>
+)
+
+WithBlackAlternateTheme.story = {
+  name: 'With black Alternate theme',
+}

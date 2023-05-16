@@ -1,12 +1,12 @@
-import { saiyanTheme } from '@/styles/sc-vars-saiyan'
+import { defaultTheme } from '@/styles/sc-vars-default'
 
-export type ThemeColors = keyof typeof saiyanTheme.color | string
-export type ThemeFontSizes = keyof typeof saiyanTheme.font.size | string
+export type ThemeColors = keyof typeof defaultTheme.color | string
+export type ThemeFontSizes = keyof typeof defaultTheme.font.size | string
 
-export type ThemeFontWeights = keyof typeof saiyanTheme.font.weight
-export type ThemeFontFamilies = keyof typeof saiyanTheme.font.family
-export type ThemeFontLineHeight = keyof typeof saiyanTheme.font.lineHeight | string
-export type ThemeFontLetterSpacing = keyof typeof saiyanTheme.font.spacing
+export type ThemeFontWeights = keyof typeof defaultTheme.font.weight
+export type ThemeFontFamilies = keyof typeof defaultTheme.font.family
+export type ThemeFontLineHeight = keyof typeof defaultTheme.font.lineHeight | string
+export type ThemeFontLetterSpacing = keyof typeof defaultTheme.font.spacing
 export type BoxDimensions = string
 
 export type Elevation = 0 | 1 | 2 | 3 | 4
@@ -334,7 +334,7 @@ export interface Polished {
   darken: number
 }
 
-export type ThemeName = 'Saiyan' | 'Danone' | 'Alternate'
+export type ThemeName = 'default' | 'Danone' | 'Alternate'
 
 export interface Theme {
   [x: string]: unknown

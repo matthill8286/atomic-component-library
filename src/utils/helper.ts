@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { alternateTheme, saiyanTheme } from '@/styles'
+import { alternateTheme, defaultTheme } from '@/styles'
 import { ThemeContext } from '@/styles/styled'
 import { Theme, ThemeColors } from '@/types'
 
@@ -9,9 +9,9 @@ export interface ChangeColorProps {
   color?: ThemeColors
 }
 
-export const isSaiyanTheme = (): boolean => {
+export const isdefaultTheme = (): boolean => {
   const { name } = useContext(ThemeContext)
-  return name === saiyanTheme.name
+  return name === defaultTheme.name
 }
 
 export const isAlternateTheme = (): boolean => {
@@ -25,7 +25,7 @@ export const getColor = (changeColorProps: ChangeColorProps): ThemeColors => {
   const theme = changeColorProps.theme
   let colorProp: ThemeColors | undefined
   if (color === 'primary') {
-    if (isSaiyanTheme()) {
+    if (isdefaultTheme()) {
       colorProp = color
     } else {
       colorProp = 'grey6'
@@ -40,6 +40,6 @@ export const useTheme = (): Theme => {
   return useContext(ThemeContext)
 }
 
-export const colorsList = Object.keys(saiyanTheme.color) as ThemeColors[]
+export const colorsList = Object.keys(defaultTheme.color) as ThemeColors[]
 
 export const containsHtmlTags = /<.+?>/g

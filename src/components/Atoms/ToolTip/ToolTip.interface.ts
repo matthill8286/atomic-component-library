@@ -3,6 +3,7 @@ export interface ToolTipProps {
   content?: React.ReactNode | string
   primary?: boolean
   limitLines?: number
+  children?: React.ReactNode
 }
 
 export interface StyledToolTipProps {

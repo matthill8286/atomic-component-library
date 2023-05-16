@@ -1,7 +1,7 @@
 import React from 'react'
 import { media } from '@/styles/media'
 import { css, styled } from '@/styles/styled'
-import { isSaiyanTheme } from '@/utils/helper'
+import { isdefaultTheme } from '@/utils/helper'
 import { TranslatedText } from '@/types/global'
 
 export interface TableProps {
@@ -131,7 +131,7 @@ export const Table: React.FC<TableProps> = ({
         <StyledFixedTable>
           <TableElement />
         </StyledFixedTable>
-        <StyledScrollTable isMainTheme={isSaiyanTheme()}>
+        <StyledScrollTable isMainTheme={isdefaultTheme()}>
           <TableElement />
         </StyledScrollTable>
       </>

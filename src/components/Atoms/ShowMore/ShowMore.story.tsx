@@ -1,7 +1,6 @@
 import { boolean, color, number, radios, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import React from 'react'
-import { ShowMore, ShowMoreProps } from '.'
+import { ShowMore } from './ShowMore'
+import { ShowMoreProps } from './ShowMore.interface'
 
 const knobs = (): ShowMoreProps => ({
   lineHeight: number('Line Height', 18),
@@ -16,7 +15,12 @@ const knobs = (): ShowMoreProps => ({
   fontSize: number('Font Size', 16),
   fontWeight: radios('Font Weight', { regular: 'regular', semibold: 'semibold', bold: 'bold' }, 'semibold'),
 })
-storiesOf('Design System/Atoms/ShowMore', module).add('Default', () => (
+
+export default {
+  title: 'Design System/Atoms/ShowMore',
+}
+
+export const Default = () => (
   <ShowMore {...knobs()}>
     {`Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -26,4 +30,4 @@ storiesOf('Design System/Atoms/ShowMore', module).add('Default', () => (
     Excepteur sint occaecat cupidatat non proident,
     sunt in culpa qui officia deserunt mollit anim id est laborum.`}
   </ShowMore>
-))
+)

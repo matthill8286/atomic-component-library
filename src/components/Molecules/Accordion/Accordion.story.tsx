@@ -1,12 +1,8 @@
-import { withState } from '@dump247/storybook-state'
 import { boolean, select } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import uniqueId from 'lodash/uniqueId'
-import React from 'react'
-import { Button } from '@/components/Atoms/Button'
 import { Accordion } from './Accordion'
-import { AccordionEntryObject, AccordionProps } from './Accordion.interface'
-import Readme from './Accordion.readme.md'
+import { AccordionProps } from './Accordion.interface'
+import Readme from './Accordion.readme.mdx'
+import React from 'react'
 
 const ENTRIES_1 = [
   {
@@ -75,199 +71,176 @@ const searchEntriesProps: AccordionProps = {
   withIconsOnRight: true,
 }
 
-storiesOf('Design System/Molecules/Accordion', module)
-  .add(
-    'default',
-    () => (
-      <Accordion
-        entries={ENTRIES_1}
-        isLarge={boolean('isLarge', false)}
-        withIconsOnRight={boolean('Icons on right', true)}
-      />
-    ),
-    {
-      info: Readme,
-    },
-  )
-  .add(
-    'with custom heading',
-    () => (
-      <Accordion
-        entries={ENTRIES_1}
-        isLarge={boolean('isLarge', false)}
-        customLabelHeading={{
-          tag: 'h2',
-          size: 'lg',
-          bold: 'bold',
-          margin: select('label margin', ['', '0', 'xl', 'xl 0', 'md xl xxl xl', 'sm', '0'], 'sm'),
-        }}
-      />
-    ),
-    {
-      info: Readme,
-    },
-  )
-  .add(
-    'without heading titles',
-    () => (
-      <Accordion
-        entries={ENTRIES_1.map((e) => ({ ...e, title: undefined, noBorderTop: false }))}
-        isLarge={boolean('isLarge', false)}
-        customLabelHeading={{
-          tag: 'h2',
-          size: 'lg',
-          bold: 'bold',
-          margin: select('label margin', ['', '0', 'xl', 'xl 0', 'md xl xxl xl', '0'], '0'),
-        }}
-      />
-    ),
-    {
-      info: Readme,
-    },
-  )
-  .add(
-    'with custom entry and label padding',
-    () => (
-      <Accordion
-        entries={ENTRIES_1.map((e, i) => (i === 2 ? { ...e, isOpenInitially: true } : e))}
-        isLarge={boolean('isLarge', false)}
-        labelPadding={select('label padding', ['', '0', 'xl', 'xl 0', 'md xl xxl xl', '0'], '')}
-        entryPadding={select('entry padding', ['', '0', 'lg', 'xl', 'xl 0', 'md xl xxl xl', '0'], 'md xl xxl xl')}
-        customLabelHeading={{
-          tag: 'h2',
-          size: 'lg',
-          bold: 'bold',
-          margin: select('heading margin', ['', '0', 'lg', 'xl', 'xl 0', 'md xl xxl xl', '0'], 'lg'),
-        }}
-      />
-    ),
-    {
-      info: Readme,
-    },
-  )
-  .add(
-    'multiple open entries allowed',
-    () => (
-      <Accordion
-        entries={ENTRIES_1.map((entry) => ({ ...entry, isOpenInitially: true }))}
-        isLarge={boolean('isLarge', false)}
-        isUnfoldable
-      />
-    ),
-    {
-      info: Readme,
-    },
-  )
+export default {
+  title: 'Design System/Molecules/Accordion',
+}
 
-  .add(
-    'dynamic example',
-    withState({ entries: searchEntriesProps.entries }, (store) => {
-      const addEntry = (entry: AccordionEntryObject) => {
-        store.set({ entries: [...store.state.entries, entry] })
-      }
+export const Default = () => (
+  <Accordion
+    entries={ENTRIES_1}
+    isLarge={boolean('isLarge', false)}
+    withIconsOnRight={boolean('Icons on right', true)}
+  />
+)
 
-      return (
-        <>
-          <Button
-            onClick={() => {
-              const id = uniqueId('another-entry-')
-              const newEntry: AccordionEntryObject = {
-                id,
-                details: `hallooooo ${id}`,
-                title: id,
-                isOpenInitially: true,
-              }
-              addEntry(newEntry)
-            }}
-          >
-            Add entry initially open
-          </Button>
-          <Button
-            onClick={() => {
-              const id = uniqueId('another-entry-')
-              const newEntry: AccordionEntryObject = {
-                id,
-                details: `hallooooo ${id}`,
-                title: id,
-                isOpenInitially: false,
-              }
-              addEntry(newEntry)
-            }}
-          >
-            Add entry initially close
-          </Button>
-          <Accordion {...searchEntriesProps} entries={store.state.entries} isLarge={boolean('isLarge', false)} />
-        </>
-      )
-    }),
-    {
-      info: Readme,
-    },
-  )
-  .add(
-    'second entry initially open',
-    () => (
-      <Accordion
-        entries={ENTRIES_1.map((e, i) => (i === 1 ? { ...e, isOpenInitially: true } : e))}
-        isLarge={boolean('isLarge', false)}
-      />
-    ),
-    {
-      info: Readme,
-    },
-  )
-  .add(
-    'expanded from breakpoint',
-    () => (
-      <>
-        <Accordion
-          entries={[
-            {
-              title: 'expanded from sm',
-              details: 'expanded from sm',
-            },
-          ]}
-          isExpandedFrom="sm"
-        />
-        <Accordion
-          entries={[
-            {
-              title: 'expanded from md',
-              details: 'expanded from md',
-            },
-          ]}
-          isExpandedFrom="md"
-        />
-        <Accordion
-          entries={[
-            {
-              title: 'expanded from lg',
-              details: 'expanded from lg',
-            },
-          ]}
-          isExpandedFrom="lg"
-        />
-        <Accordion
-          entries={[
-            {
-              title: 'expanded from xl',
-              details: 'expanded from xl',
-            },
-          ]}
-          isExpandedFrom="xl"
-        />
-        <Accordion
-          entries={[
-            {
-              title: 'expanded from xxl',
-              details: 'expanded from xxl',
-            },
-          ]}
-          isExpandedFrom="xxl"
-        />
-      </>
-    ),
-    {
-      info: Readme,
-    },
-  )
+Default.story = {
+  name: 'default',
+
+  parameters: {
+    info: Readme,
+  },
+}
+
+export const WithCustomHeading = () => (
+  <Accordion
+    entries={ENTRIES_1}
+    isLarge={boolean('isLarge', false)}
+    customLabelHeading={{
+      tag: 'h2',
+      size: 'lg',
+      bold: 'bold',
+      margin: select('label margin', ['', '0', 'xl', 'xl 0', 'md xl xxl xl', 'sm', '0'], 'sm'),
+    }}
+  />
+)
+
+WithCustomHeading.story = {
+  name: 'with custom heading',
+
+  parameters: {
+    info: Readme,
+  },
+}
+
+export const WithoutHeadingTitles = () => (
+  <Accordion
+    entries={ENTRIES_1.map((e) => ({ ...e, title: undefined, noBorderTop: false }))}
+    isLarge={boolean('isLarge', false)}
+    customLabelHeading={{
+      tag: 'h2',
+      size: 'lg',
+      bold: 'bold',
+      margin: select('label margin', ['', '0', 'xl', 'xl 0', 'md xl xxl xl', '0'], '0'),
+    }}
+  />
+)
+
+WithoutHeadingTitles.story = {
+  name: 'without heading titles',
+
+  parameters: {
+    info: Readme,
+  },
+}
+
+export const WithCustomEntryAndLabelPadding = () => (
+  <Accordion
+    entries={ENTRIES_1.map((e, i) => (i === 2 ? { ...e, isOpenInitially: true } : e))}
+    isLarge={boolean('isLarge', false)}
+    labelPadding={select('label padding', ['', '0', 'xl', 'xl 0', 'md xl xxl xl', '0'], '')}
+    entryPadding={select('entry padding', ['', '0', 'lg', 'xl', 'xl 0', 'md xl xxl xl', '0'], 'md xl xxl xl')}
+    customLabelHeading={{
+      tag: 'h2',
+      size: 'lg',
+      bold: 'bold',
+      margin: select('heading margin', ['', '0', 'lg', 'xl', 'xl 0', 'md xl xxl xl', '0'], 'lg'),
+    }}
+  />
+)
+
+WithCustomEntryAndLabelPadding.story = {
+  name: 'with custom entry and label padding',
+
+  parameters: {
+    info: Readme,
+  },
+}
+
+export const MultipleOpenEntriesAllowed = () => (
+  <Accordion
+    entries={ENTRIES_1.map((entry) => ({ ...entry, isOpenInitially: true }))}
+    isLarge={boolean('isLarge', false)}
+    isUnfoldable
+  />
+)
+
+MultipleOpenEntriesAllowed.story = {
+  name: 'multiple open entries allowed',
+
+  parameters: {
+    info: Readme,
+  },
+}
+
+export const SecondEntryInitiallyOpen = () => (
+  <Accordion
+    entries={ENTRIES_1.map((e, i) => (i === 1 ? { ...e, isOpenInitially: true } : e))}
+    isLarge={boolean('isLarge', false)}
+  />
+)
+
+SecondEntryInitiallyOpen.story = {
+  name: 'second entry initially open',
+
+  parameters: {
+    info: Readme,
+  },
+}
+
+export const ExpandedFromBreakpoint = () => (
+  <>
+    <Accordion
+      entries={[
+        {
+          title: 'expanded from sm',
+          details: 'expanded from sm',
+        },
+      ]}
+      isExpandedFrom="sm"
+    />
+    <Accordion
+      entries={[
+        {
+          title: 'expanded from md',
+          details: 'expanded from md',
+        },
+      ]}
+      isExpandedFrom="md"
+    />
+    <Accordion
+      entries={[
+        {
+          title: 'expanded from lg',
+          details: 'expanded from lg',
+        },
+      ]}
+      isExpandedFrom="lg"
+    />
+    <Accordion
+      entries={[
+        {
+          title: 'expanded from xl',
+          details: 'expanded from xl',
+        },
+      ]}
+      isExpandedFrom="xl"
+    />
+    <Accordion
+      entries={[
+        {
+          title: 'expanded from xxl',
+          details: 'expanded from xxl',
+        },
+      ]}
+      isExpandedFrom="xxl"
+    />
+  </>
+)
+
+ExpandedFromBreakpoint.story = {
+  name: 'expanded from breakpoint',
+
+  parameters: {
+    info: Readme,
+  },
+}

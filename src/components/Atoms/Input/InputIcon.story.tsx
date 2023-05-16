@@ -1,7 +1,5 @@
 import { action } from '@storybook/addon-actions'
 import { select } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { OtherArticle, OtherBookmark, OtherClose } from 'atomic-icon-library'
 import { InputIcon, InputIconProps } from './InputIcon'
 
@@ -18,9 +16,14 @@ const icons = {
   default: null,
 }
 
-const stories = storiesOf('Design System/Atoms/InputIcon', module)
+// const stories = storiesOf('Design System/Atoms/InputIcon', module)
 
-stories.add('Default', () => {
+export default {
+  title: 'Design System/Atoms/InputIcon',
+  component: InputIcon,
+}
+
+export const Default = () => {
   const knobs = (): InputIconProps => {
     const iconName = select('icon', CustomIcon, CustomIcon.Hidden)
     const icon = icons[iconName]
@@ -34,4 +37,4 @@ stories.add('Default', () => {
   }
 
   return <InputIcon {...knobs()} />
-})
+}

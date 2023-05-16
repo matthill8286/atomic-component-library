@@ -1,7 +1,6 @@
 import { CopyText, Heading } from '@/components/Atoms/Typography'
 import * as React from 'react'
 import { Collapse, CollapseProps } from './Collapse'
-import { storiesOf } from '@storybook/react'
 
 const Template = ({ ...args }: CollapseProps) => {
   return (
@@ -23,4 +22,8 @@ const baseArgs: Partial<CollapseProps> = {
   collapsedHeight: 28,
 }
 
-storiesOf('Design System/Molecules/Collapse', module).add('Default', () => <Template {...baseArgs} />)
+export default {
+  title: 'Design System/Molecules/Collapse',
+}
+
+export const Default = () => <Template {...baseArgs} />

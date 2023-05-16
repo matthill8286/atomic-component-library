@@ -9,6 +9,7 @@ export interface MediaStyleSwitchProps {
   inactiveCSS?: string
   activeDisplay?: string
   inactiveDisplay?: string
+  children?: React.ReactNode
 }
 
 const StyledMediaStyleSwitch = styled.div<MediaStyleSwitchProps>(

@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import { ProductTileVariantProps } from '@/components/Organisms/ProductTile/helpers/layout'
-import { useHistory } from 'react-router-dom'
 import {
   ProductCard,
   ProductFeatured,
@@ -74,6 +73,7 @@ export const ProductTileGridItem: React.FC<ProductTileVariantProps> = ({
   onLockClick,
   orientation = 'portrait',
   videoFallbackImage,
+  useHistory,
   ...rest
 }) => {
   if (!product) {

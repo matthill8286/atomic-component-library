@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LoadingIndicator renders saiyan theme 1`] = `
+exports[`LoadingIndicator renders default theme 1`] = `
 .c0 {
   width: 50px;
   height: 50px;

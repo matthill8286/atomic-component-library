@@ -1,4 +1,3 @@
-import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { EmbeddedPlayer } from './EmbeddedPlayer'
 import { text, boolean } from '@storybook/addon-knobs'
@@ -40,38 +39,75 @@ const EmbeddedWrapper: React.FC<EmbeddedPlayerProps & { aspect: string }> = ({
   )
 }
 
-storiesOf('Design System/Atoms/EmbeddedPlayer', module)
-  .add('YoutubePlayer default', () => <EmbeddedPlayer embedUrl="https://www.youtube.com/embed/UFatVn1hP3o" />)
-  .add('EmbeddedPlayer with custom features', () => (
-    <EmbeddedPlayer embedUrl={youtubeUrl} height={height} width={width} allowfullscreen={allowfullscreen} />
-  ))
-  .add('EmbeddedPlayer with custom wrapper', () => (
-    <EmbeddedWrapper
-      embedUrl={youtubeUrl}
-      aspect="16/9"
-      height="100%"
-      width={width}
-      allowfullscreen={allowfullscreen}
-    />
-  ))
-  .add('EmbeddedPlayer with local PDF', () => (
-    <EmbeddedWrapper embedUrl={embedPdf} aspect="4/3" height="100%" width="100%" allowfullscreen={allowfullscreen} />
-  ))
-  .add('EmbeddedPlayer with SoundCloud', () => (
-    <EmbeddedWrapper embedUrl={soundCloudUrl} aspect="16/9" maxHeight="100px" width="100%" features={['autoplay']} />
-  ))
-  .add('EmbeddedPlayer with Spotify Album', () => (
-    <EmbeddedWrapper embedUrl={spotify} aspect="16/9" maxHeight="300px" width="100%" features={['autoplay']} />
-  ))
-  .add('EmbeddedPlayer with Pocast', () => (
-    <EmbeddedWrapper embedUrl={castBox} aspect="16/9" maxHeight="300px" width="100%" features={['autoplay']} />
-  ))
-  .add('EmbeddedPlayer with Apple Pocasts', () => (
-    <EmbeddedWrapper
-      embedUrl={applePodcasts}
-      aspect="16/9"
-      maxHeight="300px"
-      width="100%"
-      features={['autoplay', 'encrypted-media']}
-    />
-  ))
+export default {
+  title: 'Design System/Atoms/EmbeddedPlayer',
+  excludeStories: ['vimeo'],
+}
+
+export const YoutubePlayerDefault = () => <EmbeddedPlayer embedUrl="https://www.youtube.com/embed/UFatVn1hP3o" />
+
+YoutubePlayerDefault.story = {
+  name: 'YoutubePlayer default',
+}
+
+export const EmbeddedPlayerWithCustomFeatures = () => (
+  <EmbeddedPlayer embedUrl={youtubeUrl} height={height} width={width} allowfullscreen={allowfullscreen} />
+)
+
+EmbeddedPlayerWithCustomFeatures.story = {
+  name: 'EmbeddedPlayer with custom features',
+}
+
+export const EmbeddedPlayerWithCustomWrapper = () => (
+  <EmbeddedWrapper embedUrl={youtubeUrl} aspect="16/9" height="100%" width={width} allowfullscreen={allowfullscreen} />
+)
+
+EmbeddedPlayerWithCustomWrapper.story = {
+  name: 'EmbeddedPlayer with custom wrapper',
+}
+
+export const EmbeddedPlayerWithLocalPdf = () => (
+  <EmbeddedWrapper embedUrl={embedPdf} aspect="4/3" height="100%" width="100%" allowfullscreen={allowfullscreen} />
+)
+
+EmbeddedPlayerWithLocalPdf.story = {
+  name: 'EmbeddedPlayer with local PDF',
+}
+
+export const EmbeddedPlayerWithSoundCloud = () => (
+  <EmbeddedWrapper embedUrl={soundCloudUrl} aspect="16/9" maxHeight="100px" width="100%" features={['autoplay']} />
+)
+
+EmbeddedPlayerWithSoundCloud.story = {
+  name: 'EmbeddedPlayer with SoundCloud',
+}
+
+export const EmbeddedPlayerWithSpotifyAlbum = () => (
+  <EmbeddedWrapper embedUrl={spotify} aspect="16/9" maxHeight="300px" width="100%" features={['autoplay']} />
+)
+
+EmbeddedPlayerWithSpotifyAlbum.story = {
+  name: 'EmbeddedPlayer with Spotify Album',
+}
+
+export const EmbeddedPlayerWithPocast = () => (
+  <EmbeddedWrapper embedUrl={castBox} aspect="16/9" maxHeight="300px" width="100%" features={['autoplay']} />
+)
+
+EmbeddedPlayerWithPocast.story = {
+  name: 'EmbeddedPlayer with Pocast',
+}
+
+export const EmbeddedPlayerWithApplePocasts = () => (
+  <EmbeddedWrapper
+    embedUrl={applePodcasts}
+    aspect="16/9"
+    maxHeight="300px"
+    width="100%"
+    features={['autoplay', 'encrypted-media']}
+  />
+)
+
+EmbeddedPlayerWithApplePocasts.story = {
+  name: 'EmbeddedPlayer with Apple Pocasts',
+}

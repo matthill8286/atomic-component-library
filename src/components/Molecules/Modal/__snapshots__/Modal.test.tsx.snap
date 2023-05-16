@@ -170,7 +170,7 @@ exports[`Modal Should render a Modal 1`] = `
 
 <div
   className="c0"
-  id="saiyan-styled-modal-wrapper"
+  id="default-styled-modal-wrapper"
 >
   <div
     className="c1"
@@ -209,7 +209,7 @@ exports[`Modal Should render a Modal 1`] = `
     </div>
     <div
       className="c7"
-      id="saiyan-styled-modal-desktop-wrapper"
+      id="default-styled-modal-desktop-wrapper"
     >
       <div
         className="c8"
@@ -391,7 +391,7 @@ exports[`Modal Should render a Modal with size 1`] = `
 
 <div
   className="c0"
-  id="saiyan-styled-modal-wrapper"
+  id="default-styled-modal-wrapper"
 >
   <div
     className="c1"
@@ -430,7 +430,7 @@ exports[`Modal Should render a Modal with size 1`] = `
     </div>
     <div
       className="c7"
-      id="saiyan-styled-modal-desktop-wrapper"
+      id="default-styled-modal-desktop-wrapper"
     >
       <div
         className="c8"
@@ -778,7 +778,7 @@ exports[`Modal Should render a Modal with two buttons 1`] = `
 
 <div
   className="c0"
-  id="saiyan-styled-modal-wrapper"
+  id="default-styled-modal-wrapper"
 >
   <div
     className="c1"
@@ -817,7 +817,7 @@ exports[`Modal Should render a Modal with two buttons 1`] = `
     </div>
     <div
       className="c8"
-      id="saiyan-styled-modal-desktop-wrapper"
+      id="default-styled-modal-desktop-wrapper"
     >
       <div
         className="c9"
@@ -826,14 +826,14 @@ exports[`Modal Should render a Modal with two buttons 1`] = `
       </div>
       <div
         className="c10"
-        data-test="saiyan-modal-footer-buttons"
+        data-test="default-modal-footer-buttons"
       >
         <div
           className="c11"
         >
           <button
             className="c12 c13"
-            data-test="saiyan-secondary-modal-footer-buttons"
+            data-test="default-secondary-modal-footer-buttons"
             disabled={false}
             onClick={[Function]}
             size="md"
@@ -847,7 +847,7 @@ exports[`Modal Should render a Modal with two buttons 1`] = `
         >
           <button
             className="c15 c13"
-            data-test="saiyan-primary-modal-footer-buttons"
+            data-test="default-primary-modal-footer-buttons"
             disabled={false}
             onClick={[Function]}
             size="md"

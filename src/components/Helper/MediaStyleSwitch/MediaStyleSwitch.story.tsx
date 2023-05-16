@@ -1,4 +1,3 @@
-import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { Typo } from '@/components/Atoms/Typography'
 import { styled } from '@/styles/styled'
@@ -19,7 +18,11 @@ const LargeScreen = styled(Typo)`
   padding: 15px 30px;
 `
 
-storiesOf('Design System/Helper/MediaStyleSwitch', module).add('Default', () => (
+export default {
+  title: 'Design System/Helper/MediaStyleSwitch',
+}
+
+export const Default = () => (
   <>
     <MediaStyleSwitch query="maxSm" activeDisplay="block" inactiveDisplay="none">
       <SmallScreen>Small screen</SmallScreen>
@@ -35,4 +38,4 @@ storiesOf('Design System/Helper/MediaStyleSwitch', module).add('Default', () => 
       <LargeScreen>Large screen</LargeScreen>
     </MediaStyleSwitch>
   </>
-))
+)

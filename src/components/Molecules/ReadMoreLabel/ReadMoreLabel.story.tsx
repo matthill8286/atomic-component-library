@@ -1,11 +1,9 @@
 import * as React from 'react'
-import { storiesOf } from '@storybook/react'
 import { CopyText } from '@/components/Atoms/Typography'
 import { styled } from '@/styles/styled'
 import { ReadMoreLabel, ReadMoreLabelProps } from '@/components/Molecules/ReadMoreLabel/ReadMoreLabel'
 import { Checkbox } from '@/components/Atoms/Checkbox/Checkbox'
 import { boolean, number, text } from '@storybook/addon-knobs'
-import { Filter } from '@/components/Molecules/Filter'
 
 const StyledCopyText = styled(CopyText)`
   margin: 0;
@@ -117,13 +115,18 @@ const Template = ({ ...args }: ReadMoreLabelProps) => {
   )
 }
 
-storiesOf('Design System/Molecules/Read More Label', module)
-  .add('Default', () => (
-    <Default htmlFor="id" collapsedHeight={40} showLessLabel={'Show Less'} showMoreLabel={'Show More'} />
-  ))
-  .add('Template', () => (
-    <Template htmlFor="id" collapsedHeight={40} showLessLabel={'Show Less'} showMoreLabel={'Show More'} />
-  ))
-  .add('Filter Template', () => (
-    <CheckboxTemplate htmlFor="id" collapsedHeight={80} showLessLabel={'Show Less'} showMoreLabel={'Show More'} />
-  ))
+export default {
+  title: 'Design System/Molecules/Read More Label',
+}
+
+export const _Default = () => (
+  <Default htmlFor="id" collapsedHeight={40} showLessLabel={'Show Less'} showMoreLabel={'Show More'} />
+)
+
+export const _Template = () => (
+  <Template htmlFor="id" collapsedHeight={40} showLessLabel={'Show Less'} showMoreLabel={'Show More'} />
+)
+
+export const FilterTemplate = () => (
+  <CheckboxTemplate htmlFor="id" collapsedHeight={80} showLessLabel={'Show Less'} showMoreLabel={'Show More'} />
+)

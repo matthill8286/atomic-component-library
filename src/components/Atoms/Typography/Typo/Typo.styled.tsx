@@ -1,7 +1,7 @@
 import { media } from '@/styles/media'
 import { getBoxDimension } from '@/styles/sc-shared-functions'
 import { css, styled, ThemedStyledProps } from '@/styles/styled'
-import { Saiyan } from '@/styles/themes'
+import { DEFAULT } from '@/styles/themes'
 import { Theme } from '@/types/theme'
 import { FontSizeMap, StyledInfoTextProps } from './Typo.interface'
 
@@ -118,12 +118,12 @@ export const StyledInfoTypo = styled.div<StyledInfoTextProps>(
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-            ${fontFamily === 'featured' && theme.name === Saiyan && `padding-left: 2px;`}
+            ${fontFamily === 'featured' && theme.name === DEFAULT && `padding-left: 2px;`}
           `
         : css`
             white-space: normal;
             overflow: hidden;
-            ${fontFamily === 'featured' && theme.name === Saiyan && `padding-left: 2px;`}
+            ${fontFamily === 'featured' && theme.name === DEFAULT && `padding-left: 2px;`}
             /* stylelint-disable function-calc-no-invalid, this is a false positive  */
             max-height: calc(${getLineHeight(theme, fontSize, lineHeight)} * ${limitLines});
             -webkit-line-clamp: ${limitLines};

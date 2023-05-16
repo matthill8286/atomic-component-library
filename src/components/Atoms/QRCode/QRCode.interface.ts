@@ -1,6 +1,6 @@
-import { saiyanTheme } from '@/styles/sc-vars-saiyan'
+import { defaultTheme } from '@/styles/sc-vars-default'
 
-export type ThemeColors = keyof typeof saiyanTheme.color & string
+export type ThemeColors = keyof typeof defaultTheme.color & string
 
 export enum RenderAs {
   CANVAS = 'canvas',

@@ -97,9 +97,9 @@ export const Round = ({
           strokeWidth={lineStroke}
           stroke={color}
           fill={'transparent'}
-          transform={rotation.interpolate((x) => `rotate(${x})`)}
+          transform={rotation.interpolate((x: any) => `rotate(${x})`)}
           strokeLinecap={'round'}
-          strokeDashoffset={strokeOffset.interpolate((x) => circumference - (x / 100) * circumference)}
+          strokeDashoffset={strokeOffset.interpolate((x: any) => circumference - (x / 100) * circumference)}
           strokeDasharray={`${circumference} ${circumference}`}
         />
       )}

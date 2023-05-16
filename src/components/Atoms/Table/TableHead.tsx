@@ -1,6 +1,6 @@
 import React from 'react'
 import { css, styled } from '@/styles/styled'
-import { isSaiyanTheme } from '@/utils/helper'
+import { isdefaultTheme } from '@/utils/helper'
 import { ThemeColors } from '@/types'
 
 export interface TableHeadProps {
@@ -46,7 +46,7 @@ export const TableHead: React.FC<TableHeadProps> = ({
 }) => {
   return (
     <StyledTableHead
-      isMainTheme={isSaiyanTheme()}
+      isMainTheme={isdefaultTheme()}
       isOutlineRequired={isOutlineRequired}
       className={className}
       backgroundColor={backgroundColor}

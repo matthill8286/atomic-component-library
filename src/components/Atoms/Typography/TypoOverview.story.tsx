@@ -1,9 +1,8 @@
 import { boolean, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { TypeRhythm, TypoExampleBox } from '@/components/Atoms/Typography/utils'
 import { alternateTheme } from '@/styles/sc-vars-alternate'
-import { saiyanTheme } from '@/styles/sc-vars-saiyan'
+import { defaultTheme } from '@/styles/sc-vars-default'
 import { StorybookWrapper } from '@/utils/StorybookWrapper'
 import { CopyText } from './CopyText'
 import { Heading } from './Heading'
@@ -11,7 +10,11 @@ import { TypographyScaleHeadline } from './Heading/Heading.interface'
 import { HeadingPresets } from './Heading/HeadingPresets'
 import { InfoText, TypographyScaleInfo } from './InfoText'
 
-storiesOf('Design System/Atoms/Typography', module).add('Overview', () => {
+export default {
+  title: 'Design System/Atoms/Typography',
+}
+
+export const Overview = () => {
   const headingKeys = Object.keys(HeadingPresets)
   const demoText = text('Text', 'AbBbCc, 12345')
   const showRhythm = boolean('Show Rhythm', false)
@@ -26,9 +29,9 @@ storiesOf('Design System/Atoms/Typography', module).add('Overview', () => {
 
     let fontSizeString = separator + fontName
 
-    // fontSize for saiyan
-    if (saiyanTheme.font.size[fontName]) {
-      fontSizeString = fontSizeString + separator + 'saiyan' + saiyanTheme.font.size[fontName]
+    // fontSize for default
+    if (defaultTheme.font.size[fontName]) {
+      fontSizeString = fontSizeString + separator + 'default' + defaultTheme.font.size[fontName]
     }
 
     // fontSize for Alternate
@@ -68,4 +71,4 @@ storiesOf('Design System/Atoms/Typography', module).add('Overview', () => {
   })
 
   return <StorybookWrapper>{exampleBoxes}</StorybookWrapper>
-})
+}

@@ -27,13 +27,13 @@ export const ModalButtonGroup: React.FC<ModalButtonGroupProps> = ({
     <StyledModalFooter
       showButtonSeparator={showButtonSeparator}
       buttonAlignment={buttonAlignment}
-      data-test="saiyan-modal-footer-buttons"
+      data-test="default-modal-footer-buttons"
     >
       {secondaryButtonProps && (
         <StyledModalFooterSecondary buttonAlignment={buttonAlignment}>
           <StyledModalFooterButton
             actionType="secondary"
-            data-test={'saiyan-secondary-modal-footer-buttons'}
+            data-test={'default-secondary-modal-footer-buttons'}
             onClick={secondaryButtonProps.onClick ? handleClick(secondaryButtonProps.onClick) : undefined}
             {...secondaryButtonProps}
           >
@@ -46,7 +46,7 @@ export const ModalButtonGroup: React.FC<ModalButtonGroupProps> = ({
           <StyledModalFooterButton
             actionType="primary"
             fullWidth={!!buttonWidth}
-            data-test="saiyan-primary-modal-footer-buttons"
+            data-test="default-primary-modal-footer-buttons"
             onClick={primaryButtonProps.onClick ? handleClick(primaryButtonProps.onClick) : undefined}
             {...primaryButtonProps}
           >

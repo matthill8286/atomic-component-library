@@ -16,6 +16,7 @@ export const ProductTile: React.FC<ProductTileProps> = ({
   fullHeight,
   isCompact = false,
   isMobileView = false,
+  useHistory,
   expanded,
   fontSize,
   inView,
@@ -83,6 +84,7 @@ export const ProductTile: React.FC<ProductTileProps> = ({
       elevationHover={elevationHover}
       expanded={expanded}
       fullHeight={fullHeight}
+      useHistory={useHistory}
       product={product}
       color={color}
       badges={badges}
@@ -95,7 +97,6 @@ export const ProductTile: React.FC<ProductTileProps> = ({
       isCollection={isCollection}
       isMobileView={isMobileView}
       lazyLoad={lazyLoad}
-      loading={loading}
       noBorder={noBorder}
       roundImages={roundImages}
       productSponsoring={productSponsoring}

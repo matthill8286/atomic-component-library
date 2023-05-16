@@ -39,6 +39,7 @@ export interface VideoPlayerProps {
   stopOnUnmount?: boolean
   light?: boolean | string
   fallback?: ReactElement
+  children?: React.ReactNode
   onStart?: (callback: () => void) => void
   onPlay?: (event: React.MouseEvent<HTMLDivElement>) => void
   onPause?: (event: React.MouseEvent<HTMLDivElement>) => void

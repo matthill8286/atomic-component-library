@@ -1,9 +1,12 @@
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { Link } from '@/components/Atoms/Link'
 import { TopBar } from './TopBar'
 
-const stories = storiesOf('Design System/Molecules/TopBar', module)
+// const stories = storiesOf('Design System/Molecules/TopBar', module)
+
+export default {
+  title: 'Design System/Molecules/TopBar',
+  component: TopBar,
+}
 
 const entries = [
   'Virtual Gathering',
@@ -14,6 +17,6 @@ const entries = [
   </Link>,
 ]
 
-stories.add('Default', () => {
+export const Default = () => {
   return <TopBar entries={entries} />
-})
+}

@@ -27,6 +27,7 @@ export interface CollapseProps {
   collapsedHeight?: number
   onClick?: () => void
   onChange?: (collapsed: boolean) => void
+  children?: React.ReactNode
 }
 
 export const Collapse: React.FC<CollapseProps> = ({

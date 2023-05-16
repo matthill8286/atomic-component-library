@@ -1,17 +1,27 @@
 import { action } from '@storybook/addon-actions'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { BackToTop } from './BackToTop'
 import { ScrollAwareBackToTop } from './ScrollAwareBackToTop'
 
-storiesOf('Design System/Molecules/Back To Top', module)
-  .add('Default', () => <BackToTop visible={'VISIBLE'} />)
-  .add('Transparent', () => <BackToTop visible={'TRANSPARENT'} />)
-  .add('Hidden', () => <BackToTop visible={'HIDDEN'} />)
-  .add('onClick Event', () => <BackToTop visible={'TRANSPARENT'} onClick={action('onClick')} />)
-  .add('ScrollAwareBackToTop', () => (
-    <div style={{ height: '200vh' }}>
-      Scroll down
-      <ScrollAwareBackToTop />
-    </div>
-  ))
+export default {
+  title: 'Design System/Molecules/Back To Top',
+}
+
+export const Default = () => <BackToTop visible={'VISIBLE'} />
+export const Transparent = () => <BackToTop visible={'TRANSPARENT'} />
+export const Hidden = () => <BackToTop visible={'HIDDEN'} />
+export const OnClickEvent = () => <BackToTop visible={'TRANSPARENT'} onClick={action('onClick')} />
+
+OnClickEvent.story = {
+  name: 'onClick Event',
+}
+
+export const _ScrollAwareBackToTop = () => (
+  <div style={{ height: '200vh' }}>
+    Scroll down
+    <ScrollAwareBackToTop />
+  </div>
+)
+
+_ScrollAwareBackToTop.story = {
+  name: 'ScrollAwareBackToTop',
+}

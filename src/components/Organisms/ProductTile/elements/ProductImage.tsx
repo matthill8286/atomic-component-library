@@ -23,14 +23,15 @@ export interface ProductImageProps extends StyledPictureWrapperProps {
   width?: string
   withLQIP?: boolean
   rounded?: boolean
+  children?: React.ReactNode
   withNativeLoading?: boolean
 }
 
 const StyledPictureWrapper = styled.div<StyledPictureWrapperProps>`
-  ${({ hasBottomMargin, theme, minWidth, maxWidth }) => `
+  ${({ hasBottomMargin }) => `
     text-align: center;
     flex: 1;
-    height: ${({ orientation, isCompact, height }) => (!isPortrait(orientation) ? '100%' : height)};
+    height: ${({ orientation, height }) => (!isPortrait(orientation) ? '100%' : height)};
 
     ${media.md} {
       ${

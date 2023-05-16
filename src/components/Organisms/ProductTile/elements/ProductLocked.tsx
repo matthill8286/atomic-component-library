@@ -1,7 +1,7 @@
 import React from 'react'
 import { IconButton } from '@/components/Atoms/Button'
 import { css, styled } from '@/styles/styled'
-import { OtherLock, OtherLockOpenOutlined } from 'atomic-icon-library'
+import { OtherLock } from 'atomic-icon-library'
 import { ThemeColors } from '@/types'
 import { Icon } from '@/components/Atoms/Icon'
 
@@ -10,6 +10,7 @@ export interface ProductLockedProps {
   onLockClick?: ((ev: React.MouseEvent<HTMLElement, MouseEvent>) => void) | undefined
   outlined?: boolean
   locked?: boolean
+  children?: React.ReactNode
 }
 
 const StyledProductLocked = styled.div(

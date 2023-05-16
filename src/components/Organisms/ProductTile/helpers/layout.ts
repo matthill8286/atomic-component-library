@@ -3,7 +3,6 @@ import { ProductTileLayout, ProductTileProps } from '@/components/Organisms/Prod
 
 import { ProductTileGridItem } from '@/components/Organisms/ProductTile/ProductTileGridItem'
 import { ProductTileListItem } from '@/components/Organisms/ProductTile/ProductTileListItem'
-import { ProductTileCompactTile } from '@/components/Organisms/ProductTile/ProductTileCompactTile'
 
 export type ProductTileVariantProps = ProductTileProps
 
@@ -13,7 +12,6 @@ const layouts: Record<ProductTileLayout, ProductTileVariant> = {
   [ProductTileLayout.auto]: ProductTileGridItem,
   [ProductTileLayout.listItem]: ProductTileListItem,
   [ProductTileLayout.gridItem]: ProductTileGridItem,
-  [ProductTileLayout.compact]: ProductTileCompactTile,
 }
 
 export const useLayoutComponent = (layout: ProductTileLayout): ProductTileVariant => {

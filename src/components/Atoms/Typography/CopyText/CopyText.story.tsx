@@ -1,11 +1,13 @@
 import { boolean, number, select, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
-import { saiyanTheme } from '@/styles/sc-vars-saiyan'
+import { defaultTheme } from '@/styles/sc-vars-default'
 import { ThemeColors, ThemeFontSizes } from '@/types/theme'
 import { CopyText } from './CopyText'
 
-storiesOf('Design System/Atoms/Typography', module).add('CopyText', () => {
+export default {
+  title: 'Design System/Atoms/Typography',
+}
+
+export const _CopyText = () => {
   const sampleText = text(
     'Sample text',
     `Lorem ipsum dolorsit amet consectetur adipisicing elit. Lorem ipsum dolorsit amet consectetur adipisicing elit. Lorem ipsum dolorsit amet consectetur adipisicing elit. Lorem ipsum dolorsit amet consectetur adipisicing elit.`,
@@ -18,7 +20,7 @@ storiesOf('Design System/Atoms/Typography', module).add('CopyText', () => {
   const withMargins = boolean('With margins', false)
   const multiple = boolean('Multiple paragraphs', false)
   const showColors = boolean('Enable Custom Color', false)
-  const selectedColor = select('Color', Object.keys(saiyanTheme.color), 'black') as ThemeColors
+  const selectedColor = select('Color', Object.keys(defaultTheme.color), 'black') as ThemeColors
   const isBold = boolean('Bold', false)
   const limitLines = number('Limit Lines', 0)
 
@@ -60,4 +62,8 @@ storiesOf('Design System/Atoms/Typography', module).add('CopyText', () => {
       )}
     </>
   )
-})
+}
+
+_CopyText.story = {
+  name: 'CopyText',
+}

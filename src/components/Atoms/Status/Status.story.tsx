@@ -1,6 +1,4 @@
 import { radios } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import React from 'react'
 import { Status, StatusProps, StatusType } from './Status'
 import { Icon } from '@/components/Atoms/Icon'
 import { OtherBookmarkOutlined } from 'atomic-icon-library'
@@ -13,17 +11,21 @@ const knobs = (): StatusProps => {
   }
 }
 
-storiesOf('Design System/Atoms/Status', module)
-  .add('Default', () => {
-    return <Status {...knobs()}>1</Status>
-  })
-  .add('With Icon', () => {
-    return (
-      <Icon color="grey4" height="md">
-        <OtherBookmarkOutlined />
-        <Status {...knobs()} withinIcon>
-          1
-        </Status>
-      </Icon>
-    )
-  })
+export default {
+  title: 'Design System/Atoms/Status',
+}
+
+export const Default = () => {
+  return <Status {...knobs()}>1</Status>
+}
+
+export const WithIcon = () => {
+  return (
+    <Icon color="grey4" height="md">
+      <OtherBookmarkOutlined />
+      <Status {...knobs()} withinIcon>
+        1
+      </Status>
+    </Icon>
+  )
+}

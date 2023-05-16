@@ -1,6 +1,5 @@
 import { action } from '@storybook/addon-actions'
 import { boolean, select, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
 import * as React from 'react'
 import { SelectableState } from '@/components/Atoms/Selectable/Selectable.interface'
 import { Checkbox } from './Checkbox'
@@ -11,7 +10,11 @@ const selectableStates: { [key in SelectableState]: SelectableState } = {
   disabled: 'disabled',
 }
 
-storiesOf('Design System/Atoms/Checkbox', module).add('Checkbox', () => {
+export default {
+  title: 'Design System/Atoms/Checkbox',
+}
+
+export const _Checkbox = () => {
   const knobs = () => {
     return {
       isChecked: boolean('Checked', false),
@@ -23,4 +26,4 @@ storiesOf('Design System/Atoms/Checkbox', module).add('Checkbox', () => {
     }
   }
   return <Checkbox name="checkbox" selectableId="selectableId" {...knobs()} onChangeValue={action('onchangevalue')} />
-})
+}

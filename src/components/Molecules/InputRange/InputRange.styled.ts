@@ -1,7 +1,7 @@
-import { css, media, saiyanTheme, styled } from '@/styles'
+import { css, media, defaultTheme, styled } from '@/styles'
 import { Typo } from '../../Atoms/Typography'
 
-const issaiyan = (theme) => theme.name === saiyanTheme.name
+const isdefault = (theme) => theme.name === defaultTheme.name
 
 export const StyledInputRangeContainer = styled.div`
   padding: ${({ theme }) => theme.spacing.base.md};
@@ -51,18 +51,18 @@ export const Animation = ({ theme }) => css`
 export const StyledInputRangeBubblePosition = styled.output`
   ${({ theme }) =>
     css`
-      width: ${issaiyan(theme) ? `4rem` : `3.5rem`};
-      height: ${issaiyan(theme) ? `4rem` : `3.5rem`};
+      width: ${isdefault(theme) ? `4rem` : `3.5rem`};
+      height: ${isdefault(theme) ? `4rem` : `3.5rem`};
 
       position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: translateX(-50%) ${!issaiyan(theme) && ` rotate(45deg)`};
+      transform: translateX(-50%) ${!isdefault(theme) && ` rotate(45deg)`};
 
       ${media.maxMd} {
         transform: translateX(-50%)
-          ${issaiyan(theme)
+          ${isdefault(theme)
             ? ` translateY(${theme.spacing.base.sm})`
             : ` translateY(${theme.spacing.base.xs}) rotate(45deg)`};
       }
@@ -80,7 +80,7 @@ export const StyledInputRangeBubble = styled.output<{ isSliding: boolean }>`
       align-items: center;
 
       border: 2px solid ${theme.color.primary};
-      ${issaiyan(theme) && `border-radius: 50%;`}
+      ${isdefault(theme) && `border-radius: 50%;`}
       ${isSliding && Animation}
     `}
 `
@@ -88,13 +88,13 @@ export const StyledInputRangeBubble = styled.output<{ isSliding: boolean }>`
 export const StyledInputRangeBubbleTypo = styled(Typo)`
   ${({ theme }) =>
     css`
-      font-size: ${!issaiyan(theme) ? theme.font.size.md : theme.font.size.xl};
-      transform: ${!issaiyan(theme) ? ` translateY(4px) rotate(-45deg)` : `translateY(0)`};
+      font-size: ${!isdefault(theme) ? theme.font.size.md : theme.font.size.xl};
+      transform: ${!isdefault(theme) ? ` translateY(4px) rotate(-45deg)` : `translateY(0)`};
       line-height: ${theme.font.lineHeight.xl};
       padding: 0;
 
       ${media.maxMd} {
-        font-size: ${!issaiyan(theme) ? theme.font.size.xs : theme.font.size.md};
+        font-size: ${!isdefault(theme) ? theme.font.size.xs : theme.font.size.md};
       }
     `}
 `

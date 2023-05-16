@@ -1,10 +1,9 @@
 import { action } from '@storybook/addon-actions'
 import { number, text } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import React from 'react'
 import { Dropdown } from './Dropdown'
 import { DropdownProps } from './Dropdown.interface'
-import readme from './Dropdown.readme.md'
+import readme from './Dropdown.readme.mdx'
+import React from 'react'
 
 const options = [
   { id: '0', label: 'BMW' },
@@ -19,46 +18,49 @@ const commonKnobs = {
   options,
 }
 
-const story = storiesOf('Design System/Molecules/ Dropdown', module)
+export const Initial = () => {
+  const knobs: DropdownProps = {
+    ...commonKnobs,
+    label: text('label', 'type a label'),
+  }
 
-story.add(
-  'Initial',
-  () => {
-    const knobs: DropdownProps = {
-      ...commonKnobs,
-      label: text('label', 'type a label'),
-    }
+  return <Dropdown {...knobs} />
+}
 
-    return <Dropdown {...knobs} />
-  },
-  { info: readme },
-)
+Initial.story = {
+  parameters: { info: readme },
+}
 
-story.add(
-  'Selected',
-  () => {
-    const knobs: DropdownProps = {
-      ...commonKnobs,
-      label: text('Label', 'type a label'),
-      initialIndex: number('initialIndex', 0),
-    }
+export const Selected = () => {
+  const knobs: DropdownProps = {
+    ...commonKnobs,
+    label: text('Label', 'type a label'),
+    initialIndex: number('initialIndex', 0),
+  }
 
-    return <Dropdown {...knobs} />
-  },
-  { info: readme },
-)
+  return <Dropdown {...knobs} />
+}
 
-story.add(
-  'Native list',
-  () => {
-    const knobs: DropdownProps = {
-      ...commonKnobs,
-      label: text('Label', 'type a label'),
-      initialIndex: number('initialIndex', 0),
-      listType: 'native',
-    }
+Selected.story = {
+  parameters: { info: readme },
+}
 
-    return <Dropdown {...knobs} />
-  },
-  { info: readme },
-)
+export const NativeList = () => {
+  const knobs: DropdownProps = {
+    ...commonKnobs,
+    label: text('Label', 'type a label'),
+    initialIndex: number('initialIndex', 0),
+    listType: 'native',
+  }
+
+  return <Dropdown {...knobs} />
+}
+
+NativeList.story = {
+  name: 'Native list',
+  parameters: { info: readme },
+}
+
+export default {
+  title: 'Design System/Molecules/Dropdown',
+}

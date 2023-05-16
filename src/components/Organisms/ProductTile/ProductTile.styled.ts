@@ -1,6 +1,5 @@
 import { Divider } from '@/components/Atoms/Divider'
 import { css, media, spacing, styled } from '@/styles'
-import { Icon } from '@/components/Atoms/Icon'
 import {
   ProductTileOrientation,
   StyledContentContainerProps,

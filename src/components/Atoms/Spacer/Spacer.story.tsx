@@ -1,9 +1,7 @@
-import { storiesOf } from '@storybook/react'
-import React from 'react'
 import { FlexBox } from '@/components/Helper/FlexBox'
 import { styled } from '@/styles/styled'
 import { Spacer } from './Spacer'
-import Readme from './Spacer.readme.md'
+import Readme from './Spacer.readme.mdx'
 
 const StyledBlock = styled.div`
   height: 20px;
@@ -19,34 +17,38 @@ const StyledVerticalBlock = styled.div`
   float: left;
 `
 
-storiesOf('Design System/Atoms/Spacer', module)
-  .add(
-    'Default',
-    () => (
-      <>
-        <StyledBlock />
-        <Spacer size={'md'} />
-        <StyledBlock />
-        <Spacer size={'xxxl'} />
-        <StyledBlock />
-      </>
-    ),
-    {
-      info: Readme,
-    },
-  )
-  .add(
-    'Vertical',
-    () => (
-      <FlexBox flexDirection="row">
-        <StyledVerticalBlock />
-        <Spacer direction="vertical" size={'md'} />
-        <StyledVerticalBlock />
-        <Spacer direction="vertical" size={'xxxl'} />
-        <StyledVerticalBlock />
-      </FlexBox>
-    ),
-    {
-      info: Readme,
-    },
-  )
+export default {
+  title: 'Design System/Atoms/Spacer',
+}
+
+export const Default = () => (
+  <>
+    <StyledBlock />
+    <Spacer size={'md'} />
+    <StyledBlock />
+    <Spacer size={'xxxl'} />
+    <StyledBlock />
+  </>
+)
+
+Default.story = {
+  parameters: {
+    info: Readme,
+  },
+}
+
+export const Vertical = () => (
+  <FlexBox flexDirection="row">
+    <StyledVerticalBlock />
+    <Spacer direction="vertical" size={'md'} />
+    <StyledVerticalBlock />
+    <Spacer direction="vertical" size={'xxxl'} />
+    <StyledVerticalBlock />
+  </FlexBox>
+)
+
+Vertical.story = {
+  parameters: {
+    info: Readme,
+  },
+}

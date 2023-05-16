@@ -3,7 +3,7 @@ import { renderWithTheme } from '@/testRenderer'
 import { Picture } from './Picture'
 
 const IMAGE_URL =
-  'https://learn.saiyan.com/hubfs/magpie%20client%20images%20and%20files/Procter%20and%20Gamble/instead%20of%20coming%20soon.png'
+  'https://learn.default.com/hubfs/magpie%20client%20images%20and%20files/Procter%20and%20Gamble/instead%20of%20coming%20soon.png'
 
 describe('Picture', () => {
   it('renders correctly', () => {

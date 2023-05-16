@@ -1,6 +1,4 @@
 import { number, radios } from '@storybook/addon-knobs'
-import { storiesOf } from '@storybook/react'
-import * as React from 'react'
 import { LoadingIndicator, LoadingIndicatorColor, LoadingIndicatorProps } from './LoadingIndicator'
 
 const loadingIndicatorColor: { [key: string]: LoadingIndicatorColor } = {
@@ -17,4 +15,8 @@ const knobs = (): LoadingIndicatorProps => {
   }
 }
 
-storiesOf('Design System/Atoms/LoadingIndicator', module).add('Default', () => <LoadingIndicator {...knobs()} />)
+export default {
+  title: 'Design System/Atoms/LoadingIndicator',
+}
+
+export const Default = () => <LoadingIndicator {...knobs()} />
