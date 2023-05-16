@@ -1,4 +1,3 @@
-import { withState } from '@dump247/storybook-state'
 import { boolean, radios, text } from '@storybook/addon-knobs'
 import * as React from 'react'
 import { styled } from '@/styles'
@@ -188,8 +187,12 @@ WithIcon.story = {
   name: 'with Icon',
 }
 
-export const Bookmark = withState({ isAddedToBookmark: false }, (store) => {
-  return store.state.isAddedToBookmark ? (
+export const Bookmark = () => {
+  const [store, setState] = React.useState({
+    isAddedToBookmark: false,
+    set: (newState: any) => setState(newState),
+  })
+  return store.isAddedToBookmark ? (
     <Button to="#" actionType={'primary'}>
       <Icon width={16} height={16}>
         <OtherBookmarkActive />
@@ -197,14 +200,14 @@ export const Bookmark = withState({ isAddedToBookmark: false }, (store) => {
       Added to Bookmark
     </Button>
   ) : (
-    <Button actionType={'secondary'} onClick={() => store.set({ isAddedToBookmark: !store.state.isAddedToBookmark })}>
+    <Button actionType={'secondary'} onClick={() => store.set({ isAddedToBookmark: !store.isAddedToBookmark })}>
       <Icon width={16} height={16}>
         <OtherBookmarkActive />
       </Icon>
       Add to Bookmark
     </Button>
   )
-})
+}
 
 Bookmark.story = {
   name: 'Bookmark ',
