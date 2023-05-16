@@ -1,6 +1,5 @@
-import { FlexAlignItemsOptions } from '@/components/Helper/FlexBox'
-import { padding } from '@/styles/sc-shared-functions'
-import { css, styled } from '@/styles/styled'
+import { FlexAlignItemsOptions } from '@/components/Helper'
+import { css, styled, padding } from '@/styles'
 import { PaddingProps, Size, ThemeColors } from '@/types'
 
 export type RotationValues = 0 | 45 | 90 | 180 | 270 | -45 | -90 | -180 | -270

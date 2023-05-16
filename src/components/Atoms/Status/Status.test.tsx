@@ -1,4 +1,3 @@
-import React from 'react'
 import { renderWithTheme } from '@/testRenderer'
 import { Status } from './Status'
 

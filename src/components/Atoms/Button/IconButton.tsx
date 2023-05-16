@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { styled } from '@/styles/styled'
 import { Button } from './Button'
 import { ButtonProps } from './Button.interface'

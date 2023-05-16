@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { renderWithTheme } from '@/testRenderer'
 import { FlexBox, FlexBoxProps, FlexItem, FlexItemProps } from './FlexBox'
 

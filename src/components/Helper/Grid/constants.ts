@@ -1,20 +1,20 @@
-import { saiyanTheme } from '@/styles/sc-vars-saiyan'
+import { defaultTheme } from '@/styles/sc-vars-default'
 
-const columnWidth = 9 * saiyanTheme.defaultSpacing
+const columnWidth = 9 * defaultTheme.defaultSpacing
 const gutterWidth = {
-  xs: 2 * saiyanTheme.defaultSpacing,
-  sm: 2 * saiyanTheme.defaultSpacing,
-  md: 3 * saiyanTheme.defaultSpacing,
-  lg: 3 * saiyanTheme.defaultSpacing,
-  xl: 3 * saiyanTheme.defaultSpacing,
+  xs: 2 * defaultTheme.defaultSpacing,
+  sm: 2 * defaultTheme.defaultSpacing,
+  md: 3 * defaultTheme.defaultSpacing,
+  lg: 3 * defaultTheme.defaultSpacing,
+  xl: 3 * defaultTheme.defaultSpacing,
 }
 
 const gridMargins = {
-  xs: 2 * saiyanTheme.defaultSpacing,
-  sm: 3 * saiyanTheme.defaultSpacing,
-  md: 4 * saiyanTheme.defaultSpacing,
-  lg: 6 * saiyanTheme.defaultSpacing,
-  xl: 8 * saiyanTheme.defaultSpacing,
+  xs: 2 * defaultTheme.defaultSpacing,
+  sm: 3 * defaultTheme.defaultSpacing,
+  md: 4 * defaultTheme.defaultSpacing,
+  lg: 6 * defaultTheme.defaultSpacing,
+  xl: 8 * defaultTheme.defaultSpacing,
 }
 
 const fixedColumnValues = {

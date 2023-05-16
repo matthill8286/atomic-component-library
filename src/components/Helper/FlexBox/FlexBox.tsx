@@ -1,5 +1,4 @@
-import React, { FC } from 'react'
-import { media } from '@/styles/media'
+import { FC } from 'react'
 import { css, styled } from '@/styles/styled'
 
 export type FlexAlignItemsOptions = 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'stretch'
@@ -12,6 +11,7 @@ export interface FlexBoxProps {
   justifyContent?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around'
   alignContent?: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch'
   alignItems?: FlexAlignItemsOptions
+  children?: React.ReactNode
 }
 
 const StyledBox = styled.div<FlexBoxProps>`
@@ -66,6 +66,7 @@ export interface FlexItemProps {
   flex?: string
   alignSelf?: 'auto' | 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch'
   padding?: boolean
+  children?: React.ReactNode
 }
 
 const StyledFlexItem = styled.div<FlexItemProps>`

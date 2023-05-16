@@ -1,4 +1,3 @@
-import React from 'react'
 import { OtherCheckmarkCircle } from 'atomic-icon-library'
 import { Icon } from '@/components/Atoms/Icon'
 

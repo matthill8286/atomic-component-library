@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { renderWithTheme } from '@/testRenderer'
 import { Cell, Offset } from './Cell'
 import { Grid } from './Grid'

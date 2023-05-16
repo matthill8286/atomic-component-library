@@ -1,4 +1,3 @@
-import React from 'react'
 import { OtherArticle } from 'atomic-icon-library'
 import { renderWithTheme } from '@/testRenderer'
 import { Icon } from './Icon'
