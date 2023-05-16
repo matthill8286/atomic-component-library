@@ -1,4 +1,3 @@
-import React from 'react'
 import { Badge } from '@/components/Atoms/Badge'
 import { Picture } from '@/components/Atoms/Picture'
 import { VideoPlayerCore } from '@/components/Atoms/VideoPlayer'
@@ -6,6 +5,15 @@ import { ThemeProvider } from '@/styles/ThemeProvider'
 import { SimpleCarousel } from './SimpleCarousel'
 import { defaultSettings, multiItemSettings, pictureEntries, withVideoEntries } from './SimpleCarousel.data'
 import { defaultTheme } from '@/styles'
+import { Meta } from '@storybook/react'
+
+export default {
+  title: 'Design System/Molecules/SimpleCarousel',
+  component: SimpleCarousel,
+  argTypes: {
+    slidesPerPageSettings: multiItemSettings,
+  },
+} as Meta
 
 const carouselWrapperStyle = {
   maxWidth: '634px',
@@ -45,11 +53,6 @@ const renderWithPictureOrVideoComponent = (item, index) => {
   } else {
     return renderWithPictureComponent(item, index)
   }
-}
-
-export default {
-  title: 'Design System/Molecules/Simple Carousel',
-  excludeStories: ['renderWithPictureComponent'],
 }
 
 export const Default = () => (

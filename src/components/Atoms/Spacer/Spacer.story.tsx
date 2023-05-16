@@ -1,8 +1,7 @@
-import React from 'react'
 import { FlexBox } from '@/components/Helper/FlexBox'
 import { styled } from '@/styles/styled'
 import { Spacer } from './Spacer'
-import Readme from './Spacer.readme.md'
+import Readme from './Spacer.readme.mdx'
 
 const StyledBlock = styled.div`
   height: 20px;

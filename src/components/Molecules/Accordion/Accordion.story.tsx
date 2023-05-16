@@ -1,11 +1,10 @@
 import { withState } from '@dump247/storybook-state'
 import { boolean, select } from '@storybook/addon-knobs'
 import uniqueId from 'lodash/uniqueId'
-import React from 'react'
 import { Button } from '@/components/Atoms/Button'
 import { Accordion } from './Accordion'
 import { AccordionEntryObject, AccordionProps } from './Accordion.interface'
-import Readme from './Accordion.readme.md'
+import Readme from './Accordion.readme.mdx'
 
 const ENTRIES_1 = [
   {

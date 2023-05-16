@@ -5,5 +5,5 @@
     "composite": false
   },
   "include": ["src/**/*"],
-  "exclude": ["**/*.story.*", "**/*.test.*", "dist", "node_modules"]
+  "exclude": ["**/*.story.*", "**/*.stories.*", "**/*.test.*", "dist", "node_modules"]
 }

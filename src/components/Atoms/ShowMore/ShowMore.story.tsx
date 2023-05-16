@@ -1,6 +1,6 @@
 import { boolean, color, number, radios, text } from '@storybook/addon-knobs'
-import React from 'react'
-import { ShowMore, ShowMoreProps } from './'
+import { ShowMore } from './ShowMore'
+import { ShowMoreProps } from './ShowMore.interface'
 
 const knobs = (): ShowMoreProps => ({
   lineHeight: number('Line Height', 18),

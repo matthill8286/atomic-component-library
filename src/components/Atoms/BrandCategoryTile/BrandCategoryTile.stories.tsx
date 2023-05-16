@@ -1,5 +1,5 @@
-import React from 'react'
 import { BrandCategoryTile, BrandCategoryTileProps } from './BrandCategoryTile'
+import React from 'react'
 
 const category: BrandCategoryTileProps['category'] = {
   categoryTitle: 'Staubsauger',

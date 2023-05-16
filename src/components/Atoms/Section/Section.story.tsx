@@ -1,5 +1,4 @@
 import { select } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { defaultTheme } from '@/styles/sc-vars-default'
 import { ThemeColors, VerticalPaddingMap } from '@/types/theme'
 import { Section } from './Section'

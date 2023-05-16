@@ -1,7 +1,6 @@
 import { Store, withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { boolean } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { ProductMeta } from './ProductMeta'
 
 const componentProps = {

@@ -2,13 +2,23 @@ import { select } from '@storybook/addon-knobs'
 import { Elevation } from '@/types/theme'
 import { SelectionDirection, SelectItem, SelectMultiGroupProps } from './SelectGroup.interface'
 import { SelectMultiGroup } from './SelectMultiGroup'
-import readme from './SelectMultiGroup.readme.md'
+import readme from './SelectMultiGroup.readme.mdx'
 
 const directions: SelectionDirection[] = ['column', 'row']
 
 const elevations: Elevation[] = [0, 1, 2, 3, 4]
 
 // const stories = storiesOf('Design System/Molecules/SelectMultiGroup', module)
+
+export default {
+  title: 'Design System/Molecules/SelectMultiGroup',
+  component: SelectMultiGroup,
+  parameters: {
+    readme: {
+      sidebar: readme,
+    },
+  },
+}
 
 export const group: SelectItem[] = [
   { id: '1', content: <div>Option 1</div> },

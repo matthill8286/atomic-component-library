@@ -1,6 +1,6 @@
 import { Switch } from './Switch'
 import { withState } from '@dump247/storybook-state'
-import Readme from './Switch.readme.md'
+import Readme from './Switch.readme.mdx'
 import { boolean, text } from '@storybook/addon-knobs'
 
 // const stories = storiesOf('Design System/Atoms/Switch', module)
@@ -23,4 +23,8 @@ export const Default = withState({ checked: false }, (store) => (
 
 Default.story = {
   parameters: { info: Readme },
+}
+
+export default {
+  title: 'Design System/Atoms/Switch',
 }

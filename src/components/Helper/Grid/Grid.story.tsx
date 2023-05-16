@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Typo } from '@/components/Atoms/Typography'
 import { Cell } from './Cell'
 import { Grid } from './Grid'
-import Readme from './Grid.readme.md'
+import Readme from './Grid.readme.mdx'
 import { Row } from './Row'
 
 const Placeholder: React.FC<{

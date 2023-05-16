@@ -4,7 +4,7 @@ import * as React from 'react'
 import { Elevation } from '@/types/theme'
 import { TabBar } from './TabBar'
 import { Tab, TabBarProps } from './TabBar.interface'
-import Readme from './TabBar.readme.md'
+import Readme from './TabBar.readme.mdx'
 import { defaultTheme } from '@/styles'
 import { ThemeProvider } from '@/styles/ThemeProvider'
 
@@ -25,6 +25,11 @@ const blackExampleTheme = {
 }
 
 // const stories = storiesOf('Design System/Molecules/TabBar', module)
+
+export default {
+  title: 'Design System/Molecules/TabBar',
+  component: TabBar,
+}
 
 export const Default = withState({ selected: undefined }, (store) => {
   const tabs: Tab[] = [

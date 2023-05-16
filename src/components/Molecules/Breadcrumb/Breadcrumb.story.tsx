@@ -1,5 +1,4 @@
 import { boolean, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { Breadcrumb } from './Breadcrumb'
 
 const paths = [

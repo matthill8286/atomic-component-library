@@ -1,8 +1,8 @@
 import { action } from '@storybook/addon-actions'
 import { select } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { Picture } from './Picture'
 import { PictureObjectFit } from './Picture.interface'
+import React from 'react'
 
 const imageUrls = [
   'https://wac-cdn.atlassian.com/dam/jcr:e9ef90f9-c84a-4cba-af2f-9aa7d683ede3/Jira%20Integration.svg?cdnVersion=1324',

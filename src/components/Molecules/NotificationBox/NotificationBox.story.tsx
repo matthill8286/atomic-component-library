@@ -1,6 +1,5 @@
 import { action } from '@storybook/addon-actions'
 import { boolean, number, select, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { ButtonActionType } from '@/components/Atoms/Button'
 import { NotificationBox } from './NotificationBox'

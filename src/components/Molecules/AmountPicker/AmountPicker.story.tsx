@@ -1,6 +1,6 @@
 import { withState } from '@dump247/storybook-state'
 import { AmountPicker } from './AmountPicker'
-import Readme from './AmountPicker.readme.md'
+import Readme from './AmountPicker.readme.mdx'
 
 export const Default = withState({ quantity: 1 }, (store) => (
   <AmountPicker
@@ -18,4 +18,8 @@ export const Default = withState({ quantity: 1 }, (store) => (
 
 Default.story = {
   parameters: { info: Readme },
+}
+
+export default {
+  title: 'Design System/Molecules/AmountPicker',
 }

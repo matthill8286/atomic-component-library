@@ -1,8 +1,8 @@
 import { boolean, color, date, number, select } from '@storybook/addon-knobs'
-import React from 'react'
 import { Counter } from './Counter'
 import { CounterItem } from './CounterItem'
 import { CounterWithTimer } from './CounterWithTimer'
+import React from 'react'
 
 const counterKnobs = () => ({
   maxDaysRange: number('Max Days Range', 14),

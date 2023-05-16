@@ -2,7 +2,7 @@ import { boolean, select } from '@storybook/addon-knobs'
 import React from 'react'
 import { Table, TableBody, TableCell, TableHead, TableRow } from './'
 import { bitsHistoryData, salesSlipData, salesSlipMobileData, salesSlipTotalPricesData, tableData } from './Table.mock'
-import Readme from './Table.readme.md'
+import Readme from './Table.readme.mdx'
 
 interface TableRow {
   type: string
@@ -65,8 +65,7 @@ export const Default = () => {
 }
 
 Default.story = {
-  name: 'default',
-
+  name: 'Default Table',
   parameters: {
     info: Readme,
   },

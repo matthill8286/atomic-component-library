@@ -1,5 +1,4 @@
 import { boolean, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { Link } from '@/components/Atoms/Link'
 import { StorybookWrapper } from '@/utils/StorybookWrapper'
 import { ToolTip } from './ToolTip'

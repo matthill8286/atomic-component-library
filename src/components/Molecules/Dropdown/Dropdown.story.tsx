@@ -1,9 +1,8 @@
 import { action } from '@storybook/addon-actions'
 import { number, text } from '@storybook/addon-knobs'
-import React from 'react'
 import { Dropdown } from './Dropdown'
 import { DropdownProps } from './Dropdown.interface'
-import readme from './Dropdown.readme.md'
+import readme from './Dropdown.readme.mdx'
 
 const options = [
   { id: '0', label: 'BMW' },
@@ -59,4 +58,8 @@ export const NativeList = () => {
 NativeList.story = {
   name: 'Native list',
   parameters: { info: readme },
+}
+
+export default {
+  title: 'Design System/Molecules/Dropdown',
 }

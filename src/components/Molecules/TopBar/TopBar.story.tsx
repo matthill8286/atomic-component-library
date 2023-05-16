@@ -3,6 +3,11 @@ import { TopBar } from './TopBar'
 
 // const stories = storiesOf('Design System/Molecules/TopBar', module)
 
+export default {
+  title: 'Design System/Molecules/TopBar',
+  component: TopBar,
+}
+
 const entries = [
   'Virtual Gathering',
   'Conference Zone',

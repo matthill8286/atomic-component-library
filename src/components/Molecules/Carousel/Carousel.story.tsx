@@ -1,4 +1,3 @@
-import React from 'react'
 import { Picture } from '@/components/Atoms/Picture'
 import { VideoPlayerCore } from '@/components/Atoms/VideoPlayer'
 import { Carousel } from './Carousel'

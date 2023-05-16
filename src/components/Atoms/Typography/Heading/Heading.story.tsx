@@ -1,12 +1,15 @@
 import { boolean, select, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { defaultTheme } from '@/styles/sc-vars-default'
 import { ThemeColors, ThemeFontFamilies } from '@/types/theme'
 import { Heading } from './Heading'
 import { TypographyScaleHeadline } from './Heading.interface'
 import { HeadingFeatured } from './HeadingFeatured'
 
-const stories = storiesOf('Design System/Atoms/Typography', module)
+// const stories = storiesOf('Design System/Atoms/Typography', module)
+
+export default {
+  title: 'Design System/Atoms/Typography',
+}
 
 const knobs = ({
   scale = 'level-1',

@@ -1,5 +1,4 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
 import { Overline, IDivider } from '@/components/Atoms/Overline'
 
 export default {

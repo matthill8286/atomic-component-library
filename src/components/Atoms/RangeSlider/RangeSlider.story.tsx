@@ -1,7 +1,4 @@
-import * as React from 'react'
-
 import { boolean, number, text } from '@storybook/addon-knobs'
-
 import { RangeSlider } from './RangeSlider'
 
 export default {

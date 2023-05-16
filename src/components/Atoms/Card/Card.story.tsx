@@ -18,7 +18,7 @@ import { BadgeActionType } from '../Badge/Badge.interface'
 import { Heading } from '../Typography'
 import { Card } from './CardV2'
 import { CardDisplay, CardOverflow, CardProps, Corners, Shape, StyledCardProps, Surface } from './Card.interface'
-import Readme from './Card.readme.md'
+import Readme from './Card.readme.mdx'
 
 const customMargins: Margin = {
   bottom: 'xxs',

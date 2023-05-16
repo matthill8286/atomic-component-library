@@ -13,7 +13,7 @@ import {
 import { Icon } from './Icon'
 import { Spacer } from '@/components/Atoms/Spacer'
 
-import Readme from './Icon.readme.md'
+import Readme from './Icon.readme.mdx'
 import { IconButton } from '@/components/Atoms/Button'
 
 export default {

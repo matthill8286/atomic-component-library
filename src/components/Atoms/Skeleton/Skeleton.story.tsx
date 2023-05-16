@@ -3,7 +3,7 @@ import React from 'react'
 import { styled } from '@/styles/styled'
 import { Spacer } from '../Spacer'
 import { Typo } from '../Typography'
-import info from './Skeleton.readme.md'
+import info from './Skeleton.readme.mdx'
 import { SkeletonBlockItem } from './SkeletonBlockItem'
 import { SkeletonInlineItem } from './SkeletonInlineItem'
 

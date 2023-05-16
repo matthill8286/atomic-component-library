@@ -4,7 +4,7 @@ import { OtherMore, OtherSearch } from 'atomic-icon-library'
 import { CopyText } from '../Typography'
 import { Input } from './Input'
 import { InputProps, InputState, InputStyle, InputType } from './Input.interface'
-import Readme from './Input.readme.md'
+import Readme from './Input.readme.mdx'
 import { InputArea } from './InputArea'
 import { InputPassword } from './InputPassword'
 
@@ -38,6 +38,12 @@ const inputTextKnobs = (): InputProps => ({
 })
 
 // const stories = storiesOf('Design System/Molecules/Form Fields/Input', module)
+
+export default {
+  title: 'Design System/Molecules/Form Fields/Input',
+  component: Input,
+  subcomponents: { InputArea, InputPassword },
+}
 
 const options = { info: Readme }
 

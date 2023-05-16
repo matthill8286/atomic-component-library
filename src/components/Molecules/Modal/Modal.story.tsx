@@ -8,7 +8,7 @@ import { CopyText, Heading } from '@/components/Atoms/Typography'
 import { ModalButtonGroupAlignment } from '@/components/Molecules/ModalButtonGroup'
 import { Modal } from './Modal'
 import { ModalPaddingSize, ModalPosition, ModalProps, ModalSize } from './Modal.interface'
-import Readme from './Modal.readme.md'
+import Readme from './Modal.readme.mdx'
 
 export const sizes: ModalSize[] = ['lg', 'md', 'sm']
 export const positions: ModalPosition[] = ['top', 'center', 'bottom', 'confirm']

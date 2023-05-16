@@ -7,6 +7,11 @@ import { styled } from '@/styles/styled'
 
 // const stories = storiesOf('Design System/Molecules/ButtonGroup', module)
 
+export default {
+  title: 'Design System/Molecules/ButtonGroup',
+  component: ButtonGroup,
+}
+
 const voidFn = () => {}
 const StyledDivWithTopBorder = styled.div`
   padding-top: 25px;

@@ -1,9 +1,8 @@
 import { select, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { ProductAvailabilityState } from '@/types/availabilityState'
 import { Availability } from './Availability'
 import { AvailabilityProps, AvailabilitySize } from './Availability.interface'
-import Readme from './Availability.readme.md'
+import Readme from './Availability.readme.mdx'
 import { OtherShop } from 'atomic-icon-library'
 
 const states: ProductAvailabilityState[] = [

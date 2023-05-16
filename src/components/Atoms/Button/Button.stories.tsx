@@ -8,7 +8,7 @@ import { Status } from '../Status'
 import { Typo } from '../Typography'
 import { Button } from './Button'
 import { ButtonActionType, ButtonProps, ButtonSize } from './Button.interface'
-import Readme from './Button.readme.md'
+import Readme from './Button.readme.mdx'
 
 const StyledButtonGroupContainer = styled('div')`
   flex: 1;

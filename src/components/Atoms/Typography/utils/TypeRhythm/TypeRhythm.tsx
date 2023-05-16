@@ -3,6 +3,7 @@ import { styled } from '@/styles/styled'
 
 interface TypeRhythmProps {
   visible?: boolean
+  children?: React.ReactNode
 }
 
 interface StyledTypeRhythmProps {

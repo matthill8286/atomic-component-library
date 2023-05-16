@@ -1,5 +1,4 @@
 import { radios } from '@storybook/addon-knobs'
-import React from 'react'
 import { Status, StatusProps, StatusType } from './Status'
 import { Icon } from '@/components/Atoms/Icon'
 import { OtherBookmarkOutlined } from 'atomic-icon-library'

@@ -1,5 +1,4 @@
 import { action } from '@storybook/addon-actions'
-import * as React from 'react'
 import { BackToTop } from './BackToTop'
 import { ScrollAwareBackToTop } from './ScrollAwareBackToTop'
 

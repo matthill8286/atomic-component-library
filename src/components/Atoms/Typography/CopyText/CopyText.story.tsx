@@ -1,5 +1,4 @@
 import { boolean, number, select, text } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { defaultTheme } from '@/styles/sc-vars-default'
 import { ThemeColors, ThemeFontSizes } from '@/types/theme'
 import { CopyText } from './CopyText'

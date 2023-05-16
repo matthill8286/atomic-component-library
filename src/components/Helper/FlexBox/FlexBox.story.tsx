@@ -1,7 +1,7 @@
 import { boolean, number, select, text } from '@storybook/addon-knobs'
 import React from 'react'
 import { FlexBox, FlexBoxProps, FlexItem, FlexItemProps } from './FlexBox'
-import readme from './FlexBox.readme.md'
+import readme from './FlexBox.readme.mdx'
 
 export default {
   title: 'Design System/Helper/FlexBox',

@@ -2,7 +2,7 @@ import { withState } from '@dump247/storybook-state'
 import { action } from '@storybook/addon-actions'
 import { boolean, select, text } from '@storybook/addon-knobs'
 import { NativeDropdown, NativeDropdownProps } from './NativeDropdown'
-import readme from './NativeDropdown.readme.md'
+import readme from './NativeDropdown.readme.mdx'
 import { OtherImportExport } from 'atomic-icon-library'
 
 const options = [
@@ -123,4 +123,8 @@ export const WithDifferentIconOnMobile = withState({ value: '' }, (store) => {
 WithDifferentIconOnMobile.story = {
   name: 'with different icon on mobile',
   parameters: { info: readme },
+}
+
+export default {
+  title: 'Design System/Molecules/Native Dropdown',
 }

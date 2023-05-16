@@ -18,6 +18,7 @@ export interface ReadMoreLabelProps {
   showLessLabel: string
   onClick?: () => void
   onChange?: (collapsed: boolean) => void
+  children?: React.ReactNode
 }
 
 export const ReadMoreLabel: React.FC<ReadMoreLabelProps> = ({

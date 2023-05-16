@@ -1,9 +1,8 @@
 import { action } from '@storybook/addon-actions'
 import { boolean, select } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { ModalButtonGroup } from './ModalButtonGroup'
 import { ModalButtonGroupAlignment, ModalButtonGroupProps } from './ModalButtonGroup.interface'
-import Readme from './ModalButtonGroup.readme.md'
+import Readme from './ModalButtonGroup.readme.mdx'
 
 export const types: ModalButtonGroupAlignment[] = ['space-between', 'right', 'center']
 

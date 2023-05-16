@@ -2,7 +2,7 @@ import { select } from '@storybook/addon-knobs'
 import { Elevation, HorizontalPadding, Padding, VerticalPadding } from '@/types/theme'
 import { SelectGroup } from './SelectGroup'
 import { SelectGroupProps, SelectionDirection, SelectItem } from './SelectGroup.interface'
-import Readme from './SelectGroup.readme.md'
+import Readme from './SelectGroup.readme.mdx'
 
 const customPaddings: Padding = {
   bottom: 'xxs',
@@ -20,6 +20,16 @@ const elevations: Elevation[] = [0, 1, 2, 3, 4]
 const dividerWidths: string[] = ['10%', '20%', '30%', '40%', '50%', '60%', '70%', '80%', '90%', '100%']
 
 // const stories = storiesOf('Design System/Molecules/SelectGroup', module)
+
+export default {
+  title: 'Design System/Molecules/SelectGroup',
+  component: SelectGroup,
+  parameters: {
+    readme: {
+      sidebar: Readme,
+    },
+  },
+}
 
 export const group: SelectItem[] = [
   { id: '1', content: <div>Option 1</div> },

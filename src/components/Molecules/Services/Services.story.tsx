@@ -1,5 +1,4 @@
 import { Store, withState } from '@dump247/storybook-state'
-import * as React from 'react'
 import { Services } from './Services'
 import { Knobs, ServiceType } from './Services.interface'
 import { props } from './Services.mocks'

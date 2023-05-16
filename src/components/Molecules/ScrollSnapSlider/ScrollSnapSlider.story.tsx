@@ -1,5 +1,4 @@
 import { Meta, Story } from '@storybook/react'
-import React from 'react'
 import { Badge } from '@/components/Atoms/Badge'
 import { Picture } from '@/components/Atoms/Picture'
 import { ScrollSnapSlider } from './ScrollSnapSlider'

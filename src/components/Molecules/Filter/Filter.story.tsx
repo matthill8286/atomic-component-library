@@ -3,7 +3,7 @@ import { action } from '@storybook/addon-actions'
 import { select, text } from '@storybook/addon-knobs'
 import { Filter } from './Filter'
 import { FilterProps, FilterType } from './Filter.interface'
-import Readme from './Filter.readme.md'
+import Readme from './Filter.readme.mdx'
 
 const knobs = (): FilterProps => ({
   type: select('type', ['default', 'selected', 'active'], 'default'),
@@ -13,6 +13,11 @@ const knobs = (): FilterProps => ({
 })
 
 // const stories = storiesOf('Design System/Molecules/Filter', module)
+
+export default {
+  title: 'Design System/Molecules/Filter',
+  component: Filter,
+}
 
 export const Default = () => {
   return <Filter {...knobs()} />

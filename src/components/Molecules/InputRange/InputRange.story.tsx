@@ -28,3 +28,8 @@ export const Default = withState({ value: '0.5' }, (store) => {
 Default.story = {
   name: 'default',
 }
+
+export default {
+  title: 'Design System/Molecules/InputRange',
+  component: InputRange,
+}

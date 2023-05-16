@@ -15,12 +15,17 @@ import {
   StepsProps,
   StepsVariant,
 } from './Steps.interface'
-import readme from './Steps.readme.md'
-import withVariableArrayReadme from './StepsVariableArray.readme.md'
-import withConnectorReadme from './StepsWithConnector.readme.md'
-import withIconReadme from './StepsWithIcon.readme.md'
+import readme from './Steps.readme.mdx'
+import withVariableArrayReadme from './StepsVariableArray.readme.mdx'
+import withConnectorReadme from './StepsWithConnector.readme.mdx'
+import withIconReadme from './StepsWithIcon.readme.mdx'
 
 // const stories = storiesOf('Design System/Molecules/Steps', module)
+
+export default {
+  title: 'Design System/Molecules/Steps',
+  component: Steps,
+}
 
 const variants: { [key: string]: StepsVariant } = {
   prominent: 'prominent',

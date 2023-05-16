@@ -5,7 +5,7 @@ import { ThemeColors } from '@/types/theme'
 import { loremIpsumArray } from '@/utils/loremIpsumArray'
 import { StorybookWrapper } from '@/utils/StorybookWrapper'
 import { Tag } from './Tag'
-import Readme from './Tag.readme.md'
+import Readme from './Tag.readme.mdx'
 
 export default {
   title: 'Design System/Atoms/Tag',

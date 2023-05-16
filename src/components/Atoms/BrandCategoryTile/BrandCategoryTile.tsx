@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { css, styled, media } from '@/styles'
 import { Link } from '@/components/Atoms/Link'
 

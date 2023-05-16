@@ -1,8 +1,7 @@
 import { boolean, number } from '@storybook/addon-knobs'
-import * as React from 'react'
 import { FeatureList } from './FeatureList'
 import { featureListMockItems } from './FeatureList.mock'
-import Readme from './FeatureList.readme.md'
+import Readme from './FeatureList.readme.mdx'
 
 export default {
   title: 'Design System/Molecules/FeatureList',
