@@ -1,4 +1,3 @@
-import InputMask from 'react-input-mask'
 import { Icon } from '@/components/Atoms/Icon'
 import { defaultSpacing } from '@/styles'
 import { getBoxDimension } from '@/styles/sc-shared-functions'
@@ -68,29 +67,6 @@ export const StyledInputArea = styled.textarea`
   line-height: ${({ theme }) => theme.font.lineHeight.sm};
   outline: none;
   position: relative;
-  -webkit-tap-highlight-color: transparent;
-
-  ::placeholder {
-    opacity: 1;
-  }
-`
-
-// I duplicated this styles because passing a common css from css funcion results in some interpolation errors
-// eslint-disable-next-line
-export const StyledInputMask = styled(InputMask as any)`
-  border: 0;
-  box-sizing: content-box;
-  display: block;
-  font-size: ${({ theme }) => theme.font.size.sm};
-  font-family: ${({ theme }) => theme.font.family.default};
-  margin: ${({ theme }) => theme.spacing.base.md} 0 0 0;
-  min-width: 0;
-  width: 100%;
-  height: ${({ theme }) => theme.spacing.base.md};
-  line-height: ${({ theme }) => theme.font.lineHeight.sm};
-  outline: none;
-  position: relative;
-  background: transparent;
   -webkit-tap-highlight-color: transparent;
 
   ::placeholder {

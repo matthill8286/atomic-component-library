@@ -4,16 +4,20 @@ import { defineConfig } from 'vitest/config'
 import dts from 'vite-plugin-dts'
 import { UserConfigExport } from 'vite'
 import { name } from './package.json'
-import externals from 'rollup-plugin-node-externals'
+
+// New
+import { terser } from 'rollup-plugin-terser'
+import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 
 const app = async (): Promise<UserConfigExport> => {
   return defineConfig({
     plugins: [
-      externals({ deps: true }) as any,
+      peerDepsExternal(),
       react(),
       dts({
         insertTypesEntry: true,
       }),
+      terser(),
     ],
     resolve: {
       alias: {
@@ -28,7 +32,7 @@ const app = async (): Promise<UserConfigExport> => {
         fileName: (format) => `${name}.${format}.js`,
       },
       rollupOptions: {
-        plugins: [externals({ deps: true }) as any],
+        plugins: [peerDepsExternal(), terser()],
       },
     },
     test: {

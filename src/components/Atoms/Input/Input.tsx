@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { CopyText } from '../Typography'
 import { InputProps, MapStateToColor } from './Input.interface'
-import { StyledErrorDivider, StyledHelpWrapper, StyledInput, StyledInputMask, StyledInputWrapper } from './Input.styled'
-import { InputDivider } from './InputDivider'
+import { StyledErrorDivider, StyledHelpWrapper, StyledInput, StyledInputWrapper } from './Input.styled'
 import { InputIcon, InputIconState } from './InputIcon'
 import { InputLabel } from './InputLabel'
 
@@ -135,17 +134,7 @@ export const Input: React.FC<InputProps> = (props) => {
   return (
     <StyledInputWrapper className={className} margin={margin} padding={padding}>
       <InputLabel color={color} htmlFor={inputProps?.id} inputStyle={inputStyle} label={label}>
-        {inputMaskProps ? (
-          <StyledInputMask
-            {...inputMaskProps}
-            {...combinedInputProps}
-            {...ariaAttrs}
-            data-test={inputMaskProps?.name}
-            ref={inputMaskRef}
-          />
-        ) : (
-          <StyledInput {...combinedInputProps} {...ariaAttrs} data-test={inputProps?.name} ref={inputRef} />
-        )}
+        <StyledInput {...combinedInputProps} {...ariaAttrs} data-test={inputProps?.name} ref={inputRef} />
         {showError && <StyledErrorDivider height={1.75} color={color} />}
       </InputLabel>
 

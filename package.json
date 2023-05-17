@@ -97,18 +97,12 @@
     "css-scroll-snap-polyfill": "^0.1.2",
     "intersection-observer": "^0.7.0",
     "polished": "^3.4.1",
-    "qrcode.react": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-input-mask": "^2.0.4",
     "react-intersection-observer": "^8.25.3",
-    "react-player": "^2.12.0",
     "react-slick": "^0.25.2",
-    "react-spring": "^8.0.27",
-    "rheostat": "^4.1.1",
     "styled-components": "^5.1.1",
-    "subscribe-ui-event": "^2.0.7",
-    "typescript": "3.9.7"
+    "subscribe-ui-event": "^2.0.7"
   },
   "dependencies": {
     "@lifarl/react-scroll-snap-slider": "^2.0.3",
@@ -117,19 +111,12 @@
     "css-scroll-snap-polyfill": "^0.1.2",
     "intersection-observer": "^0.7.0",
     "polished": "^3.4.1",
-    "qrcode.react": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-input-mask": "^2.0.4",
     "react-intersection-observer": "^8.25.3",
-    "react-player": "^2.12.0",
-    "react-router-dom": "6.11.1",
     "react-slick": "^0.25.2",
-    "react-spring": "^8.0.27",
-    "rheostat": "^4.1.1",
     "styled-components": "^5.1.1",
-    "subscribe-ui-event": "^2.0.7",
-    "typescript": "3.9.7"
+    "subscribe-ui-event": "^2.0.7"
   },
   "files": [
     "dist"

@@ -1,4 +1,3 @@
-import { canPlay } from './../VideoPlayer/helpers/index'
 import { ComponentType, ReactElement } from 'react'
 import { MouseEvent } from 'react'
 import { ThemeColors, ThemeFontLineHeight, ThemeFontSizes } from '@/types/theme'
