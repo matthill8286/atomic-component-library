@@ -1,5 +1,14 @@
-import { ReactElement, ReactNode, Ref } from 'react'
-import ReactInputMask, { Props as InputMaskProps } from 'react-input-mask'
+import {
+  ReactElement,
+  ReactNode,
+  Ref,
+  FocusEventHandler,
+  MouseEventHandler,
+  TextareaHTMLAttributes,
+  ChangeEventHandler,
+  InputHTMLAttributes,
+  KeyboardEventHandler,
+} from 'react'
 import { IconProps } from '@/components/Atoms/Icon'
 import { TranslatedText } from '@/types/global'
 import { BoxDimensions, ThemeColors } from '@/types/theme'
@@ -17,26 +26,26 @@ export type MapStateToColor = {
 }
 
 export interface InputEvents {
-  onBlur?: React.FocusEventHandler<HTMLInputElement>
-  onChange?: React.ChangeEventHandler<HTMLInputElement>
-  onClick?: React.MouseEventHandler<HTMLInputElement>
-  onClickIcon?: React.MouseEventHandler<HTMLInputElement>
-  onFocus?: React.FocusEventHandler<HTMLInputElement>
-  onKeyDown?: React.KeyboardEventHandler<HTMLInputElement>
-  onKeyUp?: React.KeyboardEventHandler<HTMLInputElement>
-  onMouseEnter?: React.MouseEventHandler<HTMLInputElement>
-  onMouseLeave?: React.MouseEventHandler<HTMLInputElement>
+  onBlur?: FocusEventHandler<HTMLInputElement>
+  onChange?: ChangeEventHandler<HTMLInputElement>
+  onClick?: MouseEventHandler<HTMLInputElement>
+  onClickIcon?: MouseEventHandler<HTMLInputElement>
+  onFocus?: FocusEventHandler<HTMLInputElement>
+  onKeyDown?: KeyboardEventHandler<HTMLInputElement>
+  onKeyUp?: KeyboardEventHandler<HTMLInputElement>
+  onMouseEnter?: MouseEventHandler<HTMLInputElement>
+  onMouseLeave?: MouseEventHandler<HTMLInputElement>
 }
 export interface TextAreaEvents {
-  onBlur?: React.FocusEventHandler<HTMLTextAreaElement>
-  onChange?: React.ChangeEventHandler<HTMLTextAreaElement>
-  onClick?: React.MouseEventHandler<HTMLTextAreaElement>
-  onClickIcon?: React.MouseEventHandler<HTMLInputElement>
-  onFocus?: React.FocusEventHandler<HTMLTextAreaElement>
-  onKeyDown?: React.KeyboardEventHandler<HTMLTextAreaElement>
-  onKeyUp?: React.KeyboardEventHandler<HTMLTextAreaElement>
-  onMouseEnter?: React.MouseEventHandler<HTMLTextAreaElement>
-  onMouseLeave?: React.MouseEventHandler<HTMLTextAreaElement>
+  onBlur?: FocusEventHandler<HTMLTextAreaElement>
+  onChange?: ChangeEventHandler<HTMLTextAreaElement>
+  onClick?: MouseEventHandler<HTMLTextAreaElement>
+  onClickIcon?: MouseEventHandler<HTMLInputElement>
+  onFocus?: FocusEventHandler<HTMLTextAreaElement>
+  onKeyDown?: KeyboardEventHandler<HTMLTextAreaElement>
+  onKeyUp?: KeyboardEventHandler<HTMLTextAreaElement>
+  onMouseEnter?: MouseEventHandler<HTMLTextAreaElement>
+  onMouseLeave?: MouseEventHandler<HTMLTextAreaElement>
 }
 
 export interface IconSize {
@@ -53,9 +62,7 @@ export interface InputProps extends InputEvents {
   iconLabel?: TranslatedText // TODO - a11y: make required once teams have been informed
   inputIcon?: ReactElement<IconProps>
   inputIconSize?: IconSize
-  inputMaskProps?: InputMaskProps
-  inputMaskRef?: Ref<ReactInputMask>
-  inputProps?: React.InputHTMLAttributes<HTMLInputElement>
+  inputProps?: InputHTMLAttributes<HTMLInputElement>
   inputRef?: Ref<HTMLInputElement>
   inputStyle?: InputStyle
   inputType?: InputType
@@ -75,7 +82,7 @@ export interface InputAreaProps extends TextAreaEvents {
   helpText?: string
   iconLabel?: TranslatedText // TODO - a11y: make required once teams have been informed
   inputIcon?: ReactElement<IconProps>
-  inputProps?: React.TextareaHTMLAttributes<HTMLTextAreaElement>
+  inputProps?: TextareaHTMLAttributes<HTMLTextAreaElement>
   inputRef?: Ref<HTMLTextAreaElement>
   inputStyle?: InputStyle
   inputType?: InputType

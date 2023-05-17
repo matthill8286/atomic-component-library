@@ -1,6 +1,6 @@
 {
   "name": "atomic-component-library",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "./dist/atomic-component-library.umd.js",
   "module": "./dist/atomic-component-library.es.js",
   "types": "./dist/index.d.ts",
@@ -114,6 +114,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^8.25.3",
+    "react-router-dom": "6.11.1",
     "react-slick": "^0.25.2",
     "styled-components": "^5.1.1",
     "subscribe-ui-event": "^2.0.7"

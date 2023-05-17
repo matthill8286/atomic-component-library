@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react'
+import { FC, ReactElement } from 'react'
 import { DropdownProps } from '@/components/Molecules/Dropdown/Dropdown.interface'
 import { styled } from '@/styles/styled'
 import { ThemeColors } from '@/types/theme'

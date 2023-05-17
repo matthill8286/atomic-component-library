@@ -27,8 +27,6 @@ export const Input: React.FC<InputProps> = (props) => {
     iconLabel,
     inputIcon,
     inputIconSize,
-    inputMaskProps,
-    inputMaskRef,
     inputProps,
     inputRef,
     inputStyle = 'default',
@@ -55,7 +53,7 @@ export const Input: React.FC<InputProps> = (props) => {
   const [isHover, changeHover] = useState<boolean>(false)
 
   React.useEffect(() => {
-    // changeShrink(isFocus || !!value)
+    changeShrink(isFocus || !!value)
   }, [value])
 
   const onMouseEnterHandler = (ev: React.MouseEvent<HTMLInputElement>) => {

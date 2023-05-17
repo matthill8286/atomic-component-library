@@ -35,8 +35,6 @@ export interface InputProps extends InputEvents {
 
 The Input is currently triggering this `events`: `onClick, onClickIcon, onChange, onKeyDown, onKeyUp, onBlur, onFocus, onMouseEnter, onMouseLeave`.
 
-The mask can be enabled by the `inputMaskProps`, the package `react-input-mask` is used for this type of component.
-
 Since the storysource is not available when we use `withState` this is the stories source:
 
 ```js
@@ -148,41 +146,6 @@ stories.add(
       label="Insert password"
       placeholder="Insert your super secret password"
       value={store.state.value}
-    />
-  )),
-  options,
-)
-
-const inputDateKnobs = () => ({
-  state: radios('state', inputStates, 'idle'),
-  inputStyle: radios('Style', styleTypes, 'default'),
-})
-
-stories.add(
-  'input mask date',
-  withState({ value: '' }, (store) => (
-    <Input
-      {...inputDateKnobs()}
-      value={store.state.value}
-      onChange={({ target: { value } }) => store.set({ value })}
-      inputMaskProps={{ mask: '99.99.9999' }}
-      inputType="text"
-      label="Insert date"
-    />
-  )),
-  options,
-)
-
-stories.add(
-  'input mask phone',
-  withState({ value: '' }, (store) => (
-    <Input
-      {...inputDateKnobs()}
-      value={store.state.value}
-      onChange={({ target: { value } }) => store.set({ value })}
-      inputMaskProps={{ mask: `+4\\9 99 999 99` }}
-      inputType="text"
-      label="Insert date"
     />
   )),
   options,
