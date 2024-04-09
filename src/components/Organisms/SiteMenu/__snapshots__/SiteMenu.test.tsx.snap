@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SiteMenu matches snapshot 1`] = `
+.c9 {
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+.c2 {
+  display: block;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,0.07),0 3px 3px -2px rgba(0,0,0,0.06),0 1px 8px 0 rgba(0,0,0,0.10);
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  line-height: 1.43;
+  overflow: hidden;
+  color: #000000;
+  border: 1px solid #E5E5E5;
+  background-color: #FFFFFF;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+}
+
+.c0 {
+  position: relative;
+  outline: none;
+  width: 100%;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -ms-scrollbar-width: none;
+  scrollbar-width: none;
+}
+
+.c7::-webkit-scrollbar {
+  display: none;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c8 label {
+  color: #999999;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  line-height: 1;
+  place-items: center;
+  place-content: center;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  padding: 0 16px;
+  height: 100%;
+  min-height: 52px;
+  position: relative;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c8 label::after {
+  -webkit-animation: dRkaku 0.2s linear forwards;
+  animation: dRkaku 0.2s linear forwards;
+  background-color: #00C8DC;
+  bottom: 0;
+  content: ' ';
+  display: none;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.c8 input[type='radio'] {
+  display: none;
+}
+
+.c8 input[type='radio']:checked ~ label {
+  font-weight: 600;
+  color: #000000;
+}
+
+.c8 input[type='radio']:checked ~ label::after {
+  display: block;
+}
+
+.c8 input[type='radio']:enabled:hover ~ label::after {
+  display: block;
+}
+
+.c3 {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1472px;
+  padding: 0 16px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 >:first-child {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.c1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+@media (min-width:512px) {
+
+}
+
+@media screen and (-ms-high-contrast:active),screen and (-ms-high-contrast:none) {
+  .c5 {
+    display: none;
+  }
+}
+
+@media (min-width:752px) {
+  .c8 label {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:752px) {
+  .c8 label {
+    padding: 0 16px;
+  }
+}
+
+@media (min-width:512px) {
+  .c3 {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width:752px) {
+  .c3 {
+    padding: 0 32px;
+  }
+}
+
+@media (min-width:1008px) {
+  .c3 {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width:1232px) {
+  .c3 {
+    padding: 0 64px;
+  }
+}
+
+<div
+  className="c0 c1"
+>
+  <div
+    className="c2"
+    display="block"
+    elevation={2}
+    shape="sharp"
+  >
+    <div
+      className="c3 c4"
+    >
+      <div
+        className="c5"
+      >
+        <div
+          className="c0 "
+        >
+          <div
+            className="c6"
+            display="flex"
+            elevation={0}
+            shape="rounded-small"
+          >
+            <div
+              className="c7"
+            >
+              <div
+                className="c8"
+                onClick={[Function]}
+              >
+                <input
+                  checked={false}
+                  disabled={false}
+                  id="tab-ratings"
+                  name=""
+                  readOnly={true}
+                  type="radio"
+                />
+                <label
+                  className="c9"
+                  color="grey5"
+                  disabled={false}
+                  fontSize="xs"
+                  htmlFor="tab-ratings"
+                >
+                  Ratings
+                </label>
+              </div>
+              <div
+                className="c8"
+                onClick={[Function]}
+              >
+                <input
+                  checked={false}
+                  disabled={false}
+                  id="tab-technical_features"
+                  name=""
+                  readOnly={true}
+                  type="radio"
+                />
+                <label
+                  className="c9"
+                  color="grey5"
+                  disabled={false}
+                  fontSize="xs"
+                  htmlFor="tab-technical_features"
+                >
+                  Technical
+                </label>
+              </div>
+              <div
+                className="c8"
+                onClick={[Function]}
+              >
+                <input
+                  checked={false}
+                  disabled={false}
+                  id="tab-product"
+                  name=""
+                  readOnly={true}
+                  type="radio"
+                />
+                <label
+                  className="c9"
+                  color="grey5"
+                  disabled={false}
+                  fontSize="xs"
+                  htmlFor="tab-product"
+                >
+                  Products
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SiteMenu renders correct 1`] = `ReactWrapper {}`;
+
+exports[`SiteMenu renders nothing when empty features 1`] = `ReactWrapper {}`;
+
+exports[`SiteMenu renders nothing when undefined 1`] = `ReactWrapper {}`;

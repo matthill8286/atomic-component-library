@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlaylistStage /> Renders without error 1`] = `
+.c7 {
+  margin: 0;
+  color: #333333;
+  font-size: 26px;
+  line-height: 44px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 700;
+  -webkit-letter-spacing: 0.4px;
+  -moz-letter-spacing: 0.4px;
+  -ms-letter-spacing: 0.4px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.c10 {
+  margin: 16px 0;
+  color: #666666;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: OswaldLight,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  text-align: center;
+  white-space: normal;
+  overflow: hidden;
+  max-height: calc(24px * 2);
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.c1 {
+  width: 100%;
+  height: 200px;
+  left: 0;
+  right: 0;
+  background: #00C8DC no-repeat center center;
+  background-image: url(getTransformedImageVersion(FtMfGctDTKGIYVzDm5dL));
+  background-size: cover;
+  padding-bottom: 8px;
+  border-radius: 8px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: space-between;
+  -webkit-box-align: space-between;
+  -ms-flex-align: space-between;
+  align-items: space-between;
+}
+
+.c2 {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1472px;
+  padding: 0 16px;
+}
+
+.c4 {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  color: #4bcade;
+  padding: 24px;
+  position: relative;
+  max-width: 780px;
+  margin: 0 auto;
+  z-index: 1;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 8px 0 8px 8px rgba(0,0,0,0.07);
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -46px;
+}
+
+.c0 {
+  margin-bottom: 56px;
+  position: relative;
+}
+
+.c8 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.c9 {
+  display: none;
+}
+
+.c6 {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media (min-width:752px) {
+  .c1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+@media (min-width:1008px) {
+  .c1 {
+    padding-top: 8px;
+  }
+}
+
+@media (min-width:752px) {
+  .c1 {
+    background-image: url(getTransformedImageVersion(FtMfGctDTKGIYVzDm5dL));
+    height: 260px;
+  }
+}
+
+@media (min-width:1008px) {
+  .c1 {
+    background-image: url(getTransformedImageVersion(FtMfGctDTKGIYVzDm5dL));
+    height: 300px;
+  }
+}
+
+@media (min-width:512px) {
+  .c2 {
+    padding: 0 24px;
+  }
+}
+
+@media (min-width:752px) {
+  .c2 {
+    padding: 0 32px;
+  }
+}
+
+@media (min-width:1008px) {
+  .c2 {
+    padding: 0 48px;
+  }
+}
+
+@media (min-width:1232px) {
+  .c2 {
+    padding: 0 64px;
+  }
+}
+
+@media (min-width:512px) {
+  .c4 {
+    width: calc(100% - 71px);
+    border-top-right-radius: 6.4px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 8px 0 8px 8px rgba(0,0,0,0.07);
+  }
+}
+
+@media (min-width:752px) {
+  .c4 {
+    border-radius: 4px;
+    box-shadow: 8px 0 8px 8px rgba(0,0,0,0.07);
+  }
+
+  .c4 h1 {
+    height: inherit;
+  }
+}
+
+@media (min-width:752px) {
+  .c8 {
+    margin: 0 0 0 0;
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width:512px) {
+  .c8 {
+    margin: 0 0 0 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width:752px) {
+  .c9 {
+    display: block;
+  }
+}
+
+@media (max-width:752px) {
+  .c6 {
+    margin: 8px auto;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <section
+    className="c1"
+    color="primary"
+    height={
+      Object {
+        "desktop": 300,
+        "mobile": 200,
+        "tablet": 260,
+      }
+    }
+    shape="rounded-big"
+  >
+    <div
+      className="c2 c3"
+    >
+      <div
+        className="c4"
+      >
+        <div
+          className="c5 c6"
+          display="flex"
+        >
+          <h2
+            className="c7 c8"
+            color="grey6"
+            fontFamily="default"
+            fontSize="xl"
+            spacing="base"
+          >
+            Conflict Management
+          </h2>
+          <div
+            className="c9"
+          />
+          <div
+            className="c10"
+            color="grey5"
+            fontSize="sm"
+          >
+            This is the Conflict Management playlist
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
